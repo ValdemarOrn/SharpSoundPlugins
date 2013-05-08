@@ -1,0 +1,31 @@
+﻿<Window
+				xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+				xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+				xmlns:local="clr-namespace:NetSynth" xmlns:UI="clr-namespace:NetSynth.UI" x:Class="NetSynth.SynthView"
+				Title="MainWindow" Height="600" Width="1010">
+	<Grid Background="#FFE5E5E5">
+
+		<UI:ModuleControl x:Name="Osc1" Title="Oscillator 1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="191" Width="370" Margin="5,5,0,0">
+			<UI:ModuleControl.Panel>
+				<UI:WavetableOscView HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0" />
+			</UI:ModuleControl.Panel>
+		</UI:ModuleControl>
+
+		<UI:ModuleControl x:Name="AmpEnv" Title="Amp Envelope" HorizontalAlignment="Left" VerticalAlignment="Top" Height="100" Width="305" Margin="380,5,0,0">
+			<UI:ModuleControl.Panel>
+				<UI:EnvelopeView HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0" />
+			</UI:ModuleControl.Panel>
+		</UI:ModuleControl>
+
+		<UI:ModuleControl x:Name="Filter1" Title="Filter 1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="191" Width="305" Margin="690,5,0,0">
+			<UI:ModuleControl.Panel>
+				<UI:LadderFilterView HorizontalAlignment="Center" Margin="0" VerticalAlignment="Top" Height="140"/>
+			</UI:ModuleControl.Panel>
+		</UI:ModuleControl>
+		<UI:ModuleControl x:Name="FilterEnv" Title="Filter Envelope" HorizontalAlignment="Left" VerticalAlignment="Top" Height="100" Width="305" Margin="690,196,0,0">
+			<UI:ModuleControl.Panel>
+				<UI:EnvelopeView HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0" />
+			</UI:ModuleControl.Panel>
+		</UI:ModuleControl>
+	</Grid>
+</Window>

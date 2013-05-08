@@ -1,0 +1,39 @@
+Knob Sizes (Width x Height):
+
+Small: 45x45
+Medium: 60x55
+Large: 70x75
+
+
+Color: 
+
+background: e5e5e5 - 229
+panels: f5f5f5 - 245
+darker: cdcdcd - 205
+cornflower blue: 6495ed - 219,58,93
+
+FM Synthesis capabilities
+
+Dedicated Supersaw Osc
+
+Granular Osc
+
+Noise OSc
+	Average out samples
+	Integrate/Differentiate -0.99-0.99 (make brown and pink)
+	Random, Sample time (lo-fi noise)
+
+Wavetables:
+	Aliased table (Make Saw using "voice.Osc1.SetWave(Utils.Saw(512, 1.0));" - sample those waves
+
+Wavetable Osc:
+	Phase Distortion (offset center)
+	Self Sync
+	Convert a sample into a wavetable - series of waves (needs lots of work)
+
+
+Sequencer
+
+Random LFO - sample & Hold and random walk
+
+Online preset bank

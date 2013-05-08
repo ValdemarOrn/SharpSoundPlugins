@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8D5DF506-0D6F-4C2F-B6B5-C403C62168AE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NetSynth</RootNamespace>
+    <AssemblyName>NetSynth</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AudioLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\AudioLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Exocortex.DSP.v1">
+      <HintPath>Binaries\Exocortex.DSP.v1.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SharpSoundDevice, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\SharpSoundDevice.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Serializer.cs" />
+    <Compile Include="UI\WaveDisplay.xaml.cs">
+      <DependentUpon>WaveDisplay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WaveDesigner\DynamicBlock.cs" />
+    <Compile Include="WaveDesigner\DynamicBlockManager.cs" />
+    <Compile Include="WaveDesigner\DynamicBlockParameter.cs" />
+    <Compile Include="WaveDesigner\DynamicBlockView.xaml.cs">
+      <DependentUpon>DynamicBlockView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WaveDesigner\DynamicTable.cs" />
+    <Compile Include="WaveDesigner\DynamicTableJavascript.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Modules\IOscillator.cs" />
+    <Compile Include="Modules\MidiInput.cs" />
+    <Compile Include="Modules\ModMatrix.cs" />
+    <Compile Include="ParameterMap.cs" />
+    <Compile Include="UI\EnvelopeView.xaml.cs">
+      <DependentUpon>EnvelopeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Knob.xaml.cs">
+      <DependentUpon>Knob.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\LadderFilter.cs" />
+    <Compile Include="UI\LadderFilterView.xaml.cs">
+      <DependentUpon>LadderFilterView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ModuleControl.xaml.cs">
+      <DependentUpon>ModuleControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\WavetableOscView.xaml.cs">
+      <DependentUpon>WavetableOscView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VoiceManager.cs" />
+    <Compile Include="UI\SynthView.xaml.cs">
+      <DependentUpon>SynthView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AudioDeviceModule.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SynthController.cs" />
+    <Compile Include="Voice.cs" />
+    <Compile Include="Modules\WavetableOsc.cs" />
+    <Compile Include="WaveDesigner\ParameterEditor.xaml.cs">
+      <DependentUpon>ParameterEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WaveDesigner\WaveDesignerView.xaml.cs">
+      <DependentUpon>WaveDesignerView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WaveGen\UltrabassGen.cs" />
+    <Compile Include="WaveGen\Wavegen.cs" />
+    <Compile Include="WaveGen\SawtoothGen.cs" />
+    <Compile Include="WaveGen\WaveGenWindow.xaml.cs">
+      <DependentUpon>WaveGenWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WaveGen\WaveParameter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="UI\WaveDisplay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WaveDesigner\DynamicBlockView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\EnvelopeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Knob.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\LadderFilterView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\ModuleControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\WavetableOscView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\SynthView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WaveDesigner\ParameterEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WaveDesigner\WaveDesignerView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WaveGen\WaveGenWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

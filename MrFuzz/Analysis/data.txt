@@ -1,0 +1,17 @@
+First Opamp: unity feedback. First cap provides a 15Hz cutoff highpass
+
+Second stage:
+	Gain: 1000/2.2 = 454.545
+	
+I move out the 100p cap and am left with:
+
+        1000K * s              1.002e6 s + 4.545e5
+	1 + -------------------- = -----------------------
+	    2200 * s + 1 / 2.2uF   2200 s + 4.545e5
+		
+		
+The 100p cap provides a low pass filter over the diodes
+	Freq: 1/(1000k*100p) = 10000 rad/s = 1592 Hz
+	
+After Opamp 2 there is a gain reduction, output is 25 / (25+10)
+	the 0.22uF cap provides a HP of ~30Hz

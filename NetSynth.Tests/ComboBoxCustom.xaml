@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="NetSynth.Tests.ComboBoxCustom"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="20" d:DesignWidth="150">
+    <Grid>
+		<Border BorderThickness="1" Grid.Row="0" Grid.ColumnSpan="2" CornerRadius="2" BorderBrush="Black" Background="White" MouseDown="Border_MouseDown_1" >
+		</Border>
+		<ComboBox x:Name="combobox" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Opacity="0" ItemsSource="{Binding ComboBoxItems}">
+			<!--<ComboBoxItem Content="Item 1"></ComboBoxItem>
+			<ComboBoxItem Content="Item 2"></ComboBoxItem>
+			<ComboBoxItem Content="Item 3"></ComboBoxItem>-->
+		</ComboBox>
+		
+
+
+	</Grid>
+</UserControl>

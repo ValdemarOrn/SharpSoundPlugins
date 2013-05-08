@@ -1,0 +1,59 @@
+﻿<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:UI="clr-namespace:NetSynth.UI" x:Class="NetSynth.WaveDesigner.DynamicBlockView"
+						 d:DesignWidth="900" Height="350" mc:Ignorable="d">
+
+	<Border BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch">
+		<Grid Background="#FFE5E5E5">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="175"/>
+				<RowDefinition Height="*"/>
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+
+			<Border BorderBrush="Black" BorderThickness="1" Margin="10" >
+				<UI:WaveDisplay x:Name="WaveDisplay" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+			</Border>
+
+			<Border BorderBrush="Black" BorderThickness="1" Margin="10, 40, 10, 10" Grid.Column="1" Grid.ColumnSpan="2">
+				<ScrollViewer Background="WhiteSmoke"  HorizontalAlignment="Stretch" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Hidden" VerticalAlignment="Stretch">
+					<Grid x:Name="ParameterView" Margin="0">
+					</Grid>
+				</ScrollViewer>
+			</Border>
+
+			<Rectangle Fill="#FFCDCDCD" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" Grid.ColumnSpan="3"/>
+
+			<Label Content="Setup Code" HorizontalAlignment="Left" Margin="10,2,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+			<Border BorderBrush="Black" BorderThickness="1" Margin="10,30,10,10" Grid.Row="1">
+				<TextBox x:Name="TextBoxSetup" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="" Background="White" VerticalAlignment="Stretch" AcceptsReturn="True" AcceptsTab="True" PreviewKeyDown="TextBoxProcess_PreviewKeyDown" />
+			</Border>
+
+			<Label Content="Process Code" HorizontalAlignment="Left" Margin="10,2,0,0" Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+			<Border BorderBrush="Black" BorderThickness="1" Margin="10,30,10,10" Grid.Row="1" Grid.Column="1">
+				<TextBox x:Name="TextBoxProcess" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="" Background="White" VerticalAlignment="Stretch" AcceptsReturn="True" AcceptsTab="True" PreviewKeyDown="TextBoxProcess_PreviewKeyDown" />
+			</Border>
+
+			<Label Content="Error Messages" HorizontalAlignment="Left" Margin="10,2,0,0" Grid.Row="1" Grid.Column="2" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+			<Border BorderBrush="Black" BorderThickness="1" Margin="10,30,10,10" Grid.Row="1" Grid.Column="2">
+				<TextBox x:Name="TextBoxError" IsReadOnly="True" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="" Background="White" VerticalAlignment="Stretch" AcceptsReturn="True" AcceptsTab="True" PreviewKeyDown="TextBoxProcess_PreviewKeyDown" />
+			</Border>
+			<RadioButton x:Name="RadioButtonTime" Content="Time" Grid.Column="1" HorizontalAlignment="Left" Margin="10,14,0,0" VerticalAlignment="Top" IsChecked="True" />
+			<RadioButton x:Name="RadioButtonFrequency" Content="Frequency" Grid.Column="1" HorizontalAlignment="Left" Margin="57,14,0,0" VerticalAlignment="Top"/>
+
+			<Button Content="Up" Grid.Column="2" HorizontalAlignment="Right" Margin="0,10,200,0" VerticalAlignment="Top" Width="40" Click="MoveUpClick"/>
+			<Button Content="Down" Grid.Column="2" HorizontalAlignment="Right" Margin="0,10,155,0" VerticalAlignment="Top" Width="40" Click="MoveDownClick"/>
+			<Button Content="Delete" Grid.Column="2" HorizontalAlignment="Right" Margin="0,10,100,0" VerticalAlignment="Top" Width="50" Click="DeleteClick"/>
+
+			<Button x:Name="ButtonShowCode" Content="Show Code" Grid.Column="2" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="75" Click="ShowCodeClick"/>
+			<Label Content="Parameters:" Grid.Column="1" HorizontalAlignment="Left" Margin="143,9,0,0" VerticalAlignment="Top"/>
+			<TextBox x:Name="TextBoxParams" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="215,9,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="51"/>
+			<Button Content="Set" Grid.Column="1" HorizontalAlignment="Left" Margin="271,9,0,0" VerticalAlignment="Top" Width="40" Grid.ColumnSpan="2" Click="NumParametersChanged" />
+
+
+		</Grid>
+	</Border>
+
+</UserControl>

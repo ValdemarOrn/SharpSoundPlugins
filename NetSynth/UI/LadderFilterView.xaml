@@ -1,0 +1,30 @@
+﻿<UserControl
+						 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+						 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+						 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+						 xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+						 xmlns:local="clr-namespace:NetSynth.UI" x:Class="NetSynth.UI.LadderFilterView" 
+						 mc:Ignorable="d" Width="249" Height="120">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="5*"/>
+			<RowDefinition Height="3*"/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+		</Grid.ColumnDefinitions>
+
+		<local:Knob HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0" Height="75" Width="70" x:Name="KnobCutoff" Caption="Cutoff" ShowValue="True" Value="0.99" Grid.ColumnSpan="3" />
+		<local:Knob HorizontalAlignment="Left" VerticalAlignment="Top" Margin="70,0,0,0" Height="75" Width="75" x:Name="KnobResonance" Caption="Resonance" ShowValue="True" Value="0.0" Grid.ColumnSpan="3" />
+		<local:Knob HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0" Height="45" Width="45" x:Name="KnobX" Caption="X" Max="1" Min="-1" ShowValue="True" ShowCenter="Visible" Value="0.0" Grid.Row="1" />
+		<local:Knob HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0" Height="45" Width="45" x:Name="KnobA" Caption="A" Max="1" Min="-1" ShowValue="True" ShowCenter="Visible" Value="0.0" Grid.Column="1" Grid.Row="1" />
+		<local:Knob HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0" Height="45" Width="45" x:Name="KnobB" Caption="B" Max="1" Min="-1" ShowValue="True" ShowCenter="Visible" Value="0.0" Grid.Column="2" Grid.Row="1" />
+		<local:Knob HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0" Height="45" Width="45" x:Name="KnobC" Caption="C" Max="1" Min="-1" ShowValue="True" ShowCenter="Visible" Value="0.0" Grid.Column="3" Grid.Row="1" />
+		<local:Knob HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0" Height="45" Width="45" x:Name="KnobD" Caption="D" Max="1" Min="-1" ShowValue="True" ShowCenter="Visible" Value="1.0" Grid.Column="4" Grid.Row="1" />
+
+	</Grid>
+</UserControl>
