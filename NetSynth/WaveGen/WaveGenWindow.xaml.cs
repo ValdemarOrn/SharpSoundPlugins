@@ -89,7 +89,7 @@ namespace NetSynth.WaveGen
 
 				ParameterMap[param] = knob;
 
-				knob.ValueChanged += (sender, e) => 
+/*				knob.ValueChanged += (sender, e) => 
 				{
 					if (!FinishIsSelected) // start
 					{
@@ -105,7 +105,7 @@ namespace NetSynth.WaveGen
 					// trigger a refresh
 					HasChanged = true;
 				};
-
+*/
 				var panel = new StackPanel() { Orientation = Orientation.Horizontal };
 				panel.Children.Add(knob);
 				panel.Children.Add(label);

@@ -9,37 +9,37 @@
 		<Grid>
 			<Grid HorizontalAlignment="Center" Margin="0,0,0,0">
 				<Grid Margin="5,17,0,0">
-				<Path x:Name="PathA" Stroke="CornflowerBlue" StrokeThickness="13" Panel.ZIndex="1">
-					<Path.Data>
-						<PathGeometry>
-							<PathGeometry.Figures>
-								<PathFigure x:Name="PathLeft" StartPoint="14.64,85.36">
-									<ArcSegment x:Name="ArcLeft" 
+					<Path x:Name="PathA" Stroke="CornflowerBlue" StrokeThickness="13" Panel.ZIndex="1">
+						<Path.Data>
+							<PathGeometry>
+								<PathGeometry.Figures>
+									<PathFigure x:Name="PathLeft" StartPoint="14.64,85.36">
+										<ArcSegment x:Name="ArcLeft" 
 									IsLargeArc="False"
 									Size="50, 50"
 									Point="50, 0"
 									SweepDirection="Clockwise" />
-								</PathFigure>
-							</PathGeometry.Figures>
-						</PathGeometry>
-					</Path.Data>
-				</Path>
+									</PathFigure>
+								</PathGeometry.Figures>
+							</PathGeometry>
+						</Path.Data>
+					</Path>
 
-				<Path x:Name="PathB" StrokeThickness="13" Panel.ZIndex="1" Stroke="Black">
-					<Path.Data>
-						<PathGeometry>
-							<PathGeometry.Figures>
-								<PathFigure x:Name="PathRight" StartPoint="85.36, 85.36">
-									<ArcSegment x:Name="ArcRight" 
+					<Path x:Name="PathB" StrokeThickness="13" Panel.ZIndex="1" Stroke="Black">
+						<Path.Data>
+							<PathGeometry>
+								<PathGeometry.Figures>
+									<PathFigure x:Name="PathRight" StartPoint="85.36, 85.36">
+										<ArcSegment x:Name="ArcRight" 
 									IsLargeArc="False"
 									Size="50, 50"
 									Point="50,0"
 									SweepDirection="Counterclockwise" />
-								</PathFigure>
-							</PathGeometry.Figures>
-						</PathGeometry>
-					</Path.Data>
-				</Path>
+									</PathFigure>
+								</PathGeometry.Figures>
+							</PathGeometry>
+						</Path.Data>
+					</Path>
 				</Grid>
 			</Grid>
 			<Label x:Name="LabelValue" Content="0.00" HorizontalAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontFamily="Arial" FontSize="22" Margin="0,47,0,0"/>

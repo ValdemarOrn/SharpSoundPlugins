@@ -52,8 +52,8 @@ namespace NetSynth
 		{
 			var coll = Extensions.GetLogicalChildCollection<Knob>(this);
 
-			foreach (var knob in coll)
-				knob.ValueChanged += Key_ValueChanged;
+//			foreach (var knob in coll)
+//				knob.ValueChanged += Key_ValueChanged;
 
 			foreach (var knob in coll)
 			{

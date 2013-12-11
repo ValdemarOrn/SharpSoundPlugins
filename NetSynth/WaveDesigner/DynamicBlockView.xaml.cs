@@ -156,7 +156,7 @@ namespace NetSynth.WaveDesigner
 
 				knob.Value = para.ValueStart;
 				knob.MouseDoubleClick += knob_MouseDoubleClick;
-				knob.ValueChanged += knob_ValueChanged;
+//				knob.ValueChanged += knob_ValueChanged;
 
 				int left = (i / 2) * 65 + 5;
 				int top = (i % 2 == 0) ? 5 : 55;

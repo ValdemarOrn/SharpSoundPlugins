@@ -7,7 +7,7 @@
 	
 	<Grid>
 		<UI:Knob x:Name="Knob1" HorizontalAlignment="Left" Margin="10,26,0,0" VerticalAlignment="Top" Height="112" Width="162" ShowValue="True" 
-			Value="0.5" Caption="Mycaption" ValueChanged="Knob1_ValueChanged"/>
+			Value="0.5" Caption="Mycaption"/>
 		<ComboBox Opacity="0" x:Name="cb1" HorizontalAlignment="Left" Margin="314,100,0,0" VerticalAlignment="Top" Width="120">
 			<ComboBox.Background>
 				<LinearGradientBrush EndPoint="0,1" StartPoint="0,0">

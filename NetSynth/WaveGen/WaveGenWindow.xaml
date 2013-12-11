@@ -17,7 +17,7 @@
 		<Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Margin="5,5,5,0" Height="200" HorizontalAlignment="Stretch" VerticalAlignment="Top">
 			<UI:WaveDisplay x:Name="Display" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
 		</Border>
-		<UI:Knob x:Name="KnobIndex" HorizontalAlignment="Center" Delta="0.002" Min="0" Max="31" Steps="320" ShowValue="True" VerticalAlignment="Center" Height="119.435" Width="125.824" Grid.Row="2" ValueChanged="IndexChanged"/>
+		<UI:Knob x:Name="KnobIndex" HorizontalAlignment="Center" Delta="0.002" Min="0" Max="31" Steps="320" ShowValue="True" VerticalAlignment="Center" Height="119.435" Width="125.824" Grid.Row="2" />
 
 		<Label Content="Edit:" FontSize="16" Grid.Column="1" HorizontalAlignment="Left" Margin="10,4.5,0,4.5" VerticalAlignment="Center"/>
 		<Label x:Name="LabelStart" Content="Start" FontSize="16" Grid.Column="1" HorizontalAlignment="Left" Margin="80,4.5,0,4.5" VerticalAlignment="Center" Foreground="CornflowerBlue" FontWeight="SemiBold" Cursor="Hand" MouseDown="StartFinishClick"/>

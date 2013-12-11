@@ -27,57 +27,61 @@ namespace NetSynth.UI
 		static internal DependencyProperty StrokeBProperty;
 		static internal DependencyProperty CaptionProperty;
 		static internal DependencyProperty ShowCenterProperty;
-
-		public static readonly RoutedEvent ValueChangeEvent = EventManager.RegisterRoutedEvent("ValueChanged", RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(Knob));
-
-		public event RoutedEventHandler ValueChanged
-		{
-			add { AddHandler(ValueChangeEvent, value); }
-			remove { RemoveHandler(ValueChangeEvent, value); }
-		}
+		static internal DependencyProperty MinProperty;
+		static internal DependencyProperty MaxProperty;
+		static internal DependencyProperty StepsProperty;
+		static internal DependencyProperty ValueFormatterProperty;
 
 		static Knob()
 		{
-			ValueProperty = DependencyProperty.Register("Value", typeof(double), typeof(Knob));
-			DeltaProperty = DependencyProperty.Register("Delta", typeof(double), typeof(Knob));
-			ShowValueProperty = DependencyProperty.Register("ShowValue", typeof(bool), typeof(Knob));
-			StrokeAProperty = DependencyProperty.Register("StrokeA", typeof(Brush), typeof(Knob));
-			StrokeBProperty = DependencyProperty.Register("StrokeB", typeof(Brush), typeof(Knob));
-			CaptionProperty = DependencyProperty.Register("Caption", typeof(string), typeof(Knob));
-			ShowCenterProperty = DependencyProperty.Register("ShowCenter", typeof(Visibility), typeof(Knob));
+			ValueProperty = DependencyProperty.Register("Value", typeof(double), typeof(Knob),
+				new FrameworkPropertyMetadata(0.0, FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
+			DeltaProperty = DependencyProperty.Register("Delta", typeof(double), typeof(Knob),
+				new FrameworkPropertyMetadata(0.005, FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
+			ShowValueProperty = DependencyProperty.Register("ShowValue", typeof(bool), typeof(Knob),
+				new FrameworkPropertyMetadata(false, FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
+			StrokeAProperty = DependencyProperty.Register("StrokeA", typeof(Brush), typeof(Knob),
+				new FrameworkPropertyMetadata(new SolidColorBrush(Colors.CornflowerBlue), FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
+			StrokeBProperty = DependencyProperty.Register("StrokeB", typeof(Brush), typeof(Knob),
+				new FrameworkPropertyMetadata(new SolidColorBrush(Colors.Black), FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
+			CaptionProperty = DependencyProperty.Register("Caption", typeof(string), typeof(Knob),
+				new FrameworkPropertyMetadata("", FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
+			ShowCenterProperty = DependencyProperty.Register("ShowCenter", typeof(Visibility), typeof(Knob),
+				new FrameworkPropertyMetadata(System.Windows.Visibility.Hidden, FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
+			MinProperty = DependencyProperty.Register("Min", typeof(double), typeof(Knob),
+				new FrameworkPropertyMetadata(0.0, FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
+			MaxProperty = DependencyProperty.Register("Max", typeof(double), typeof(Knob),
+				new FrameworkPropertyMetadata(1.0, FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
+			StepsProperty = DependencyProperty.Register("Steps", typeof(int), typeof(Knob),
+				new FrameworkPropertyMetadata(1000, FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
+			ValueFormatterProperty = DependencyProperty.Register("ValueFormatter", typeof(Func<double, string>), typeof(Knob),
+				new FrameworkPropertyMetadata(null, FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
 		}
 
 		public Knob()
 		{
 			InitializeComponent();
+			EventHandler repaint = new EventHandler((sender, args) => Paint());
 
 			// add change listeners to props
 			DependencyPropertyDescriptor prop;
 			prop = DependencyPropertyDescriptor.FromProperty(ValueProperty, this.GetType());
-			prop.AddValueChanged(this, (sender, args) => Paint());
+			prop.AddValueChanged(this, repaint);
 			prop = DependencyPropertyDescriptor.FromProperty(DeltaProperty, this.GetType());
-			prop.AddValueChanged(this, (sender, args) => Paint());
+			prop.AddValueChanged(this, repaint);
 			prop = DependencyPropertyDescriptor.FromProperty(ShowValueProperty, this.GetType());
-			prop.AddValueChanged(this, (sender, args) => Paint());
-			prop = DependencyPropertyDescriptor.FromProperty(StrokeAProperty, this.GetType());
-			prop.AddValueChanged(this, (sender, args) => Paint());
-			prop = DependencyPropertyDescriptor.FromProperty(StrokeBProperty, this.GetType());
-			prop.AddValueChanged(this, (sender, args) => Paint());
+			prop.AddValueChanged(this, repaint);
 			prop = DependencyPropertyDescriptor.FromProperty(CaptionProperty, this.GetType());
-			prop.AddValueChanged(this, (sender, args) => Paint());
+			prop.AddValueChanged(this, repaint);
 			prop = DependencyPropertyDescriptor.FromProperty(ShowCenterProperty, this.GetType());
-			prop.AddValueChanged(this, (sender, args) => Paint());
-
-			ShowCenter = System.Windows.Visibility.Hidden;
-			Min = 0;
-			Max = 1;
-			Steps = 1000;
-			Value = 0;
-			Delta = 0.005;
-			ShowValue = false;
-			StrokeA = new SolidColorBrush(Colors.CornflowerBlue);
-			StrokeB = new SolidColorBrush(Colors.Black);
-			Centerer.Fill = this.StrokeB;
+			prop.AddValueChanged(this, repaint);
+			prop = DependencyPropertyDescriptor.FromProperty(ValueFormatterProperty, this.GetType());
+			prop.AddValueChanged(this, repaint);
+			prop = DependencyPropertyDescriptor.FromProperty(StrokeAProperty, this.GetType());
+			prop.AddValueChanged(this, repaint);
+			prop = DependencyPropertyDescriptor.FromProperty(StrokeBProperty, this.GetType());
+			prop.AddValueChanged(this, repaint);
+			prop.AddValueChanged(this, (s, a) => { Centerer.Fill = this.StrokeB; });
 
 			Paint();
 		}
@@ -85,29 +89,32 @@ namespace NetSynth.UI
 
 		public Func<double, string> ValueFormatter { get; set; }
 
-		public double Min { get; set; }
-		public double Max { get; set; }
-		public int Steps { get; set; }
-
 		double _internalVal;
+
+		#region DependencyProperties
 
 		public double Value
 		{
 			get { return (double)base.GetValue(ValueProperty); }
-			set
-			{
-				// warp to internal, then back to Value
-				// give the correct step
-				double val = CalculateInternalValue(value);
-				_internalVal = val;
-				val = CalculateValue(val);
+			set { SetValue(ValueProperty, value); }
+		}
 
-				SetValue(ValueProperty, val);
-				
-				var args = new RoutedEventArgs(ValueChangeEvent);
-				RaiseEvent(args);
-				Paint();
-			}
+		public double Min
+		{
+			get { return (double)base.GetValue(MinProperty); }
+			set { SetValue(MinProperty, value); }
+		}
+
+		public double Max
+		{
+			get { return (double)base.GetValue(MaxProperty); }
+			set { SetValue(MaxProperty, value); }
+		}
+
+		public int Steps
+		{
+			get { return (int)base.GetValue(StepsProperty); }
+			set { SetValue(StepsProperty, value); }
 		}
 
 		public double Delta
@@ -145,6 +152,8 @@ namespace NetSynth.UI
 			get { return (Visibility)base.GetValue(ShowCenterProperty); }
 			set { SetValue(ShowCenterProperty, value); }
 		}
+
+		#endregion
 
 		bool Selected;
 		Point MousePos;
@@ -202,11 +211,9 @@ namespace NetSynth.UI
 			if (val != oldVal)
 			{
 				_internalVal = val;
-				double vv = CalculateValue(val);
-				if (vv != Value)
-					Value = vv;
-
-				
+				double newValue = CalculateValue(val);
+				if (newValue != Value)
+					Value = newValue;
 			}
 		}
 
@@ -216,10 +223,10 @@ namespace NetSynth.UI
 			if (steps <= 1)
 				steps = 10000;
 
-			internalValue = internalValue + 1.0 / (steps-1) * 0.5;
- 
+			internalValue = internalValue + 1.0 / (steps - 1) * 0.5;
+
 			int position = (int)(internalValue * (steps - 1) + 0.000001);
-			double val = position / (double)(steps-1);
+			double val = position / (double)(steps - 1);
 			double span = (Max - Min);
 			val = val * span + Min;
 			return val;
@@ -244,7 +251,7 @@ namespace NetSynth.UI
 			else
 				LabelCaption.Content = Caption;
 
-			if(ValueFormatter != null)
+			if (ValueFormatter != null)
 				LabelValue.Content = ValueFormatter(Value);
 			else
 				LabelValue.Content = String.Format(System.Globalization.CultureInfo.InvariantCulture, "{0:0.00}", Value);
@@ -270,7 +277,7 @@ namespace NetSynth.UI
 			else if (valueDegrees > 269.9)
 				valueDegrees = 269.9;
 
-			double valueAngle =  (225 - valueDegrees) / 360.0 * 2 * Math.PI;
+			double valueAngle = (225 - valueDegrees) / 360.0 * 2 * Math.PI;
 
 			double startX = Math.Cos(startAngle) * radius + mid;
 			double endX = Math.Cos(endAngle) * radius + mid;
@@ -285,9 +292,7 @@ namespace NetSynth.UI
 			ArcLeft.Point = new Point(valueX, valueY);
 			ArcRight.Point = new Point(valueX, valueY);
 
-			
-
-			if(valueDegrees < 180)
+			if (valueDegrees < 180)
 				ArcLeft.IsLargeArc = false;
 			else
 				ArcLeft.IsLargeArc = true;
@@ -296,7 +301,6 @@ namespace NetSynth.UI
 				ArcRight.IsLargeArc = false;
 			else
 				ArcRight.IsLargeArc = true;
-			
 		}
 
 		private void Centerer_MouseEnter(object sender, MouseEventArgs e)
@@ -312,8 +316,6 @@ namespace NetSynth.UI
 		private void Centerer_MouseDown(object sender, MouseButtonEventArgs e)
 		{
 			Value = CalculateValue(0.5);
-			var args = new RoutedEventArgs(ValueChangeEvent);
-			RaiseEvent(args);
 		}
 	}
 }

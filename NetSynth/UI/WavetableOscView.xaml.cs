@@ -38,8 +38,8 @@ namespace NetSynth.UI
 
 			var coll = Extensions.GetLogicalChildCollection<Knob>(this);
 
-			foreach (var knob in coll)
-				knob.ValueChanged += ValueChanged;
+//			foreach (var knob in coll)
+//				knob.ValueChanged += ValueChanged;
 
 			foreach (var knob in coll)
 			{
