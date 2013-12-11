@@ -6,7 +6,7 @@ Sharp Sound Device plugins run on Windows and require **.NET Framework 3.5**
 
 ## Download
 
-The latest versions can be found in the [Build directory](https://github.com/ValdemarOrn/SharpSoundPlugins/tree/master/Builds/).
+The latest versions can be found in the [Release page](https://github.com/ValdemarOrn/SharpSoundPlugins/releases).
 
 ## License
 
