@@ -41,6 +41,12 @@ Based on the ProCo Rat 2 and ProCo Turbo Rat
 
 ![](https://raw.github.com/ValdemarOrn/SharpSoundPlugins/master/img/Rodent-img.png)
 
+## MidiScript
+
+Scriptable Midi effect that lets you process Midi in real-time using C#.
+
+![](https://raw.github.com/ValdemarOrn/SharpSoundPlugins/master/img/MidiScript.png)
+
 ## SmashMaster
 
 Based on a Marshall Shred Master
