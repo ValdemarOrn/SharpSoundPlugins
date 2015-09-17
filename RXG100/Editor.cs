@@ -289,7 +289,7 @@ namespace RXG100Sim
 			ev.Data = val;
 			ev.EventIndex = kvp.Key;
 			ev.Type = SharpSoundDevice.EventType.Parameter;
-			Instance.HostInfo.SendEvent(Instance, ev);
+			Instance.HostInfo.SendEvent(Instance.DeviceId, ev);
 		}
 
 		protected override void OnPaint(PaintEventArgs e)

@@ -29,6 +29,7 @@ namespace Nearfield
 
 		DeviceInfo DevInfo;
 
+		public int DeviceId { get; set; }
 		public DeviceInfo DeviceInfo { get { return this.DevInfo; } }
 		public Parameter[] ParameterInfo { get; private set; }
 		public Port[] PortInfo { get; private set; }
@@ -127,14 +128,24 @@ namespace Nearfield
 			}
 		}
 
+		public void ProcessSample(IntPtr input, IntPtr output, uint inChannelCount, uint outChannelCount, uint bufferSize)
+		{
+			throw new NotImplementedException();
+		}
+
 		public void OpenEditor(IntPtr parentWindow) { }
 
 		public void CloseEditor() { }
 
-		public void SendEvent(Event ev)
+		public bool SendEvent(Event ev)
 		{
 			if (ev.Type == EventType.Parameter)
+			{
 				SetParameter(ev.EventIndex, (double)ev.Data);
+				return true;
+			}
+
+			return false;
 		}
 
 		private void SetParameter(int index, double value)

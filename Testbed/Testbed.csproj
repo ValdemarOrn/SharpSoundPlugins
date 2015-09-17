@@ -30,8 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SharpSoundDevice">
-      <HintPath>..\Binaries\SharpSoundDevice.dll</HintPath>
+    <Reference Include="SharpSoundDevice, Version=1.4.1.33382, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\SharpSoundDevice\x64\Release\SharpSoundDevice.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

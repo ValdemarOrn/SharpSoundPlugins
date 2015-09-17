@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Rodent.V2</RootNamespace>
     <AssemblyName>Rodent.V2</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -31,13 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AudioLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="SharpSoundDevice, Version=1.4.1.33382, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Binaries\AudioLib.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpSoundDevice, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Binaries\SharpSoundDevice.dll</HintPath>
+      <HintPath>..\Binaries\SharpSoundDevice\x64\Release\SharpSoundDevice.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -59,6 +55,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Rodent.cs" />
+    <Compile Include="Splines.cs" />
     <Compile Include="Tables.cs" />
     <Compile Include="TFGain.cs" />
   </ItemGroup>
@@ -82,6 +79,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="img\SplashBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AudioLib\AudioLib\AudioLib.csproj">
+      <Project>{4905489d-6f81-4129-8780-744ced5b3269}</Project>
+      <Name>AudioLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

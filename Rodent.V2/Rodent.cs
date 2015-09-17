@@ -8,6 +8,7 @@ using AudioLib.TF;
 using AudioLib;
 using SharpSoundDevice;
 using AudioLib.Modules;
+using AudioLib.SplineLut;
 
 namespace Rodent.V2
 {
@@ -40,8 +41,8 @@ namespace Rodent.V2
 		private Lowpass1 Lowpass1;
 		private TFGain Gain;
 		private Highpass1 HipassDC;
-		private LUT Clipper;
-		private LUT Clipper2;
+		private SplineInterpolator Clipper;
+		private SplineInterpolator Clipper2;
 		private Lowpass1 Filter;
 		private Highpass1 Hipass3;
 
@@ -51,6 +52,7 @@ namespace Rodent.V2
 
 		DeviceInfo DevInfo;
 
+		public int DeviceId { get; set; }
 		public DeviceInfo DeviceInfo { get { return this.DevInfo; } }
 		public Parameter[] ParameterInfo { get; private set; }
 		public Port[] PortInfo { get; private set; }
@@ -79,10 +81,10 @@ namespace Rodent.V2
 			DevInfo.EditorHeight = e.Height;
 			DevInfo.EditorWidth = e.Width;
 			DevInfo.HasEditor = true;
-			DevInfo.Name = "Rodent.V2 Beta 2";
+			DevInfo.Name = "Rodent.V2 Beta 4";
 			DevInfo.ProgramCount = 1;
 			DevInfo.Type = DeviceType.Effect;
-			DevInfo.Version = 1000;
+			DevInfo.Version = 1004;
 			DevInfo.VstId = DeviceUtilities.GenerateIntegerId(DevInfo.DeviceID);
 
 			PortInfo[0].Direction = PortDirection.Input;
@@ -108,13 +110,15 @@ namespace Rodent.V2
 			Lowpass1 = new Lowpass1((float)Samplerate);
 			Gain = new TFGain((float)Samplerate);
 			HipassDC = new Highpass1((float)Samplerate);
-			Clipper = new LUT();
+			/*Clipper = new LUT();
 			Clipper.ReadRecord(Tables.D1N914TF.Split('\n'));
-			Clipper.Table = Tables.Upsample(Clipper.Table, 100000);
-			
-			Clipper2 = new LUT();
+			Clipper.Table = Tables.Upsample(Clipper.Table, 100000);*/
+			Clipper = new SplineInterpolator(Splines.D1N914TF);
+
+			/*Clipper2 = new LUT();
 			Clipper2.ReadRecord(Tables.LEDTF.Split('\n'));
-			Clipper2.Table = Tables.Upsample(Clipper2.Table, 100000);
+			Clipper2.Table = Tables.Upsample(Clipper2.Table, 100000);*/
+			Clipper2 = new SplineInterpolator(Splines.LEDTF);
 
 			Filter = new Lowpass1((float)Samplerate);
 			Hipass3 = new Highpass1((float)Samplerate);
@@ -221,13 +225,13 @@ namespace Rodent.V2
 			if (ParameterInfo[P_TURBO].Value >= 0.5)
 			{
 				Utils.SaturateInPlace(signal, 7.99f);
-				Clipper2.GetValuesInPlace(signal); // LEDs
+				Clipper2.ProcessInPlace(signal); // LEDs
 				Utils.GainInPlace(signal, 0.7f);
 			}
 			else
 			{
 				Utils.SaturateInPlace(signal, 7.99f);
-				Clipper.GetValuesInPlace(signal); // Silicon
+				Clipper.ProcessInPlace(signal); // Silicon
 			}
 
 			if (ParameterInfo[P_OD].Value > 0.5)
@@ -259,6 +263,11 @@ namespace Rodent.V2
 			}
 		}
 
+		public void ProcessSample(IntPtr input, IntPtr output, uint inChannelCount, uint outChannelCount, uint bufferSize)
+		{
+			throw new NotImplementedException();
+		}
+
 		public void OpenEditor(IntPtr parentWindow)
 		{
 			e.UpdateParameters();
@@ -267,12 +276,15 @@ namespace Rodent.V2
 
 		public void CloseEditor() { }
 
-		public void SendEvent(Event ev)
+		public bool SendEvent(Event ev)
 		{
 			if(ev.Type == EventType.Parameter)
 			{
 				SetParam((int)ev.EventIndex, (double)ev.Data);
+				return true;
 			}
+
+			return false;
 		}
 
 		public void SetProgramData(Program program, int index)

@@ -194,7 +194,7 @@ namespace Rodent.V2
 			ev.Data = Rodent.ParameterInfo[paramIndex].Value;
 			ev.EventIndex = paramIndex;
 			ev.Type = SharpSoundDevice.EventType.Parameter;
-			Rodent.HostInfo.SendEvent(Rodent, ev);
+			Rodent.HostInfo.SendEvent(Rodent.DeviceId, ev);
 		}
 
 		public void ParameterChanged(object sender, double val)

@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="MidiScript.ScriptView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MidiScript"
+             mc:Ignorable="d" 
+             d:DesignHeight="550" d:DesignWidth="900" Background="White">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="300" />
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="5" Grid.ColumnSpan="2">
+            <Button Width="80" Height="20" Margin="0,4,4,4" Command="{Binding NewScriptCommand}" Content="New Script"/>
+            <Button Width="80" Height="20" Margin="4" Command="{Binding LoadScriptCommand}" Content="Load"/>
+            <Button Width="80" Height="20" Margin="4" Command="{Binding SaveScriptCommand}" Content="Save"/>
+            <Button Width="80" Height="20" Margin="4" Command="{Binding RecompileScriptCommand}" Content="Recompile"/>
+            <Label VerticalAlignment="Center" HorizontalAlignment="Center" Content="{Binding SelectedFile, FallbackValue=No Script Loaded}" />
+        </StackPanel>
+
+        <Label Grid.Row="1" Grid.Column="0" Margin="5,0,0,0">Script</Label>
+        <TextBox Grid.Row="2" Grid.RowSpan="3" Margin="5,0,5,5" VerticalAlignment="Stretch"  Text="{Binding Script}"
+                 AcceptsReturn="True" AcceptsTab="True" FontFamily="Consolas" FontSize="11" />
+
+        <GridSplitter VerticalAlignment="Stretch" Width="2" Background="DarkGray" Grid.Row="2" Grid.RowSpan="3" Grid.Column="1" HorizontalAlignment="Left" 
+                      Margin="-1, 0, 0, 5"/>
+        
+        <Label Grid.Row="1" Grid.Column="1" Margin="5,0,0,0">Input Midi</Label>
+        <ListBox Grid.Row="2" Grid.Column="1" Margin="5,0,5,0" FontFamily="Consolas" FontSize="10" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+                 ItemsSource="{Binding MidiInMessages}" x:Name="MidiInListBox"></ListBox>
+        
+        <Label Grid.Row="3" Grid.Column="1">Output Midi</Label>
+        <ListBox Grid.Row="4" Grid.Column="1" Margin="5,0,5,5" FontFamily="Consolas" FontSize="10" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+                 ItemsSource="{Binding MidiOutMessages}" x:Name="MidiOutListBox"></ListBox>
+    </Grid>
+</UserControl>

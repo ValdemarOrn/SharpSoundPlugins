@@ -21,7 +21,8 @@ namespace Testbed
 				"Density", 
 				"Decay", 
 				"Delay", 
-				"Damping", 
+				"Hi Cut", 
+				"Hi Cut Amt", 
 				"AP-Delay", 
 				"AP-Feedback", 
 				"Mod Rate",
@@ -42,18 +43,20 @@ namespace Testbed
 		public int Density       { get { return (int)(Parameters[2] * 100); } }
 		public double Decay      { get { return Parameters[3]; } }
 		public double Delay      { get { return Parameters[4] * 100; } }
-		public double Damping    { get { return ValueTables.Get(Parameters[5], ValueTables.Response2Dec) * 20000; } }
-		
-		public double APDelay    { get { return Parameters[6] * 100; } }
-		public double APFeedback { get { return Parameters[7]; } }
 
-		public double ModRate    { get { return Parameters[8] * 2; } }
-		public double ModAmount  { get { return Parameters[9]; } }
+		public double HiCut      { get { return ValueTables.Get(Parameters[5], ValueTables.Response2Dec) * 20000; } }
+		public double HiCutAmt   { get { return Parameters[6]; } }
 
-		public int LateStages    { get { return 1 + (int)(Parameters[10] * 7.999); } }
+		public double APDelay    { get { return Parameters[7] * 100; } }
+		public double APFeedback { get { return Parameters[8]; } }
 
-		public double Dry        { get { return Parameters[11]; } }
-		public double Wet        { get { return Parameters[12]; } }
+		public double ModRate    { get { return Parameters[9] * 2; } }
+		public double ModAmount  { get { return Parameters[10]; } }
+
+		public int LateStages    { get { return 1 + (int)(Parameters[11] * 7.999); } }
+
+		public double Dry        { get { return Parameters[12]; } }
+		public double Wet        { get { return Parameters[13]; } }
 
 		public override void Process()
 		{
@@ -80,18 +83,20 @@ namespace Testbed
 			if (i == 2) return String.Format(CultureInfo.InvariantCulture, "{0:0}x", Density);
 			if (i == 3) return String.Format(CultureInfo.InvariantCulture, "{0:0.00}", Decay);
 			if (i == 4) return String.Format(CultureInfo.InvariantCulture, "{0:0.00}", Delay);
-			if (i == 5) return String.Format(CultureInfo.InvariantCulture, "{0:0.00}Hz", Damping);
 
-			if (i == 6) return String.Format(CultureInfo.InvariantCulture, "{0:0.00}ms", APDelay);
-			if (i == 7) return String.Format(CultureInfo.InvariantCulture, "{0:0.00}", APFeedback);
+			if (i == 5) return String.Format(CultureInfo.InvariantCulture, "{0:0.00}Hz", HiCut);
+			if (i == 6) return String.Format(CultureInfo.InvariantCulture, "{0:0.00}", HiCutAmt);
 
-			if (i == 8) return String.Format(CultureInfo.InvariantCulture, "{0:0.00}Hz", ModRate);
-			if (i == 9) return String.Format(CultureInfo.InvariantCulture, "{0:0.00}", ModAmount);
+			if (i == 7) return String.Format(CultureInfo.InvariantCulture, "{0:0.00}ms", APDelay);
+			if (i == 8) return String.Format(CultureInfo.InvariantCulture, "{0:0.00}", APFeedback);
 
-			if (i == 10) return String.Format(CultureInfo.InvariantCulture, "{0:0}", LateStages);
+			if (i == 9) return String.Format(CultureInfo.InvariantCulture, "{0:0.00}Hz", ModRate);
+			if (i == 10) return String.Format(CultureInfo.InvariantCulture, "{0:0.00}", ModAmount);
 
-			if (i == 11) return String.Format(CultureInfo.InvariantCulture, "{0:0.00}", Dry);
-			if (i == 12) return String.Format(CultureInfo.InvariantCulture, "{0:0.00}", Wet);
+			if (i == 11) return String.Format(CultureInfo.InvariantCulture, "{0:0}", LateStages);
+
+			if (i == 12) return String.Format(CultureInfo.InvariantCulture, "{0:0.00}", Dry);
+			if (i == 13) return String.Format(CultureInfo.InvariantCulture, "{0:0.00}", Wet);
 			return base.GetDisplay(i);
 		}
 
@@ -101,7 +106,7 @@ namespace Testbed
 			Rev.SetLate(APFeedback, (int)(APDelay / 1000.0 * Samplerate));
 			Rev.GlobalFeedback = Decay;
 			Rev.GlobalDelay = (int)(Delay / 1000.0 * Samplerate);
-			Rev.SetDamping(Damping);
+			Rev.SetHiCut(HiCut, HiCutAmt);
 			Rev.SetMod(ModRate, ModAmount);
 			Rev.LateStages = LateStages;
 		}
@@ -119,7 +124,7 @@ namespace Testbed
 				foreach (var allpass in AllpassModules)
 				{
 					allpass.Samplerate = _samplerate;
-					allpass.Cutoff = allpass.Cutoff;
+					allpass.HiCut = allpass.HiCut;
 				}
 			}
 		}
@@ -188,11 +193,14 @@ namespace Testbed
 			}
 		}
 
-		public void SetDamping(double fc)
+		public void SetHiCut(double fc, double amount)
 		{
 			var rand = new Random();
 			foreach (var allpass in AllpassModules)
-				allpass.Cutoff = fc * (0.5 + rand.NextDouble());
+			{
+				allpass.HiCut = fc * (0.5 + rand.NextDouble());
+				allpass.HiCutAmount = amount;
+			}
 		}
 
 		public void SetMod(double freq, double amount)
@@ -201,7 +209,7 @@ namespace Testbed
 
 			foreach (var allpass in AllpassModules)
 			{
-				allpass.Freq = freq * (1 + 0.8 * rand.NextDouble());
+				allpass.ModFreq = freq * (1 + 0.8 * rand.NextDouble());
 				allpass.ModAmount = amount;
 			}
 
@@ -260,17 +268,30 @@ namespace Testbed
 		public double Feedback;
 		public int DelaySamples;
 
-		double _freq;
-		public double Freq
+		public double ModAmount;
+		public double HiCutAmount;
+
+		double _modFreq;
+		public double ModFreq
 		{
-			get { return _freq; }
+			get { return _modFreq; }
 			set
 			{
-				_freq = value;
-				ModIncrement = 1.0 / Samplerate * _freq;
+				_modFreq = value;
+				ModIncrement = 1.0 / Samplerate * _modFreq;
 			}
 		}
-		public double ModAmount;
+
+		double _hiCut;
+		public double HiCut
+		{
+			get { return _hiCut; }
+			set
+			{
+				_hiCut = value;
+				Alpha = Math.Exp(-2 * Math.PI * _hiCut / Samplerate);
+			}
+		}
 
 		private double ModPhase;
 		private double ModValue;
@@ -278,25 +299,15 @@ namespace Testbed
 
 		private double Alpha;
 		private double[] Buffer;
-		private double[] BufferOut;
+		//private double[] BufferOut;
 		private int I;
-		private double Output;
 
-		double _cutoff;
-		public double Cutoff 
-		{
-			get { return _cutoff; }
-			set
-			{
-				_cutoff = value;
-				Alpha = Math.Exp(-2 * Math.PI * _cutoff / Samplerate);
-			}
-		}
+		private double A;
+		private double AOut;
 
 		public Allpass()
 		{
 			Buffer = new double[48000];
-			//BufferOut = new double[48000];
 			Feedback = 0.7;
 		}
 
@@ -323,8 +334,9 @@ namespace Testbed
 			if (I < 0)
 				I += len;
 
-			Output = (1 - Alpha) * y + Alpha * Output;
-			return Output;
+			A = (1 - Alpha) * y + Alpha * A;
+			AOut = A * HiCutAmount + y * (1 - HiCutAmount);
+			return AOut;
 		}
 	}
 }
