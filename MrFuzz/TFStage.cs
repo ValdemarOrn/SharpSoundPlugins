@@ -20,7 +20,7 @@ namespace MrFuzz
 
 			double[] zb, za;
 
-			Bilinear.Transform(sb, sa, out zb, out za, fs);
+			Bilinear.Transform(sb, sa, out zb, out za, Fs);
 
 			this.B = zb;
 			this.A = za;

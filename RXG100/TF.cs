@@ -27,7 +27,7 @@ namespace RXG100Sim
 
 			double[] zb, za;
 
-			Bilinear.Transform(sb, sa, out zb, out za, this.fs);
+			Bilinear.Transform(sb, sa, out zb, out za, this.Fs);
 
 			this.B = zb;
 			this.A = za;
@@ -49,7 +49,7 @@ namespace RXG100Sim
 
 			double[] zb, za;
 
-			Bilinear.Transform(sb, sa, out zb, out za, this.fs);
+			Bilinear.Transform(sb, sa, out zb, out za, this.Fs);
 
 			this.B = zb;
 			this.A = za;
@@ -71,14 +71,14 @@ namespace RXG100Sim
 			double c5 = 0.005e-6f;
 			double r3 = 22e3f * P_USE_R3 + 100;
 			double Rvol = 50e3f;
-			double x = this.parameters[P_GAIN];
+			double x = this.Parameters[P_GAIN];
 
 			double[] sb = {0, -c4*Rvol*x, c4*Rvol*x*(-c5*(Rvol + r3) + c5*Rvol*x)};
 			double[] sa = {-1, (-c4*Rvol - c5*(Rvol + r3) + c5*Rvol*x), -c4*c5*Rvol*(r3 - Rvol*(-1 + x)*x)};
 
 			double[] zb, za;
 
-			Bilinear.Transform(sb, sa, out zb, out za, this.fs);
+			Bilinear.Transform(sb, sa, out zb, out za, this.Fs);
 
 			this.B = zb;
 			this.A = za;
@@ -94,7 +94,7 @@ namespace RXG100Sim
 
 		public override void Update()
 		{
-			double x = this.parameters[P_PRES];
+			double x = this.Parameters[P_PRES];
 			double C1 = 0.1e-6f;
 			double R14 = 1e3f;
 			double P = 2e3f*x;
@@ -104,7 +104,7 @@ namespace RXG100Sim
 
 			double[] zb, za;
 
-			Bilinear.Transform(b, a, out zb, out za, this.fs);
+			Bilinear.Transform(b, a, out zb, out za, this.Fs);
 
 			this.B = zb;
 			this.A = za;
@@ -120,7 +120,7 @@ namespace RXG100Sim
 
 		public override void Update()
 		{
-			double x = this.parameters[P_VOL];
+			double x = this.Parameters[P_VOL];
 			double C1 = 200e-9f;
 			double C2 = 0.0002e-6f;
 			double R2 = 100e3f*(1-x);
@@ -132,7 +132,7 @@ namespace RXG100Sim
 
 			double[] zb, za;
 
-			Bilinear.Transform(b, a, out zb, out za, this.fs);
+			Bilinear.Transform(b, a, out zb, out za, this.Fs);
 
 			this.B = zb;
 			this.A = za;

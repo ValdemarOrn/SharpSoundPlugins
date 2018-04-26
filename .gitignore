@@ -32,3 +32,5 @@ _ReSharper*/
 *.sdf
 *.vsp
 *.psess
+.vs/*
+packages/*

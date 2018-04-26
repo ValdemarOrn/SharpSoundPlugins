@@ -150,12 +150,12 @@ namespace Rodent.V2
 		{
 			Samplerate = samplerate;
 
-			Hipass1.fs = samplerate;
-			Lowpass1.fs = samplerate;
-			Gain.fs = samplerate;
-			HipassDC.fs = samplerate;
-			Filter.fs = samplerate;
-			Hipass3.fs = samplerate;
+			Hipass1.Fs = samplerate;
+			Lowpass1.Fs = samplerate;
+			Gain.Fs = samplerate;
+			HipassDC.Fs = samplerate;
+			Filter.Fs = samplerate;
+			Hipass3.Fs = samplerate;
 
 			UpdateAll();
 		}

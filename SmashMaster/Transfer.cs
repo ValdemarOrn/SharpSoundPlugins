@@ -16,7 +16,7 @@ namespace SmashMaster
 
 		public override void Update()
 		{
-			double R1 = 100e3 * parameters[P_GAIN];
+			double R1 = 100e3 * Parameters[P_GAIN];
 			double R2 = 3.3e3;
 			double c1 = 100e-12;
 			double c2 = 0.047e-6;
@@ -25,7 +25,7 @@ namespace SmashMaster
 			double[] sa = {1, (c1*R1 + c2*R2), c1*c2*R1*R2};
 
 			double[] zb, za;
-			Bilinear.Transform(sb, sa, out zb, out za, fs);
+			Bilinear.Transform(sb, sa, out zb, out za, Fs);
 
 			this.B = zb;
 			this.A = za;
@@ -41,7 +41,7 @@ namespace SmashMaster
 
 		public override void Update()
 		{
-			double R1 = 100e3 * (1 - parameters[P_GAIN]);
+			double R1 = 100e3 * (1 - Parameters[P_GAIN]);
 			double R2 = 8.2e3;
 			double c1 = 0.068e-6;
 
@@ -49,7 +49,7 @@ namespace SmashMaster
 			double[] sa = {1, c1*(R1 + R2)};
 
 			double[] zb, za;
-			Bilinear.Transform(sb, sa, out zb, out za, fs);
+			Bilinear.Transform(sb, sa, out zb, out za, Fs);
 
 			this.B = zb;
 			this.A = za;
@@ -74,7 +74,7 @@ namespace SmashMaster
 			double[] sa = {1, (c1*R1 + c2*R2), c1*c2*R1*R2};
 
 			double[] zb, za;
-			Bilinear.Transform(sb, sa, out zb, out za, fs);
+			Bilinear.Transform(sb, sa, out zb, out za, Fs);
 
 			this.B = zb;
 			this.A = za;
@@ -90,7 +90,7 @@ namespace SmashMaster
 
 		public override void Update()
 		{
-			var contour = parameters[P_CONTOUR];
+			var contour = Parameters[P_CONTOUR];
 			if (contour < 0.02)
 				contour = 0.02;
 
@@ -121,7 +121,7 @@ namespace SmashMaster
 			double[] sa = {a0,a1,a2,a3,a4};
 
 			double[] zb, za;
-			Bilinear.Transform(sb, sa, out zb, out za, fs);
+			Bilinear.Transform(sb, sa, out zb, out za, Fs);
 
 			this.B = zb;
 			this.A = za;

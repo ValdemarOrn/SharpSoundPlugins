@@ -111,10 +111,10 @@ namespace MrFuzz
 		public void SetSampleRate(double samplerate)
 		{
 			Samplerate = samplerate;
-			HpInput.fs = samplerate;
-			TFStage.fs = samplerate;
-			LowpassFilter.fs = samplerate;
-			HpOutput.fs = samplerate;
+			HpInput.Fs = samplerate;
+			TFStage.Fs = samplerate;
+			LowpassFilter.Fs = samplerate;
+			HpOutput.Fs = samplerate;
 			UpdateAll();
 		}
 

@@ -136,17 +136,17 @@ namespace SmashMaster
 		{
 			Samplerate = samplerate;
 
-			Hp1.fs = samplerate;
-			LpNoise.fs = samplerate;
-			GainTF.fs = samplerate;
-			PostGain.fs = samplerate;
-			SaturateLP.fs = samplerate;
-			ClipperHP.fs = samplerate;
-			Tonestack.fs = samplerate;
-			TF2.fs = samplerate;
-			Contour.fs = samplerate;
-			OutHP.fs = samplerate;
-			OutLP.fs = samplerate;
+			Hp1.Fs = samplerate;
+			LpNoise.Fs = samplerate;
+			GainTF.Fs = samplerate;
+			PostGain.Fs = samplerate;
+			SaturateLP.Fs = samplerate;
+			ClipperHP.Fs = samplerate;
+			Tonestack.Fs = samplerate;
+			TF2.Fs = samplerate;
+			Contour.Fs = samplerate;
+			OutHP.Fs = samplerate;
+			OutLP.Fs = samplerate;
 
 			UpdateAll();
 		}

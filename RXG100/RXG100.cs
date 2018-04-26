@@ -203,27 +203,27 @@ namespace RXG100Sim
 		{
 			this.Samplerate = samplerate;
 
-			HighpassInput.fs = Samplerate;
+			HighpassInput.Fs = Samplerate;
 
 			// Channel A
-			TF1A.fs = Samplerate;
-			TF2A.fs = Samplerate;
-			PostVolumeHpA.fs = Samplerate;
-			TFPresA.fs = Samplerate;
-			TonestackA.fs = Samplerate;
+			TF1A.Fs = Samplerate;
+			TF2A.Fs = Samplerate;
+			PostVolumeHpA.Fs = Samplerate;
+			TFPresA.Fs = Samplerate;
+			TonestackA.Fs = Samplerate;
 
 			// Channel B
-			TF1B.fs = Samplerate;
-			TF1xB.fs = Samplerate;
-			TF2B.fs = Samplerate;
-			TFVolumeB.fs = Samplerate;
-			TFPresB.fs = Samplerate;
-			TonestackB.fs = Samplerate;
+			TF1B.Fs = Samplerate;
+			TF1xB.Fs = Samplerate;
+			TF2B.Fs = Samplerate;
+			TFVolumeB.Fs = Samplerate;
+			TFPresB.Fs = Samplerate;
+			TonestackB.Fs = Samplerate;
 
-			h3.fs = Samplerate;
-			hipassZenerB.fs = Samplerate;
+			h3.Fs = Samplerate;
+			hipassZenerB.Fs = Samplerate;
 
-			LowpassOutput.fs = Samplerate;
+			LowpassOutput.Fs = Samplerate;
 
 			Update(null);
 		}
