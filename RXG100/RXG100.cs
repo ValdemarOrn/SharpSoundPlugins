@@ -124,7 +124,7 @@ namespace RXG100Sim
 			DevInfo.Name = "RXG100 Amp Simulator";
 			DevInfo.ProgramCount = 1;
 			DevInfo.Type = DeviceType.Effect;
-			DevInfo.Version = 1001;
+			DevInfo.Version = 1100;
 			DevInfo.VstId = DeviceUtilities.GenerateIntegerId(DevInfo.DeviceID);
 
 			PortInfo[0].Direction = PortDirection.Input;

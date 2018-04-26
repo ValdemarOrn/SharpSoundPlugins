@@ -8,6 +8,7 @@ using AudioLib.TF;
 using AudioLib;
 using SharpSoundDevice;
 using AudioLib.Modules;
+using AudioLib.SplineLut;
 
 namespace SmashMaster
 {
@@ -22,7 +23,7 @@ namespace SmashMaster
 
 		public const int NUM_PARAMS = 7;
 
-		public static string[] ParameterNames = new String[] {"Gain", "Bass", "Contour", "Treble", "Hair", "Volume"};
+		public static string[] ParameterNames = {"Gain", "Bass", "Contour", "Treble", "Hair", "Volume"};
 
 		// ------- Declare modules for processing ----------
 		private Highpass1 Hp1;
@@ -31,8 +32,7 @@ namespace SmashMaster
 		private postGain PostGain;
 		private Lowpass1 SaturateLP;
 		private Highpass1 ClipperHP;
-		private LUT Clipper;
-		//private LUT ClipperLED;
+		private SplineInterpolator Clipper;
 		private Tonestack Tonestack;
 		private TF2 TF2;
 		private Contour Contour;
@@ -74,7 +74,7 @@ namespace SmashMaster
 			DevInfo.Name = "Smash Master";
 			DevInfo.ProgramCount = 1;
 			DevInfo.Type = DeviceType.Effect;
-			DevInfo.Version = 1000;
+			DevInfo.Version = 1100;
 			DevInfo.VstId = DeviceUtilities.GenerateIntegerId(DevInfo.DeviceID);
 
 			PortInfo[0].Direction = PortDirection.Input;
@@ -102,10 +102,7 @@ namespace SmashMaster
 			PostGain = new postGain(Samplerate);
 			SaturateLP = new Lowpass1((float)Samplerate);
 			ClipperHP = new Highpass1((float)Samplerate);
-
-			Clipper = new LUT();
-			Clipper.ReadRecord(Tables.D1N914TF.Split('\n'));
-			Clipper.Table = Tables.Upsample(Clipper.Table, 100000);
+			Clipper = new SplineInterpolator(SplineInterpolator.Splines.D1N914Clipper, false);
 
 			Tonestack = new Tonestack((float)Samplerate);
 			TF2 = new TF2(Samplerate);
@@ -180,7 +177,7 @@ namespace SmashMaster
 		public void SetParam(int param, double value)
 		{
 			ParameterInfo[param].Value = value;
-			ParameterInfo[param].Display = String.Format("{0:0.00}", value);
+			ParameterInfo[param].Display = $"{value:0.00}";
 			UpdateAll();
 		}
 
@@ -210,16 +207,7 @@ namespace SmashMaster
 			Utils.SaturateInPlace(temp, 4);
 			SaturateLP.ProcessInPlace(temp);
 			ClipperHP.ProcessInPlace(temp);
-
-			//if (ParameterInfo[P_LEDs].Value < 0.5)
-			//{
-				Clipper.GetValuesInPlace(temp);
-			/*}
-			else
-			{
-				ClipperLED.GetValuesInPlace(temp);
-				Utils.GainInPlace(temp, 0.6);
-			}*/
+			Clipper.ProcessInPlace(temp);
 			
 			Tonestack.ProcessInPlace(temp);
 			TF2.ProcessInPlace(temp);
@@ -228,7 +216,6 @@ namespace SmashMaster
 			OutLP.ProcessInPlace(temp);
 			Utils.GainInPlace(temp, Utils.ExpResponse(ParameterInfo[P_VOLUME].Value));
 			
-			// copy data to outBuffer
 			for (int i = 0; i < input[0].Length; i++)
 			{
 				outBuffer[i] = temp[i];
@@ -243,8 +230,6 @@ namespace SmashMaster
 
 		public void OpenEditor(IntPtr parentWindow)
 		{
-			//e.UpdateParameters();
-			//Interop.DockWinFormsPanel(e, parentWindow);
 		}
 
 		public void CloseEditor() { }

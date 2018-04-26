@@ -59,7 +59,7 @@ namespace MidiScript
 			DevInfo.Name = "Script Plugin";
 			DevInfo.ProgramCount = 1;
 			DevInfo.Type = DeviceType.Generator;
-			DevInfo.Version = 1000;
+			DevInfo.Version = 1100;
 			DevInfo.VstId = DeviceUtilities.GenerateIntegerId(DevInfo.DeviceID);
 
 			//PortInfo[0].Direction = PortDirection.Input;

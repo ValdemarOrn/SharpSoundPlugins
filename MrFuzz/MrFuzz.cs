@@ -61,13 +61,11 @@ namespace MrFuzz
 			DevInfo.DeviceID = DevInfo.DeviceID + " - Dev";
 #endif
 			DevInfo.Developer = "Valdemar Erlingsson";
-			//DevInfo.EditorHeight = e.Height;
-			//DevInfo.EditorWidth = e.Width;
 			DevInfo.HasEditor = false;
 			DevInfo.Name = "Mr. Fuzz";
 			DevInfo.ProgramCount = 1;
 			DevInfo.Type = DeviceType.Effect;
-			DevInfo.Version = 1000;
+			DevInfo.Version = 1100;
 			DevInfo.VstId = DeviceUtilities.GenerateIntegerId(DevInfo.DeviceID);
 
 			PortInfo[0].Direction = PortDirection.Input;
@@ -90,7 +88,7 @@ namespace MrFuzz
 			}
 
 			HpInput = new Highpass1((float)Samplerate);
-			TFStage = new MrFuzz.TFStage((float)Samplerate);
+			TFStage = new TFStage((float)Samplerate);
 			DiodeStage = new LUT();
 			DiodeStage.ReadRecord(Table.DiodeResponse);
 			DiodeStage.Table = Utils.MovingAve(DiodeStage.Table, (int)(DiodeStage.Table.Length / 200.0));

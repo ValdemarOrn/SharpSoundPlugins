@@ -81,10 +81,10 @@ namespace Rodent.V2
 			DevInfo.EditorHeight = e.Height;
 			DevInfo.EditorWidth = e.Width;
 			DevInfo.HasEditor = true;
-			DevInfo.Name = "Rodent.V2 Beta 4";
+			DevInfo.Name = "Rodent V2";
 			DevInfo.ProgramCount = 1;
 			DevInfo.Type = DeviceType.Effect;
-			DevInfo.Version = 1004;
+			DevInfo.Version = 2200;
 			DevInfo.VstId = DeviceUtilities.GenerateIntegerId(DevInfo.DeviceID);
 
 			PortInfo[0].Direction = PortDirection.Input;
@@ -110,9 +110,6 @@ namespace Rodent.V2
 			Lowpass1 = new Lowpass1((float)Samplerate);
 			Gain = new TFGain((float)Samplerate);
 			HipassDC = new Highpass1((float)Samplerate);
-			/*Clipper = new LUT();
-			Clipper.ReadRecord(Tables.D1N914TF.Split('\n'));
-			Clipper.Table = Tables.Upsample(Clipper.Table, 100000);*/
 			Clipper = new SplineInterpolator(Splines.D1N914TF);
 
 			/*Clipper2 = new LUT();

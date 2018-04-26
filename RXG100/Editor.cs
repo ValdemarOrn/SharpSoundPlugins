@@ -209,7 +209,6 @@ namespace RXG100Sim
 
 				if (ctrl.Value as Knob != null)
 				{
-					((Knob)ctrl.Value).Brush = Brushes.White;
 					((Knob)ctrl.Value).ValueChanged += ParameterChanged;
 				}
 				else if (ctrl.Value as Switch != null)

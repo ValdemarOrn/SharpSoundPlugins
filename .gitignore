@@ -27,8 +27,8 @@ _ReSharper*/
 [Tt]est[Rr]esult*
 !Binaries/debug
 !Binaries/release
-!*/Binaries
-!*/Builds
+Binaries/*
+Builds/*
 *.sdf
 *.vsp
 *.psess

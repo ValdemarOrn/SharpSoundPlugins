@@ -78,25 +78,20 @@ namespace Rodent.V2
 		public Editor(Rodent instance)
 		{
 			this.Rodent = instance;
-
 			this.ClientSize = new Size(BaseBitmap.Width, BaseBitmap.Height + TopBarBitmap.Height);
 
 			Gain = new BitmapKnob(KnobsBitmap, Knob1Width, KnobHeight, Positions, 0, 0, 0, KnobHeight);
-			Gain.Brush = Brushes.White;
 			Gain.Top = TopH;
 			Gain.Left = Knob1X;
 
 			Filter = new BitmapKnob(KnobsBitmap, Knob2Width, KnobHeight, Positions, Knob1Width, 0, 0, KnobHeight);
-			Filter.Brush = Brushes.White;
 			Filter.Top = TopH;
 			Filter.Left = Knob2X;
 
 			Vol = new BitmapKnob(KnobsBitmap, Knob3Width, KnobHeight, Positions, Knob1Width + Knob2Width, 0, 0, KnobHeight);
-			Vol.Brush = Brushes.White;
 			Vol.Top = TopH;
 			Vol.Left = Knob3X;
-
-
+			
 
 			Ruetz = new BitmapSwitch(SwitchBitmap, Switch1Width, SwitchHeight, false, true, Switch1X, SwitchY);
 			Ruetz.Brush = Brushes.White;
