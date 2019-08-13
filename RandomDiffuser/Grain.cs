@@ -10,6 +10,8 @@ namespace RandomDiffuser
 	{
 		private static Random rand = new Random();
 		private static readonly Func<double, double, double> random = (min, max) => rand.NextDouble() * (max - min) + min;
+		private double[] FeedbackBuffer;
+		private int fbBufferIdx;
 
 		public double DelaySamples;
 		public double IncrementOffset;
@@ -19,9 +21,10 @@ namespace RandomDiffuser
 		public double PhaseSamples = 0.0;
 		public double InputLeft;
 		public double InputRight;
-
+		public double Feedback;
 		public Grain()
 		{
+			FeedbackBuffer = new double[32000];
 			Init();
 		}
 		
@@ -39,6 +42,10 @@ namespace RandomDiffuser
 
 			var sample = GetSample(input, readIdx);
 			var out_sample = Window(sample) * Mix;
+
+			FeedbackBuffer[fbBufferIdx] = out_sample * Feedback;
+			fbBufferIdx = (fbBufferIdx + 1) % FeedbackBuffer.Length;
+
 			output[0][writeIndex] += out_sample * Pan;
 			output[1][writeIndex] += out_sample * (1 - Pan);
 
@@ -61,18 +68,28 @@ namespace RandomDiffuser
 
 			var left = input[0][ia] * (1 - frac) + input[0][ib] * frac;
 			var right = input[1][ia] * (1 - frac) + input[1][ib] * frac;
+			
+			// feedback buffer read
+			bufLen = FeedbackBuffer.Length;
+			idx = ((fbBufferIdx - DelaySamples*4) + 1000 * bufLen) % bufLen;
+			ia = (int)idx;
+			ib = (ia + 1) % bufLen;
+			var fb = FeedbackBuffer[ia] * (1 - frac) + FeedbackBuffer[ib] * frac;
+
 			return left + right;
 		}
 
 		public void Init()
 		{
-			DelaySamples = random(500, 2000);
-			IncrementOffset = random(-0.005, 0.005);
+			DelaySamples = random(500, 6000);
+			IncrementOffset = random(-0.001, 0.001);
 			LenSamples = random(10000, 30000);
 			PhaseSamples = random(0, 1) * LenSamples;
-			InputLeft = random(0, 1);
+			InputLeft = rand.Next(0, 2);
 			InputRight = 1 - InputLeft;
 			Pan = random(0, 1);
+			Pan = Pan * Pan;
+			Feedback = 0.95;
 		}
 
 		public void Reset()

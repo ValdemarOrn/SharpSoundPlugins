@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowProfile.Visuals", "..\..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomDiffuser", "RandomDiffuser\RandomDiffuser.csproj", "{78FAFB98-B96A-4A54-936E-F3CD35E1808E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresetSelector", "PresetSelector\PresetSelector.csproj", "{63AFFB04-DFE0-4745-AA9F-13D1103695A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{78FAFB98-B96A-4A54-936E-F3CD35E1808E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78FAFB98-B96A-4A54-936E-F3CD35E1808E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78FAFB98-B96A-4A54-936E-F3CD35E1808E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63AFFB04-DFE0-4745-AA9F-13D1103695A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63AFFB04-DFE0-4745-AA9F-13D1103695A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63AFFB04-DFE0-4745-AA9F-13D1103695A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63AFFB04-DFE0-4745-AA9F-13D1103695A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

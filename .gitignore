@@ -34,3 +34,4 @@ Builds/*
 *.psess
 .vs/*
 packages/*
+*.diagsession

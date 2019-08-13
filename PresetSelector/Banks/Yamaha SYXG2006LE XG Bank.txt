@@ -1,0 +1,443 @@
+Category Cat=Inst # Instruments
+Category Cat=SFX # SFX
+Category Cat=SFX_Kit # SFX Kit
+Category Cat=Drum_Kit # Drum Kit
+
+Program Cat=SFX Msb=64 Prg=0 Lsb=0 # Cutting Noise
+Program Cat=SFX Msb=64 Prg=1 Lsb=0 # Cutting Noise 2
+Program Cat=SFX Msb=64 Prg=2 Lsb=0 # Distorted Cutting Noise **
+Program Cat=SFX Msb=64 Prg=3 Lsb=0 # String Slap
+Program Cat=SFX Msb=64 Prg=4 Lsb=0 # Bass Slide **
+Program Cat=SFX Msb=64 Prg=5 Lsb=0 # Pick Scrape **
+Program Cat=SFX Msb=64 Prg=16 Lsb=0 # Flute Key Click
+Program Cat=SFX Msb=64 Prg=32 Lsb=0 # Shower
+Program Cat=SFX Msb=64 Prg=33 Lsb=0 # Thunder
+Program Cat=SFX Msb=64 Prg=34 Lsb=0 # Wind
+Program Cat=SFX Msb=64 Prg=35 Lsb=0 # Stream
+Program Cat=SFX Msb=64 Prg=36 Lsb=0 # Bubble
+Program Cat=SFX Msb=64 Prg=37 Lsb=0 # Feed
+Program Cat=SFX Msb=64 Prg=48 Lsb=0 # Dog
+Program Cat=SFX Msb=64 Prg=49 Lsb=0 # Horse
+Program Cat=SFX Msb=64 Prg=50 Lsb=0 # Bird Tweet 2
+Program Cat=SFX Msb=64 Prg=54 Lsb=0 # Ghost
+Program Cat=SFX Msb=64 Prg=55 Lsb=0 # Maou
+Program Cat=SFX Msb=64 Prg=64 Lsb=0 # Phone Call
+Program Cat=SFX Msb=64 Prg=65 Lsb=0 # Door Squeak
+Program Cat=SFX Msb=64 Prg=66 Lsb=0 # Door Slam
+Program Cat=SFX Msb=64 Prg=67 Lsb=0 # Scratch Cut
+Program Cat=SFX Msb=64 Prg=68 Lsb=0 # Scratch Split
+Program Cat=SFX Msb=64 Prg=69 Lsb=0 # Wind Chime
+Program Cat=SFX Msb=64 Prg=70 Lsb=0 # Telephone Ring 2
+Program Cat=SFX Msb=64 Prg=80 Lsb=0 # Car Engine Ignition
+Program Cat=SFX Msb=64 Prg=81 Lsb=0 # Car Tires Squeal
+Program Cat=SFX Msb=64 Prg=82 Lsb=0 # Car Passing
+Program Cat=SFX Msb=64 Prg=83 Lsb=0 # Car Crash
+Program Cat=SFX Msb=64 Prg=84 Lsb=0 # Siren
+Program Cat=SFX Msb=64 Prg=85 Lsb=0 # Train
+Program Cat=SFX Msb=64 Prg=86 Lsb=0 # Jet Plane
+Program Cat=SFX Msb=64 Prg=87 Lsb=0 # Starship
+Program Cat=SFX Msb=64 Prg=88 Lsb=0 # Burst
+Program Cat=SFX Msb=64 Prg=89 Lsb=0 # Roller Coaster
+Program Cat=SFX Msb=64 Prg=90 Lsb=0 # Submarine
+Program Cat=SFX Msb=64 Prg=96 Lsb=0 # Laugh
+Program Cat=SFX Msb=64 Prg=97 Lsb=0 # Scream
+Program Cat=SFX Msb=64 Prg=98 Lsb=0 # Punch
+Program Cat=SFX Msb=64 Prg=99 Lsb=0 # Heartbeat
+Program Cat=SFX Msb=64 Prg=100 Lsb=0 # Footsteps
+Program Cat=SFX Msb=64 Prg=112 Lsb=0 # Machine Gun
+Program Cat=SFX Msb=64 Prg=113 Lsb=0 # Laser Gun
+Program Cat=SFX Msb=64 Prg=114 Lsb=0 # Explosion
+Program Cat=SFX Msb=64 Prg=115 Lsb=0 # Firework
+
+Program Cat=SFX_Kit Msb=126 Prg=0 Lsb=0 # SFX Kit 1
+Program Cat=SFX_Kit Msb=126 Prg=1 Lsb=0 # SFX Kit 2
+
+Program Cat=Drum_Kit Msb=127 Prg=0 Lsb=0 # Standard Kit
+Program Cat=Drum_Kit Msb=127 Prg=1 Lsb=0 # Standard Kit 2
+Program Cat=Drum_Kit Msb=127 Prg=8 Lsb=0 # Room Kit
+Program Cat=Drum_Kit Msb=127 Prg=16 Lsb=0 # Rock Kit
+Program Cat=Drum_Kit Msb=127 Prg=24 Lsb=0 # Electro Kit
+Program Cat=Drum_Kit Msb=127 Prg=25 Lsb=0 # Analog Kit
+Program Cat=Drum_Kit Msb=127 Prg=32 Lsb=0 # Jazz Kit
+Program Cat=Drum_Kit Msb=127 Prg=40 Lsb=0 # Brush Kit
+Program Cat=Drum_Kit Msb=127 Prg=48 Lsb=0 # Symphony Kit
+Program Cat=Drum_Kit Msb=127 Prg=112 Lsb=0 # Dance Kit
+
+Program Cat=Inst Msb=0 Prg=0 Lsb=0 # Piano - Grand Piano
+Program Cat=Inst Msb=0 Prg=0 Lsb=1 # Piano - Grand Piano KSP
+Program Cat=Inst Msb=0 Prg=0 Lsb=18 # Piano - Mellow Grand Piano
+Program Cat=Inst Msb=0 Prg=0 Lsb=40 # Piano - Piano Strings
+Program Cat=Inst Msb=0 Prg=0 Lsb=41 # Piano - Dream
+Program Cat=Inst Msb=0 Prg=0 Lsb=112 # Piano - Live! Grand Piano
+Program Cat=Inst Msb=0 Prg=1 Lsb=0 # Piano - Bright Piano
+Program Cat=Inst Msb=0 Prg=1 Lsb=1 # Piano - Bright Piano KSP
+Program Cat=Inst Msb=0 Prg=2 Lsb=0 # Piano - Electric Grand Piano
+Program Cat=Inst Msb=0 Prg=2 Lsb=1 # Piano - Electric Grand Piano KSP
+Program Cat=Inst Msb=0 Prg=2 Lsb=32 # Piano - Detuned CP80
+Program Cat=Inst Msb=0 Prg=2 Lsb=112 # Piano - MIDI Grand Piano
+Program Cat=Inst Msb=0 Prg=3 Lsb=0 # Piano - Honky-tonk Piano
+Program Cat=Inst Msb=0 Prg=3 Lsb=1 # Piano - Honky-tonk Piano KSP
+Program Cat=Inst Msb=0 Prg=4 Lsb=0 # Piano - Electric Piano 1
+Program Cat=Inst Msb=0 Prg=4 Lsb=1 # Piano - Electric Piano 1 KSP
+Program Cat=Inst Msb=0 Prg=4 Lsb=18 # Piano - Mellow Electric Piano 1
+Program Cat=Inst Msb=0 Prg=4 Lsb=32 # Piano - Chorus Electric Piano 1
+Program Cat=Inst Msb=0 Prg=4 Lsb=114 # Piano - Cool! Galaxy Electric Piano
+Program Cat=Inst Msb=0 Prg=5 Lsb=0 # Piano - Electric Piano 2
+Program Cat=Inst Msb=0 Prg=5 Lsb=1 # Piano - Electric Piano 2 KSP
+Program Cat=Inst Msb=0 Prg=5 Lsb=32 # Piano - Chorus Electric Piano 2
+Program Cat=Inst Msb=0 Prg=5 Lsb=41 # Piano - DX + Analog Electric Piano
+Program Cat=Inst Msb=0 Prg=5 Lsb=112 # Piano - DX Modern Electric Piano
+Program Cat=Inst Msb=0 Prg=5 Lsb=113 # Piano - Hyper Tines
+Program Cat=Inst Msb=0 Prg=6 Lsb=0 # Piano - Harpsichord
+Program Cat=Inst Msb=0 Prg=6 Lsb=1 # Piano - Harpsichord KSP
+Program Cat=Inst Msb=0 Prg=6 Lsb=25 # Piano - Harpsichord 2
+Program Cat=Inst Msb=0 Prg=6 Lsb=35 # Piano - Harpsichord 3
+Program Cat=Inst Msb=0 Prg=7 Lsb=0 # Piano - Clavi
+Program Cat=Inst Msb=0 Prg=7 Lsb=1 # Piano - Clavi KSP
+
+Program Cat=Inst Msb=0 Prg=8 Lsb=0 # Percussion - Celesta
+Program Cat=Inst Msb=0 Prg=9 Lsb=0 # Percussion - Glockenspiel
+Program Cat=Inst Msb=0 Prg=10 Lsb=0 # Percussion - Music Box
+Program Cat=Inst Msb=0 Prg=10 Lsb=64 # Percussion - Orgel
+Program Cat=Inst Msb=0 Prg=11 Lsb=0 # Percussion - Vibraphone
+Program Cat=Inst Msb=0 Prg=11 Lsb=1 # Percussion - Vibraphone KSP
+Program Cat=Inst Msb=0 Prg=11 Lsb=45 # Percussion - Hard Vibraphone
+Program Cat=Inst Msb=0 Prg=12 Lsb=0 # Percussion - Marimba
+Program Cat=Inst Msb=0 Prg=12 Lsb=1 # Percussion - Marimba KSP
+Program Cat=Inst Msb=0 Prg=12 Lsb=64 # Percussion - Sine Marimba
+Program Cat=Inst Msb=0 Prg=12 Lsb=97 # Percussion - Balimba
+Program Cat=Inst Msb=0 Prg=12 Lsb=98 # Percussion - Log Drums
+Program Cat=Inst Msb=0 Prg=13 Lsb=0 # Percussion - Xylophone
+Program Cat=Inst Msb=0 Prg=14 Lsb=0 # Percussion - Tubular Bells
+Program Cat=Inst Msb=0 Prg=14 Lsb=96 # Percussion - Church Bells
+Program Cat=Inst Msb=0 Prg=14 Lsb=97 # Percussion - Carillon
+Program Cat=Inst Msb=0 Prg=15 Lsb=0 # Percussion - Dulcimer
+Program Cat=Inst Msb=0 Prg=15 Lsb=35 # Percussion - Dulcimer 2
+Program Cat=Inst Msb=0 Prg=15 Lsb=96 # Percussion - Cimbalom
+Program Cat=Inst Msb=0 Prg=15 Lsb=97 # Percussion - Santur
+
+Program Cat=Inst Msb=0 Prg=16 Lsb=0 # Organ - Drawbar Organ
+Program Cat=Inst Msb=0 Prg=16 Lsb=32 # Organ - Detuned Drawbar Organ
+Program Cat=Inst Msb=0 Prg=16 Lsb=33 # Organ - 60's Drawbar Organ 1
+Program Cat=Inst Msb=0 Prg=16 Lsb=34 # Organ - 60's Drawbar Organ 2
+Program Cat=Inst Msb=0 Prg=16 Lsb=35 # Organ - 70's Drawbar Organ 1
+Program Cat=Inst Msb=0 Prg=16 Lsb=37 # Organ - 60's Drawbar Organ 3
+Program Cat=Inst Msb=0 Prg=16 Lsb=40 # Organ - "16+2""2/3"
+Program Cat=Inst Msb=0 Prg=16 Lsb=64 # Organ - Organ Bass
+Program Cat=Inst Msb=0 Prg=16 Lsb=65 # Organ - 70's Drawbar Organ 2
+Program Cat=Inst Msb=0 Prg=16 Lsb=66 # Organ - Cheezy Organ
+Program Cat=Inst Msb=0 Prg=16 Lsb=67 # Organ - Drawbar Organ 3
+Program Cat=Inst Msb=0 Prg=16 Lsb=112 # Organ - Jazz Organ 1
+Program Cat=Inst Msb=0 Prg=16 Lsb=116 # Organ - Bright Organ
+Program Cat=Inst Msb=0 Prg=17 Lsb=0 # Organ - Percussive Organ
+Program Cat=Inst Msb=0 Prg=17 Lsb=24 # Organ - 70's Percussive Organ 1
+Program Cat=Inst Msb=0 Prg=17 Lsb=32 # Organ - Detuned Percussive Org
+Program Cat=Inst Msb=0 Prg=17 Lsb=33 # Organ - Light Organ
+Program Cat=Inst Msb=0 Prg=17 Lsb=37 # Organ - Percussive Organ 2
+Program Cat=Inst Msb=0 Prg=18 Lsb=0 # Organ - Rock Organ
+Program Cat=Inst Msb=0 Prg=18 Lsb=64 # Organ - Rotary Organ
+Program Cat=Inst Msb=0 Prg=18 Lsb=65 # Organ - Slow Rotary
+Program Cat=Inst Msb=0 Prg=18 Lsb=66 # Organ - Fast Rotary
+Program Cat=Inst Msb=0 Prg=18 Lsb=112 # Organ - Rock Organ
+Program Cat=Inst Msb=0 Prg=18 Lsb=117 # Organ - Cool! Rotor Organ
+Program Cat=Inst Msb=0 Prg=18 Lsb=118 # Organ - Cool! Organ
+Program Cat=Inst Msb=0 Prg=18 Lsb=127 # Organ - Theater Organ
+Program Cat=Inst Msb=0 Prg=19 Lsb=0 # Organ - Church Organ
+Program Cat=Inst Msb=0 Prg=19 Lsb=32 # Organ - Church Organ 3
+Program Cat=Inst Msb=0 Prg=19 Lsb=35 # Organ - Church Organ 2
+Program Cat=Inst Msb=0 Prg=19 Lsb=40 # Organ - Notre Dame
+Program Cat=Inst Msb=0 Prg=19 Lsb=64 # Organ - Organ Flute
+Program Cat=Inst Msb=0 Prg=19 Lsb=65 # Organ - Tremolo Organ Flute
+Program Cat=Inst Msb=0 Prg=19 Lsb=113 # Organ - Chapel Organ
+Program Cat=Inst Msb=0 Prg=19 Lsb=120 # Organ - 16'+4' Organ
+Program Cat=Inst Msb=0 Prg=19 Lsb=121 # Organ - 16'+2' Organ
+Program Cat=Inst Msb=0 Prg=20 Lsb=0 # Organ - Reed Organ
+Program Cat=Inst Msb=0 Prg=20 Lsb=40 # Organ - Puff Organ
+Program Cat=Inst Msb=0 Prg=21 Lsb=0 # Organ - Accordion
+Program Cat=Inst Msb=0 Prg=21 Lsb=112 # Organ - Musette Accordion
+Program Cat=Inst Msb=0 Prg=21 Lsb=113 # Organ - Traditional Accordion
+Program Cat=Inst Msb=0 Prg=22 Lsb=0 # Organ - Hamonica
+Program Cat=Inst Msb=0 Prg=22 Lsb=32 # Organ - Harmonica 2
+Program Cat=Inst Msb=0 Prg=22 Lsb=112 # Organ - Sweet! Harmonica
+Program Cat=Inst Msb=0 Prg=23 Lsb=0 # Organ - Tango Accordion
+Program Cat=Inst Msb=0 Prg=23 Lsb=64 # Organ - Tango Accordion 2
+
+Program Cat=Inst Msb=0 Prg=24 Lsb=0 # Guitar - Nylon Guitar
+Program Cat=Inst Msb=0 Prg=24 Lsb=16 # Guitar - Nylon Guitar 2
+Program Cat=Inst Msb=0 Prg=24 Lsb=43 # Guitar - Velo Guitar Harmonics
+Program Cat=Inst Msb=0 Prg=24 Lsb=96 # Guitar - Ukulele
+Program Cat=Inst Msb=0 Prg=25 Lsb=0 # Guitar - Steel Guitar
+Program Cat=Inst Msb=0 Prg=25 Lsb=35 # Guitar - 12-string Guitar
+Program Cat=Inst Msb=0 Prg=25 Lsb=40 # Guitar - Nylon & Steel Guitar
+Program Cat=Inst Msb=0 Prg=25 Lsb=41 # Guitar - SteelGtr with BodySound
+Program Cat=Inst Msb=0 Prg=25 Lsb=96 # Guitar - Mandolin
+Program Cat=Inst Msb=0 Prg=26 Lsb=0 # Guitar - Jazz Guitar
+Program Cat=Inst Msb=0 Prg=26 Lsb=32 # Guitar - Jazz Amp
+Program Cat=Inst Msb=0 Prg=27 Lsb=0 # Guitar - Clean Guitar
+Program Cat=Inst Msb=0 Prg=27 Lsb=32 # Guitar - Chorus Guitar
+Program Cat=Inst Msb=0 Prg=27 Lsb=117 # Guitar - 60s Clean Guitar
+Program Cat=Inst Msb=0 Prg=28 Lsb=0 # Guitar - Muted Guitar
+Program Cat=Inst Msb=0 Prg=28 Lsb=40 # Guitar - Funk Guitar 1
+Program Cat=Inst Msb=0 Prg=28 Lsb=41 # Guitar - Muted Steel Guitar
+Program Cat=Inst Msb=0 Prg=28 Lsb=45 # Guitar - Jazz Man
+Program Cat=Inst Msb=0 Prg=29 Lsb=0 # Guitar - Overdriven Guitar
+Program Cat=Inst Msb=0 Prg=29 Lsb=43 # Guitar - Guitar Pinch
+Program Cat=Inst Msb=0 Prg=30 Lsb=0 # Guitar - Distortion Guitar
+Program Cat=Inst Msb=0 Prg=30 Lsb=40 # Guitar - Feedback Guitar
+Program Cat=Inst Msb=0 Prg=30 Lsb=41 # Guitar - Feedback Guitar 2
+Program Cat=Inst Msb=0 Prg=31 Lsb=0 # Guitar - Guitar Harmonics
+Program Cat=Inst Msb=0 Prg=31 Lsb=65 # Guitar - Guitar Feedback
+Program Cat=Inst Msb=0 Prg=31 Lsb=66 # Guitar - Guitar Harmonics 2
+
+Program Cat=Inst Msb=0 Prg=32 Lsb=0 # Bass - Acoustic Bass
+Program Cat=Inst Msb=0 Prg=32 Lsb=40 # Bass - Jazz Rhythm
+Program Cat=Inst Msb=0 Prg=32 Lsb=45 # Bass - Velo Crsfade UprightBass
+Program Cat=Inst Msb=0 Prg=33 Lsb=0 # Bass - Finger Bass
+Program Cat=Inst Msb=0 Prg=33 Lsb=18 # Bass - Finger Dark
+Program Cat=Inst Msb=0 Prg=33 Lsb=40 # Bass - Bass & Distorted E.Gtr
+Program Cat=Inst Msb=0 Prg=33 Lsb=43 # Bass - Finger Slap Bass
+Program Cat=Inst Msb=0 Prg=33 Lsb=45 # Bass - Finger Bass 2
+Program Cat=Inst Msb=0 Prg=33 Lsb=65 # Bass - Modulated Bass
+Program Cat=Inst Msb=0 Prg=34 Lsb=0 # Bass - Pick Bass
+Program Cat=Inst Msb=0 Prg=34 Lsb=28 # Bass - Muted Pick Bass
+Program Cat=Inst Msb=0 Prg=35 Lsb=0 # Bass - Fretless Bass
+Program Cat=Inst Msb=0 Prg=35 Lsb=32 # Bass - Fretless Bass 2
+Program Cat=Inst Msb=0 Prg=35 Lsb=33 # Bass - Fretless Bass 3
+Program Cat=Inst Msb=0 Prg=35 Lsb=34 # Bass - Fretless Bass 4
+Program Cat=Inst Msb=0 Prg=36 Lsb=0 # Bass - Slap Bass 1
+Program Cat=Inst Msb=0 Prg=36 Lsb=32 # Bass - Punch Thumb Bass
+Program Cat=Inst Msb=0 Prg=37 Lsb=0 # Bass - Slap Bass 2
+Program Cat=Inst Msb=0 Prg=37 Lsb=43 # Bass - Velocity Switch Slap
+Program Cat=Inst Msb=0 Prg=38 Lsb=0 # Bass - Synth Bass 1
+Program Cat=Inst Msb=0 Prg=38 Lsb=20 # Bass - Fast Resonant Bass
+Program Cat=Inst Msb=0 Prg=38 Lsb=40 # Bass - Techno Synth Bass
+Program Cat=Inst Msb=0 Prg=38 Lsb=112 # Bass - Synth Bass
+Program Cat=Inst Msb=0 Prg=39 Lsb=0 # Bass - Synth Bass 2
+Program Cat=Inst Msb=0 Prg=39 Lsb=6 # Bass - Mellow Synth Bass
+Program Cat=Inst Msb=0 Prg=39 Lsb=12 # Bass - Sequenced Bass
+Program Cat=Inst Msb=0 Prg=39 Lsb=18 # Bass - Click Synth Bass
+Program Cat=Inst Msb=0 Prg=39 Lsb=19 # Bass - Synth Bass 2 Dark
+Program Cat=Inst Msb=0 Prg=39 Lsb=40 # Bass - Modular Synth Bass
+Program Cat=Inst Msb=0 Prg=39 Lsb=41 # Bass - DX Bass
+Program Cat=Inst Msb=0 Prg=39 Lsb=113 # Bass - Dance Bass
+
+Program Cat=Inst Msb=0 Prg=40 Lsb=0 # Strings - Violin
+Program Cat=Inst Msb=0 Prg=40 Lsb=8 # Strings - Slow Violin
+Program Cat=Inst Msb=0 Prg=41 Lsb=0 # Strings - Viola
+Program Cat=Inst Msb=0 Prg=42 Lsb=0 # Strings - Cello
+Program Cat=Inst Msb=0 Prg=43 Lsb=0 # Strings - Contrabass
+Program Cat=Inst Msb=0 Prg=44 Lsb=0 # Strings - Tremolo Strings
+Program Cat=Inst Msb=0 Prg=44 Lsb=8 # Strings - Slow Tremolo Strings
+Program Cat=Inst Msb=0 Prg=44 Lsb=40 # Strings - Suspense Strings
+Program Cat=Inst Msb=0 Prg=45 Lsb=0 # Strings - Pizzicato Strings
+Program Cat=Inst Msb=0 Prg=46 Lsb=0 # Strings - Orchestral Harp
+Program Cat=Inst Msb=0 Prg=46 Lsb=40 # Strings - Yang Chin
+Program Cat=Inst Msb=0 Prg=47 Lsb=0 # Strings - Timpani
+
+Program Cat=Inst Msb=0 Prg=48 Lsb=0 # Ensemble - Strings 1
+Program Cat=Inst Msb=0 Prg=48 Lsb=3 # Ensemble - Stereo Strings
+Program Cat=Inst Msb=0 Prg=48 Lsb=35 # Ensemble - 60's Strings
+Program Cat=Inst Msb=0 Prg=48 Lsb=40 # Ensemble - Orchestra
+Program Cat=Inst Msb=0 Prg=48 Lsb=41 # Ensemble - Orchestra 2
+Program Cat=Inst Msb=0 Prg=48 Lsb=42 # Ensemble - Tremolo Orchestra
+Program Cat=Inst Msb=0 Prg=48 Lsb=45 # Ensemble - Velocity Strings
+Program Cat=Inst Msb=0 Prg=48 Lsb=112 # Ensemble - Strings
+Program Cat=Inst Msb=0 Prg=49 Lsb=0 # Ensemble - Strings 2
+Program Cat=Inst Msb=0 Prg=49 Lsb=3 # Ensemble - Stereo Slow Strings
+Program Cat=Inst Msb=0 Prg=49 Lsb=8 # Ensemble - Legato Strings
+Program Cat=Inst Msb=0 Prg=49 Lsb=40 # Ensemble - Warm Strings
+Program Cat=Inst Msb=0 Prg=49 Lsb=41 # Ensemble - Kingdom
+Program Cat=Inst Msb=0 Prg=49 Lsb=112 # Ensemble - Chamber Strings
+Program Cat=Inst Msb=0 Prg=50 Lsb=0 # Ensemble - Synth Strings 1
+Program Cat=Inst Msb=0 Prg=51 Lsb=0 # Ensemble - Synth Strings 2
+Program Cat=Inst Msb=0 Prg=52 Lsb=0 # Ensemble - Choir Aahs 
+Program Cat=Inst Msb=0 Prg=52 Lsb=3 # Ensemble - Stereo Choir
+Program Cat=Inst Msb=0 Prg=52 Lsb=32 # Ensemble - Mellow Choir
+Program Cat=Inst Msb=0 Prg=52 Lsb=40 # Ensemble - Choir Strings
+Program Cat=Inst Msb=0 Prg=52 Lsb=113 # Ensemble - Vocal Ensemble
+Program Cat=Inst Msb=0 Prg=53 Lsb=0 # Ensemble - Voice Oohs
+Program Cat=Inst Msb=0 Prg=54 Lsb=0 # Ensemble - Synth Voice
+Program Cat=Inst Msb=0 Prg=54 Lsb=40 # Ensemble - Synth Voice 2
+Program Cat=Inst Msb=0 Prg=54 Lsb=41 # Ensemble - Choral
+Program Cat=Inst Msb=0 Prg=54 Lsb=64 # Ensemble - Analog Voice
+Program Cat=Inst Msb=0 Prg=55 Lsb=0 # Ensemble - Orchestra Hit
+Program Cat=Inst Msb=0 Prg=55 Lsb=35 # Ensemble - Orchestra Hit 2
+Program Cat=Inst Msb=0 Prg=55 Lsb=64 # Ensemble - Impact
+
+Program Cat=Inst Msb=0 Prg=56 Lsb=0 # Brass - Trumpet 
+Program Cat=Inst Msb=0 Prg=56 Lsb=32 # Brass - Warm Trumpet
+Program Cat=Inst Msb=0 Prg=56 Lsb=115 # Brass - Sweet! Trumpet
+Program Cat=Inst Msb=0 Prg=57 Lsb=0 # Brass - Trombone
+Program Cat=Inst Msb=0 Prg=57 Lsb=18 # Brass - Trombone 2
+Program Cat=Inst Msb=0 Prg=57 Lsb=113 # Brass - Trombone Section
+Program Cat=Inst Msb=0 Prg=58 Lsb=0 # Brass - Tuba
+Program Cat=Inst Msb=0 Prg=59 Lsb=0 # Brass - Muted Trumpet
+Program Cat=Inst Msb=0 Prg=60 Lsb=0 # Brass - French Horn
+Program Cat=Inst Msb=0 Prg=60 Lsb=6 # Brass - French Horn Solo
+Program Cat=Inst Msb=0 Prg=60 Lsb=32 # Brass - French Horn 2
+Program Cat=Inst Msb=0 Prg=60 Lsb=37 # Brass - Horn Orchestra
+Program Cat=Inst Msb=0 Prg=61 Lsb=0 # Brass - Brass Section
+Program Cat=Inst Msb=0 Prg=61 Lsb=35 # Brass - Trumpet & Trombone
+Program Cat=Inst Msb=0 Prg=62 Lsb=0 # Brass - Synth Brass 1
+Program Cat=Inst Msb=0 Prg=62 Lsb=20 # Brass - Resonant Synth Brass
+Program Cat=Inst Msb=0 Prg=62 Lsb=32 # Brass - Jump Brass
+Program Cat=Inst Msb=0 Prg=62 Lsb=113 # Brass - 80s Brass
+Program Cat=Inst Msb=0 Prg=63 Lsb=0 # Brass - Synth Brass 2
+Program Cat=Inst Msb=0 Prg=63 Lsb=18 # Brass - Soft Brass
+Program Cat=Inst Msb=0 Prg=63 Lsb=41 # Brass - Choir Brass
+
+Program Cat=Inst Msb=0 Prg=64 Lsb=0 # Reed - Soprano Sax
+Program Cat=Inst Msb=0 Prg=64 Lsb=113 # Reed - Sweet! Soprano Sax
+Program Cat=Inst Msb=0 Prg=65 Lsb=0 # Reed - Alto Sax
+Program Cat=Inst Msb=0 Prg=65 Lsb=40 # Reed - Sax Section
+Program Cat=Inst Msb=0 Prg=66 Lsb=0 # Reed - Tenor Sax
+Program Cat=Inst Msb=0 Prg=66 Lsb=40 # Reed - Breathy Tenor Sax
+Program Cat=Inst Msb=0 Prg=66 Lsb=117 # Reed - Sweet! Tenor Sax
+Program Cat=Inst Msb=0 Prg=66 Lsb=114 # Reed - Breathy Tenor Sax 2
+Program Cat=Inst Msb=0 Prg=67 Lsb=0 # Reed - Baritone Sax
+Program Cat=Inst Msb=0 Prg=68 Lsb=0 # Reed - Oboe
+Program Cat=Inst Msb=0 Prg=69 Lsb=0 # Reed - English Horn
+Program Cat=Inst Msb=0 Prg=70 Lsb=0 # Reed - Bassoon
+Program Cat=Inst Msb=0 Prg=71 Lsb=0 # Reed - Clarinet
+
+Program Cat=Inst Msb=0 Prg=72 Lsb=0 # Pipe - Piccolo
+Program Cat=Inst Msb=0 Prg=73 Lsb=0 # Pipe - Flute
+Program Cat=Inst Msb=0 Prg=73 Lsb=114 # Pipe - Sweet! Flute
+Program Cat=Inst Msb=0 Prg=74 Lsb=0 # Pipe - Recorder
+Program Cat=Inst Msb=0 Prg=75 Lsb=0 # Pipe - Pan Flute
+Program Cat=Inst Msb=0 Prg=75 Lsb=113 # Pipe - Sweet! Pan Flute
+Program Cat=Inst Msb=0 Prg=76 Lsb=0 # Pipe - Blown Bottle
+Program Cat=Inst Msb=0 Prg=77 Lsb=0 # Pipe - Shakuhachi
+Program Cat=Inst Msb=0 Prg=78 Lsb=0 # Pipe - Whistle
+Program Cat=Inst Msb=0 Prg=79 Lsb=0 # Pipe - Ocarina
+
+Program Cat=Inst Msb=0 Prg=80 Lsb=0 # Synth Lead - Square Lead
+Program Cat=Inst Msb=0 Prg=80 Lsb=6 # Synth Lead - Square Lead 2
+Program Cat=Inst Msb=0 Prg=80 Lsb=8 # Synth Lead - LM Square
+Program Cat=Inst Msb=0 Prg=80 Lsb=18 # Synth Lead - Hollow
+Program Cat=Inst Msb=0 Prg=80 Lsb=19 # Synth Lead - Shroud
+Program Cat=Inst Msb=0 Prg=80 Lsb=64 # Synth Lead - Mellow
+Program Cat=Inst Msb=0 Prg=80 Lsb=65 # Synth Lead - Solo Sine
+Program Cat=Inst Msb=0 Prg=80 Lsb=66 # Synth Lead - Sine Lead
+Program Cat=Inst Msb=0 Prg=81 Lsb=0 # Synth Lead - Sawtooth Lead
+Program Cat=Inst Msb=0 Prg=81 Lsb=6 # Synth Lead - Sawtooth Lead 2
+Program Cat=Inst Msb=0 Prg=81 Lsb=8 # Synth Lead - Thick Sawtooth
+Program Cat=Inst Msb=0 Prg=81 Lsb=18 # Synth Lead - Dynamic Sawtooth
+Program Cat=Inst Msb=0 Prg=81 Lsb=19 # Synth Lead - Digital Sawtooth
+Program Cat=Inst Msb=0 Prg=81 Lsb=20 # Synth Lead - Big Lead
+Program Cat=Inst Msb=0 Prg=81 Lsb=96 # Synth Lead - Sequenced Analog
+Program Cat=Inst Msb=0 Prg=81 Lsb=115 # Synth Lead - Analogon
+Program Cat=Inst Msb=0 Prg=81 Lsb=119 # Synth Lead - Fargo
+Program Cat=Inst Msb=0 Prg=82 Lsb=0 # Synth Lead - Calliope Lead
+Program Cat=Inst Msb=0 Prg=82 Lsb=65 # Synth Lead - Pure Lead
+Program Cat=Inst Msb=0 Prg=83 Lsb=0 # Synth Lead - Chiff Lead
+Program Cat=Inst Msb=0 Prg=84 Lsb=0 # Synth Lead - Charang Lead
+Program Cat=Inst Msb=0 Prg=84 Lsb=64 # Synth Lead - Distorted Lead
+Program Cat=Inst Msb=0 Prg=85 Lsb=0 # Synth Lead - Voice Lead
+Program Cat=Inst Msb=0 Prg=86 Lsb=0 # Synth Lead - Fifths Lead
+Program Cat=Inst Msb=0 Prg=86 Lsb=35 # Synth Lead - Big Five
+Program Cat=Inst Msb=0 Prg=87 Lsb=0 # Synth Lead - Bass & Lead
+Program Cat=Inst Msb=0 Prg=87 Lsb=16 # Synth Lead - Big & Low
+Program Cat=Inst Msb=0 Prg=87 Lsb=64 # Synth Lead - Fat & Perky
+Program Cat=Inst Msb=0 Prg=87 Lsb=65 # Synth Lead - Soft Whirl
+
+Program Cat=Inst Msb=0 Prg=88 Lsb=0 # Synth Pad - New Age Pad
+Program Cat=Inst Msb=0 Prg=88 Lsb=64 # Synth Pad - Fantasy
+Program Cat=Inst Msb=0 Prg=88 Lsb=112 # Synth Pad - Fantasia
+Program Cat=Inst Msb=0 Prg=89 Lsb=0 # Synth Pad - Warm Pad
+Program Cat=Inst Msb=0 Prg=90 Lsb=0 # Synth Pad - Poly Synth Pad Pad
+Program Cat=Inst Msb=0 Prg=91 Lsb=0 # Synth Pad - Choir Pad
+Program Cat=Inst Msb=0 Prg=91 Lsb=64 # Synth Pad - Heaven
+Program Cat=Inst Msb=0 Prg=91 Lsb=66 # Synth Pad - Itopia
+Program Cat=Inst Msb=0 Prg=92 Lsb=0 # Synth Pad - Bowed Pad
+Program Cat=Inst Msb=0 Prg=93 Lsb=0 # Synth Pad - Metallic Pad
+Program Cat=Inst Msb=0 Prg=93 Lsb=65 # Synth Pad - Pan Pad
+Program Cat=Inst Msb=0 Prg=94 Lsb=0 # Synth Pad - Halo Pad
+Program Cat=Inst Msb=0 Prg=95 Lsb=0 # Synth Pad - Sweep Pad
+
+Program Cat=Inst Msb=0 Prg=96 Lsb=0 # Synth Effects - Rain
+Program Cat=Inst Msb=0 Prg=96 Lsb=65 # Synth Effects - African Wind
+Program Cat=Inst Msb=0 Prg=96 Lsb=66 # Synth Effects - Carib
+Program Cat=Inst Msb=0 Prg=97 Lsb=0 # Synth Effects - Sound Track
+Program Cat=Inst Msb=0 Prg=97 Lsb=27 # Synth Effects - Prologue
+Program Cat=Inst Msb=0 Prg=98 Lsb=0 # Synth Effects - Crystal
+Program Cat=Inst Msb=0 Prg=98 Lsb=12 # Synth Effects - Synth Drum Comp
+Program Cat=Inst Msb=0 Prg=98 Lsb=14 # Synth Effects - Popcorn
+Program Cat=Inst Msb=0 Prg=98 Lsb=18 # Synth Effects - Tiny Bells
+Program Cat=Inst Msb=0 Prg=98 Lsb=35 # Synth Effects - Round Glockenspiel
+Program Cat=Inst Msb=0 Prg=98 Lsb=40 # Synth Effects - Glockenspiel Chimes
+Program Cat=Inst Msb=0 Prg=98 Lsb=41 # Synth Effects - Clear Bells
+Program Cat=Inst Msb=0 Prg=98 Lsb=42 # Synth Effects - Chorus Bells
+Program Cat=Inst Msb=0 Prg=98 Lsb=65 # Synth Effects - Soft Crystal
+Program Cat=Inst Msb=0 Prg=98 Lsb=70 # Synth Effects - Air Bells
+Program Cat=Inst Msb=0 Prg=98 Lsb=71 # Synth Effects - Bell Harp
+Program Cat=Inst Msb=0 Prg=98 Lsb=72 # Synth Effects - Gamelimba
+Program Cat=Inst Msb=0 Prg=99 Lsb=0 # Synth Effects - Atmosphere
+Program Cat=Inst Msb=0 Prg=99 Lsb=18 # Synth Effects - Warm Atmosphere
+Program Cat=Inst Msb=0 Prg=99 Lsb=19 # Synth Effects - Hollow Release
+Program Cat=Inst Msb=0 Prg=99 Lsb=40 # Synth Effects - Nylon Electric Piano
+Program Cat=Inst Msb=0 Prg=99 Lsb=64 # Synth Effects - Nylon Harp
+Program Cat=Inst Msb=0 Prg=99 Lsb=65 # Synth Effects - Harp Vox
+Program Cat=Inst Msb=0 Prg=99 Lsb=66 # Synth Effects - Atmosphere Pad
+Program Cat=Inst Msb=0 Prg=100 Lsb=0 # Synth Effects - Brightness
+Program Cat=Inst Msb=0 Prg=100 Lsb=113 # Synth Effects - Bell Pad
+Program Cat=Inst Msb=0 Prg=101 Lsb=0 # Synth Effects - Goblins
+Program Cat=Inst Msb=0 Prg=101 Lsb=64 # Synth Effects - Goblins Synth
+Program Cat=Inst Msb=0 Prg=101 Lsb=65 # Synth Effects - Creeper
+Program Cat=Inst Msb=0 Prg=101 Lsb=67 # Synth Effects - Ritual
+Program Cat=Inst Msb=0 Prg=101 Lsb=68 # Synth Effects - To Heaven
+Program Cat=Inst Msb=0 Prg=101 Lsb=70 # Synth Effects - Night
+Program Cat=Inst Msb=0 Prg=101 Lsb=71 # Synth Effects - Glisten
+Program Cat=Inst Msb=0 Prg=101 Lsb=96 # Synth Effects - Bell Choir
+Program Cat=Inst Msb=0 Prg=102 Lsb=0 # Synth Effects - Echoes
+Program Cat=Inst Msb=0 Prg=103 Lsb=0 # Synth Effects - Sci-Fi
+
+Program Cat=Inst Msb=0 Prg=104 Lsb=0 # Ethnic - Sitar
+Program Cat=Inst Msb=0 Prg=104 Lsb=32 # Ethnic - Detuned Sitar
+Program Cat=Inst Msb=0 Prg=104 Lsb=35 # Ethnic - Sitar 2
+Program Cat=Inst Msb=0 Prg=104 Lsb=97 # Ethnic - Tamboura
+Program Cat=Inst Msb=0 Prg=105 Lsb=0 # Ethnic - Banjo
+Program Cat=Inst Msb=0 Prg=105 Lsb=28 # Ethnic - Muted Banjo
+Program Cat=Inst Msb=0 Prg=105 Lsb=96 # Ethnic - Rabab
+Program Cat=Inst Msb=0 Prg=105 Lsb=97 # Ethnic - Gopichant
+Program Cat=Inst Msb=0 Prg=105 Lsb=98 # Ethnic - Oud
+Program Cat=Inst Msb=0 Prg=106 Lsb=0 # Ethnic - Shamisen
+Program Cat=Inst Msb=0 Prg=107 Lsb=0 # Ethnic - Koto
+Program Cat=Inst Msb=0 Prg=107 Lsb=96 # Ethnic - Taisho-kin
+Program Cat=Inst Msb=0 Prg=107 Lsb=97 # Ethnic - Kanoon
+Program Cat=Inst Msb=0 Prg=108 Lsb=0 # Ethnic - Kalimba
+Program Cat=Inst Msb=0 Prg=109 Lsb=0 # Ethnic - Bagpipe
+Program Cat=Inst Msb=0 Prg=110 Lsb=0 # Ethnic - Fiddle
+Program Cat=Inst Msb=0 Prg=111 Lsb=0 # Ethnic - Shanai
+
+Program Cat=Inst Msb=0 Prg=112 Lsb=0 # Percussive - Tinkle Bell
+Program Cat=Inst Msb=0 Prg=112 Lsb=96 # Percussive - Bonang
+Program Cat=Inst Msb=0 Prg=112 Lsb=97 # Percussive - Altair
+Program Cat=Inst Msb=0 Prg=112 Lsb=98 # Percussive - Gamelan Gongs
+Program Cat=Inst Msb=0 Prg=112 Lsb=99 # Percussive - Stereo Gamelan Gongs
+Program Cat=Inst Msb=0 Prg=112 Lsb=100 # Percussive - Rama Cymbal
+Program Cat=Inst Msb=0 Prg=113 Lsb=0 # Percussive - Agogo
+Program Cat=Inst Msb=0 Prg=114 Lsb=0 # Percussive - Steel Drums
+Program Cat=Inst Msb=0 Prg=114 Lsb=97 # Percussive - Glass Percussion
+Program Cat=Inst Msb=0 Prg=114 Lsb=98 # Percussive - Thai Bells
+Program Cat=Inst Msb=0 Prg=115 Lsb=0 # Percussive - Woodblock
+Program Cat=Inst Msb=0 Prg=115 Lsb=96 # Percussive - Castanets
+Program Cat=Inst Msb=0 Prg=116 Lsb=0 # Percussive - Taiko Drum
+Program Cat=Inst Msb=0 Prg=116 Lsb=96 # Percussive - Gran Cassa
+Program Cat=Inst Msb=0 Prg=117 Lsb=0 # Percussive - Melodic Tom
+Program Cat=Inst Msb=0 Prg=117 Lsb=64 # Percussive - Melodic Tom 2
+Program Cat=Inst Msb=0 Prg=117 Lsb=65 # Percussive - Real Tom
+Program Cat=Inst Msb=0 Prg=117 Lsb=66 # Percussive - Rock Tom
+Program Cat=Inst Msb=0 Prg=118 Lsb=0 # Percussive - Synth Drum
+Program Cat=Inst Msb=0 Prg=118 Lsb=64 # Percussive - Analog Tom
+Program Cat=Inst Msb=0 Prg=118 Lsb=65 # Percussive - Electronic Percussion
+Program Cat=Inst Msb=0 Prg=119 Lsb=0 # Percussive - Reverse Cymbal
+
+Program Cat=Inst Msb=0 Prg=120 Lsb=0 # Sound Effects - Fret Noise
+Program Cat=Inst Msb=0 Prg=121 Lsb=0 # Sound Effects - Breath Noise
+Program Cat=Inst Msb=0 Prg=122 Lsb=0 # Sound Effects - Seashore
+Program Cat=Inst Msb=0 Prg=123 Lsb=0 # Sound Effects - Bird Tweet
+Program Cat=Inst Msb=0 Prg=124 Lsb=0 # Sound Effects - Telephone Ring
+Program Cat=Inst Msb=0 Prg=125 Lsb=0 # Sound Effects - Helicopter
+Program Cat=Inst Msb=0 Prg=126 Lsb=0 # Sound Effects - Applause
+Program Cat=Inst Msb=0 Prg=127 Lsb=0 # Sound Effects - Gunshot

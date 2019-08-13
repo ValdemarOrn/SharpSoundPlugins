@@ -1,0 +1,2947 @@
+Category Cat=US # USER Group
+Category Cat=PA # Preset A Group
+Category Cat=PB # Preset B Group
+Category Cat=PC # Preset C Group
+Category Cat=PD # Preset D Group
+Category Cat=PE # Preset E Group
+Category Cat=PF # Preset F Group
+Category Cat=PG # Preset G Group
+Category Cat=PH # Preset H Group
+Category Cat=GM # General Midi - GM2
+Category Cat=Rhythm # Rhythm Sets
+Category Cat=Rhythm_GM # Rhythm Sets - GM2
+
+Category Cat=ACD # Category - Accordion
+Category Cat=AGT # Category - Ac. Guitar
+Category Cat=BEL # Category - Bell
+Category Cat=BPD # Category - Bright Pad
+Category Cat=BRS # Category - Ac. Brass
+Category Cat=BS # Category - Bass
+Category Cat=BTS # Category - Beat & Groove
+Category Cat=CMB # Category - Combination
+Category Cat=DGT # Category - Dist. Guitar
+Category Cat=DRM # Category - Drums
+Category Cat=EGT # Category - El. Guitar
+Category Cat=EP # Category - El. Piano
+Category Cat=ETH # Category - Ethnic
+Category Cat=FLT # Category - Flute
+Category Cat=FRT # Category - Fretted
+Category Cat=FX # Category - Synth FX
+Category Cat=HIT # Category - Hit & Stab
+Category Cat=HLD # Category - Hard Lead
+Category Cat=HRM # Category - Harmonica
+Category Cat=KEY # Category - Keyboards
+Category Cat=MLT # Category - Mallet
+Category Cat=ORC # Category - Orchestra
+Category Cat=ORG # Category - Organ
+Category Cat=PLK # Category - Plucked
+Category Cat=PLS # Category - Pulsating
+Category Cat=PNO # Category - Ac. Piano
+Category Cat=PRC # Category - Percussion
+Category Cat=SAX # Category - Sax
+Category Cat=SBR # Category - Synth Brass
+Category Cat=SBS # Category - Synth Bass
+Category Cat=SFX # Category - Sound FX
+Category Cat=SLD # Category - Soft Lead
+Category Cat=SPD # Category - Soft Pad
+Category Cat=STR # Category - Strings
+Category Cat=SYN # Category - Other Synth
+Category Cat=TEK # Category - Techno Synth
+Category Cat=VOX # Category - Vox
+Category Cat=WND # Category - Wind
+
+Program Cat=US Msb=87 Lsb=0 Prg=0 # 001 Rhodes Trem
+Program Cat=US Msb=87 Lsb=0 Prg=1 # 002 Hydrogen
+Program Cat=US Msb=87 Lsb=0 Prg=2 # 003 Groovedigger
+Program Cat=US Msb=87 Lsb=0 Prg=3 # 004 Miasma
+Program Cat=US Msb=87 Lsb=0 Prg=4 # 005 Thick Steel
+Program Cat=US Msb=87 Lsb=0 Prg=5 # 006 Hold A Chord
+Program Cat=US Msb=87 Lsb=0 Prg=6 # 007 Aftertouchin
+Program Cat=US Msb=87 Lsb=0 Prg=7 # 008 Talking Box
+Program Cat=US Msb=87 Lsb=0 Prg=8 # 009 GenerationXV
+Program Cat=US Msb=87 Lsb=0 Prg=9 # 010 Ionizer
+Program Cat=US Msb=87 Lsb=0 Prg=10 # 011 Piano+AirPad
+Program Cat=US Msb=87 Lsb=0 Prg=11 # 012 Wurly Gum
+Program Cat=US Msb=87 Lsb=0 Prg=12 # 013 Voxfuzz Klav
+Program Cat=US Msb=87 Lsb=0 Prg=13 # 014 Soaring Hrns
+Program Cat=US Msb=87 Lsb=0 Prg=14 # 015 Ambi Voices
+Program Cat=US Msb=87 Lsb=0 Prg=15 # 016 Solo SoprSax
+Program Cat=US Msb=87 Lsb=0 Prg=16 # 017 Lunar Strngs
+Program Cat=US Msb=87 Lsb=0 Prg=17 # 018 BrushingSaw1
+Program Cat=US Msb=87 Lsb=0 Prg=18 # 019 R&Ballad Mix
+Program Cat=US Msb=87 Lsb=0 Prg=19 # 020 Xtremities
+Program Cat=US Msb=87 Lsb=0 Prg=20 # 021 Fat Strings
+Program Cat=US Msb=87 Lsb=0 Prg=21 # 022 Throbulax
+Program Cat=US Msb=87 Lsb=0 Prg=22 # 023 GlobalWarmup
+Program Cat=US Msb=87 Lsb=0 Prg=23 # 024 Vortex
+Program Cat=US Msb=87 Lsb=0 Prg=24 # 025 Sub Zero
+Program Cat=US Msb=87 Lsb=0 Prg=25 # 026 Rhythm Sync
+Program Cat=US Msb=87 Lsb=0 Prg=26 # 027 OvertoneScan
+Program Cat=US Msb=87 Lsb=0 Prg=27 # 028 20.000 miles
+Program Cat=US Msb=87 Lsb=0 Prg=28 # 029 Chordbender
+Program Cat=US Msb=87 Lsb=0 Prg=29 # 030 Atlantis
+Program Cat=US Msb=87 Lsb=0 Prg=30 # 031 Buster Bass
+Program Cat=US Msb=87 Lsb=0 Prg=31 # 032 Two+Ensemble
+Program Cat=US Msb=87 Lsb=0 Prg=32 # 033 Enchanted XV
+Program Cat=US Msb=87 Lsb=0 Prg=33 # 034 Double Helix
+Program Cat=US Msb=87 Lsb=0 Prg=34 # 035 Blue Mutes
+Program Cat=US Msb=87 Lsb=0 Prg=35 # 036 Wedding Mass
+Program Cat=US Msb=87 Lsb=0 Prg=36 # 037 Grounded Bs
+Program Cat=US Msb=87 Lsb=0 Prg=37 # 038 Vocovox Wave
+Program Cat=US Msb=87 Lsb=0 Prg=38 # 039 Lead 4x Vlns
+Program Cat=US Msb=87 Lsb=0 Prg=39 # 040 PhazeWahClav
+Program Cat=US Msb=87 Lsb=0 Prg=40 # 041 Digibell Pad
+Program Cat=US Msb=87 Lsb=0 Prg=41 # 042 Rocker Org
+Program Cat=US Msb=87 Lsb=0 Prg=42 # 043 Pianomonics
+Program Cat=US Msb=87 Lsb=0 Prg=43 # 044 Plug n' Play
+Program Cat=US Msb=87 Lsb=0 Prg=44 # 045 Crying Solo
+Program Cat=US Msb=87 Lsb=0 Prg=45 # 046 Grand XV
+Program Cat=US Msb=87 Lsb=0 Prg=46 # 047 LookMaNoFret
+Program Cat=US Msb=87 Lsb=0 Prg=47 # 048 TB Squelch
+Program Cat=US Msb=87 Lsb=0 Prg=48 # 049 Henry VIII
+Program Cat=US Msb=87 Lsb=0 Prg=49 # 050 Reel Slam
+Program Cat=US Msb=87 Lsb=0 Prg=50 # 051 SwellEnsembl
+Program Cat=US Msb=87 Lsb=0 Prg=51 # 052 Amped Wurlie
+Program Cat=US Msb=87 Lsb=0 Prg=52 # 053 NewR&RBrass
+Program Cat=US Msb=87 Lsb=0 Prg=53 # 054 Triumph Brs
+Program Cat=US Msb=87 Lsb=0 Prg=54 # 055 McThrob
+Program Cat=US Msb=87 Lsb=0 Prg=55 # 056 Soaring Sqr
+Program Cat=US Msb=87 Lsb=0 Prg=56 # 057 Over the top
+Program Cat=US Msb=87 Lsb=0 Prg=57 # 058 Power Stack
+Program Cat=US Msb=87 Lsb=0 Prg=58 # 059 Contemplate
+Program Cat=US Msb=87 Lsb=0 Prg=59 # 060 Rholitzer
+Program Cat=US Msb=87 Lsb=0 Prg=60 # 061 Chime Bells
+Program Cat=US Msb=87 Lsb=0 Prg=61 # 062 IslandSpirit
+Program Cat=US Msb=87 Lsb=0 Prg=62 # 063 Distorted B
+Program Cat=US Msb=87 Lsb=0 Prg=63 # 064 Double Steel
+Program Cat=US Msb=87 Lsb=0 Prg=64 # 065 COSM Searing
+Program Cat=US Msb=87 Lsb=0 Prg=65 # 066 XV Upright
+Program Cat=US Msb=87 Lsb=0 Prg=66 # 067 Muscle Bass
+Program Cat=US Msb=87 Lsb=0 Prg=67 # 068 Brassy Symph
+Program Cat=US Msb=87 Lsb=0 Prg=68 # 069 BiggieBrass2
+Program Cat=US Msb=87 Lsb=0 Prg=69 # 070 Peking Opera
+Program Cat=US Msb=87 Lsb=0 Prg=70 # 071 5th Element
+Program Cat=US Msb=87 Lsb=0 Prg=71 # 072 MetaXV
+Program Cat=US Msb=87 Lsb=0 Prg=72 # 073 Traffic Pad
+Program Cat=US Msb=87 Lsb=0 Prg=73 # 074 5ths in 4ths
+Program Cat=US Msb=87 Lsb=0 Prg=74 # 075 Trance Fair
+Program Cat=US Msb=87 Lsb=0 Prg=75 # 076 Spectre
+Program Cat=US Msb=87 Lsb=0 Prg=76 # 077 Borealis
+Program Cat=US Msb=87 Lsb=0 Prg=77 # 078 Cutting X
+Program Cat=US Msb=87 Lsb=0 Prg=78 # 079 Blues Harp
+Program Cat=US Msb=87 Lsb=0 Prg=79 # 080 Brash Bass
+Program Cat=US Msb=87 Lsb=0 Prg=80 # 081 Saw Grits
+Program Cat=US Msb=87 Lsb=0 Prg=81 # 082 LegatoJupitr
+Program Cat=US Msb=87 Lsb=0 Prg=82 # 083 Tape Orch
+Program Cat=US Msb=87 Lsb=0 Prg=83 # 084 FatSynBrass
+Program Cat=US Msb=87 Lsb=0 Prg=84 # 085 UltraSmooth
+Program Cat=US Msb=87 Lsb=0 Prg=85 # 086 Spread Pad
+Program Cat=US Msb=87 Lsb=0 Prg=86 # 087 West End Bs
+Program Cat=US Msb=87 Lsb=0 Prg=87 # 088 Phunky DC
+Program Cat=US Msb=87 Lsb=0 Prg=88 # 089 Valve Job
+Program Cat=US Msb=87 Lsb=0 Prg=89 # 090 BatonStrings
+Program Cat=US Msb=87 Lsb=0 Prg=90 # 091 ClassicJPpad
+Program Cat=US Msb=87 Lsb=0 Prg=91 # 092 VeloClikOrgn
+Program Cat=US Msb=87 Lsb=0 Prg=92 # 093 Soft Nylon
+Program Cat=US Msb=87 Lsb=0 Prg=93 # 094 Swell Strat
+Program Cat=US Msb=87 Lsb=0 Prg=94 # 095 Tap Bass
+Program Cat=US Msb=87 Lsb=0 Prg=95 # 096 Ticker Bass
+Program Cat=US Msb=87 Lsb=0 Prg=96 # 097 VoyagerBrass
+Program Cat=US Msb=87 Lsb=0 Prg=97 # 098 Swingin'Bari
+Program Cat=US Msb=87 Lsb=0 Prg=98 # 099 Bend a Chord
+Program Cat=US Msb=87 Lsb=0 Prg=99 # 100 Flyin' High
+Program Cat=US Msb=87 Lsb=0 Prg=100 # 101 Try this!
+Program Cat=US Msb=87 Lsb=0 Prg=101 # 102 Tekno Pizz
+Program Cat=US Msb=87 Lsb=0 Prg=102 # 103 Complex Echo
+Program Cat=US Msb=87 Lsb=0 Prg=103 # 104 BadJuju
+Program Cat=US Msb=87 Lsb=0 Prg=104 # 105 Silk Road
+Program Cat=US Msb=87 Lsb=0 Prg=105 # 106 2.2 Strings
+Program Cat=US Msb=87 Lsb=0 Prg=106 # 107 Brite Vox 1
+Program Cat=US Msb=87 Lsb=0 Prg=107 # 108 MinorIncidnt
+Program Cat=US Msb=87 Lsb=0 Prg=108 # 109 SparklePiano
+Program Cat=US Msb=87 Lsb=0 Prg=109 # 110 Fat Rhodes
+Program Cat=US Msb=87 Lsb=0 Prg=110 # 111 Verby Organ
+Program Cat=US Msb=87 Lsb=0 Prg=111 # 112 Prelude
+Program Cat=US Msb=87 Lsb=0 Prg=112 # 113 BoutiqueSine
+Program Cat=US Msb=87 Lsb=0 Prg=113 # 114 Froggy Bass
+Program Cat=US Msb=87 Lsb=0 Prg=114 # 115 Digisquelch
+Program Cat=US Msb=87 Lsb=0 Prg=115 # 116 Galactic
+Program Cat=US Msb=87 Lsb=0 Prg=116 # 117 Generator
+Program Cat=US Msb=87 Lsb=0 Prg=117 # 118 Funky Tube
+Program Cat=US Msb=87 Lsb=0 Prg=118 # 119 Dream 2002
+Program Cat=US Msb=87 Lsb=0 Prg=119 # 120 11th Space
+Program Cat=US Msb=87 Lsb=0 Prg=120 # 121 Etheraaahl
+Program Cat=US Msb=87 Lsb=0 Prg=121 # 122 Tape Q
+Program Cat=US Msb=87 Lsb=0 Prg=122 # 123 EastrnEurope
+Program Cat=US Msb=87 Lsb=0 Prg=123 # 124 TempoMadness
+Program Cat=US Msb=87 Lsb=0 Prg=124 # 125 Phaser Dyno
+Program Cat=US Msb=87 Lsb=0 Prg=125 # 126 8VCO MonoSyn
+Program Cat=US Msb=87 Lsb=0 Prg=126 # 127 TechnoSurf 1
+Program Cat=US Msb=87 Lsb=0 Prg=127 # 128 Cold Roadz
+
+Program Cat=PA Msb=87 Lsb=64 Prg=0 # 001 64voicePiano
+Program Cat=PA Msb=87 Lsb=64 Prg=1 # 002 Bright Piano
+Program Cat=PA Msb=87 Lsb=64 Prg=2 # 003 Classique
+Program Cat=PA Msb=87 Lsb=64 Prg=3 # 004 Nice Piano
+Program Cat=PA Msb=87 Lsb=64 Prg=4 # 005 Piano Thang
+Program Cat=PA Msb=87 Lsb=64 Prg=5 # 006 Power Grand
+Program Cat=PA Msb=87 Lsb=64 Prg=6 # 007 House Piano
+Program Cat=PA Msb=87 Lsb=64 Prg=7 # 008 E.Grand
+Program Cat=PA Msb=87 Lsb=64 Prg=8 # 009 MIDIed Grand
+Program Cat=PA Msb=87 Lsb=64 Prg=9 # 010 Piano Blend
+Program Cat=PA Msb=87 Lsb=64 Prg=10 # 011 West Coast
+Program Cat=PA Msb=87 Lsb=64 Prg=11 # 012 PianoStrings
+Program Cat=PA Msb=87 Lsb=64 Prg=12 # 013 Bs/Pno+Brs
+Program Cat=PA Msb=87 Lsb=64 Prg=13 # 014 Waterhodes
+Program Cat=PA Msb=87 Lsb=64 Prg=14 # 015 S.A.E.P.
+Program Cat=PA Msb=87 Lsb=64 Prg=15 # 016 SA Rhodes 1
+Program Cat=PA Msb=87 Lsb=64 Prg=16 # 017 SA Rhodes 2
+Program Cat=PA Msb=87 Lsb=64 Prg=17 # 018 Stiky Rhodes
+Program Cat=PA Msb=87 Lsb=64 Prg=18 # 019 Dig Rhodes
+Program Cat=PA Msb=87 Lsb=64 Prg=19 # 020 Nylon EPiano
+Program Cat=PA Msb=87 Lsb=64 Prg=20 # 021 Nylon Rhodes
+Program Cat=PA Msb=87 Lsb=64 Prg=21 # 022 Rhodes Mix
+Program Cat=PA Msb=87 Lsb=64 Prg=22 # 023 PsychoRhodes
+Program Cat=PA Msb=87 Lsb=64 Prg=23 # 024 Tremo Rhodes
+Program Cat=PA Msb=87 Lsb=64 Prg=24 # 025 MK-80 Rhodes
+Program Cat=PA Msb=87 Lsb=64 Prg=25 # 026 MK-80 Phaser
+Program Cat=PA Msb=87 Lsb=64 Prg=26 # 027 Delicate EP
+Program Cat=PA Msb=87 Lsb=64 Prg=27 # 028 Octa Rhodes1
+Program Cat=PA Msb=87 Lsb=64 Prg=28 # 029 Octa Rhodes2
+Program Cat=PA Msb=87 Lsb=64 Prg=29 # 030 JV Rhodes+
+Program Cat=PA Msb=87 Lsb=64 Prg=30 # 031 EP+Mod Pad
+Program Cat=PA Msb=87 Lsb=64 Prg=31 # 032 Mr.Mellow
+Program Cat=PA Msb=87 Lsb=64 Prg=32 # 033 Comp Clav
+Program Cat=PA Msb=87 Lsb=64 Prg=33 # 034 Klavinet
+Program Cat=PA Msb=87 Lsb=64 Prg=34 # 035 Winger Clav
+Program Cat=PA Msb=87 Lsb=64 Prg=35 # 036 Phaze Clav 1
+Program Cat=PA Msb=87 Lsb=64 Prg=36 # 037 Phaze Clav 2
+Program Cat=PA Msb=87 Lsb=64 Prg=37 # 038 Phuzz Clav
+Program Cat=PA Msb=87 Lsb=64 Prg=38 # 039 Chorus Clav
+Program Cat=PA Msb=87 Lsb=64 Prg=39 # 040 Claviduck
+Program Cat=PA Msb=87 Lsb=64 Prg=40 # 041 Velo-Rez Clv
+Program Cat=PA Msb=87 Lsb=64 Prg=41 # 042 Clavicembalo
+Program Cat=PA Msb=87 Lsb=64 Prg=42 # 043 Analog Clav1
+Program Cat=PA Msb=87 Lsb=64 Prg=43 # 044 Analog Clav2
+Program Cat=PA Msb=87 Lsb=64 Prg=44 # 045 Metal Clav
+Program Cat=PA Msb=87 Lsb=64 Prg=45 # 046 Full Stops
+Program Cat=PA Msb=87 Lsb=64 Prg=46 # 047 Ballad B
+Program Cat=PA Msb=87 Lsb=64 Prg=47 # 048 Mellow Bars
+Program Cat=PA Msb=87 Lsb=64 Prg=48 # 049 AugerMentive
+Program Cat=PA Msb=87 Lsb=64 Prg=49 # 050 Perky B
+Program Cat=PA Msb=87 Lsb=64 Prg=50 # 051 The Big Spin
+Program Cat=PA Msb=87 Lsb=64 Prg=51 # 052 Gospel Spin
+Program Cat=PA Msb=87 Lsb=64 Prg=52 # 053 Roller Spin
+Program Cat=PA Msb=87 Lsb=64 Prg=53 # 054 Rocker Spin
+Program Cat=PA Msb=87 Lsb=64 Prg=54 # 055 Tone Wh.Solo
+Program Cat=PA Msb=87 Lsb=64 Prg=55 # 056 Purple Spin
+Program Cat=PA Msb=87 Lsb=64 Prg=56 # 057 60's LeadORG
+Program Cat=PA Msb=87 Lsb=64 Prg=57 # 058 Assalt Organ
+Program Cat=PA Msb=87 Lsb=64 Prg=58 # 059 D-50 Organ
+Program Cat=PA Msb=87 Lsb=64 Prg=59 # 060 Cathedral
+Program Cat=PA Msb=87 Lsb=64 Prg=60 # 061 Church Pipes
+Program Cat=PA Msb=87 Lsb=64 Prg=61 # 062 Poly Key
+Program Cat=PA Msb=87 Lsb=64 Prg=62 # 063 Poly Saws
+Program Cat=PA Msb=87 Lsb=64 Prg=63 # 064 Poly Pulse
+Program Cat=PA Msb=87 Lsb=64 Prg=64 # 065 Dual Profs
+Program Cat=PA Msb=87 Lsb=64 Prg=65 # 066 Saw Mass
+Program Cat=PA Msb=87 Lsb=64 Prg=66 # 067 Poly Split
+Program Cat=PA Msb=87 Lsb=64 Prg=67 # 068 Poly Brass
+Program Cat=PA Msb=87 Lsb=64 Prg=68 # 069 Stackoid
+Program Cat=PA Msb=87 Lsb=64 Prg=69 # 070 Poly Rock
+Program Cat=PA Msb=87 Lsb=64 Prg=70 # 071 D-50 Stack
+Program Cat=PA Msb=87 Lsb=64 Prg=71 # 072 Fantasia JV
+Program Cat=PA Msb=87 Lsb=64 Prg=72 # 073 Jimmee Dee
+Program Cat=PA Msb=87 Lsb=64 Prg=73 # 074 Heavenals
+Program Cat=PA Msb=87 Lsb=64 Prg=74 # 075 Mallet Pad
+Program Cat=PA Msb=87 Lsb=64 Prg=75 # 076 Huff N Stuff
+Program Cat=PA Msb=87 Lsb=64 Prg=76 # 077 Puff 1080
+Program Cat=PA Msb=87 Lsb=64 Prg=77 # 078 BellVox 1080
+Program Cat=PA Msb=87 Lsb=64 Prg=78 # 079 Fantasy Vox
+Program Cat=PA Msb=87 Lsb=64 Prg=79 # 080 Square Keys
+Program Cat=PA Msb=87 Lsb=64 Prg=80 # 081 Childlike
+Program Cat=PA Msb=87 Lsb=64 Prg=81 # 082 Music Box
+Program Cat=PA Msb=87 Lsb=64 Prg=82 # 083 Toy Box
+Program Cat=PA Msb=87 Lsb=64 Prg=83 # 084 Wave Bells
+Program Cat=PA Msb=87 Lsb=64 Prg=84 # 085 Tria Bells
+Program Cat=PA Msb=87 Lsb=64 Prg=85 # 086 Beauty Bells
+Program Cat=PA Msb=87 Lsb=64 Prg=86 # 087 Music Bells
+Program Cat=PA Msb=87 Lsb=64 Prg=87 # 088 Pretty Bells
+Program Cat=PA Msb=87 Lsb=64 Prg=88 # 089 Pulse Key
+Program Cat=PA Msb=87 Lsb=64 Prg=89 # 090 Wide Tubular
+Program Cat=PA Msb=87 Lsb=64 Prg=90 # 091 AmbienceVibe
+Program Cat=PA Msb=87 Lsb=64 Prg=91 # 092 Warm Vibes
+Program Cat=PA Msb=87 Lsb=64 Prg=92 # 093 Dyna Marimba
+Program Cat=PA Msb=87 Lsb=64 Prg=93 # 094 Bass Marimba
+Program Cat=PA Msb=87 Lsb=64 Prg=94 # 095 Nomad Perc
+Program Cat=PA Msb=87 Lsb=64 Prg=95 # 096 Ethno Metals
+Program Cat=PA Msb=87 Lsb=64 Prg=96 # 097 Islands Mlt
+Program Cat=PA Msb=87 Lsb=64 Prg=97 # 098 Steelin Keys
+Program Cat=PA Msb=87 Lsb=64 Prg=98 # 099 Steel Drums
+Program Cat=PA Msb=87 Lsb=64 Prg=99 # 100 Voicey Pizz
+Program Cat=PA Msb=87 Lsb=64 Prg=100 # 101 Sitar
+Program Cat=PA Msb=87 Lsb=64 Prg=101 # 102 Drone Split
+Program Cat=PA Msb=87 Lsb=64 Prg=102 # 103 Ethnopluck
+Program Cat=PA Msb=87 Lsb=64 Prg=103 # 104 Jamisen
+Program Cat=PA Msb=87 Lsb=64 Prg=104 # 105 Dulcimer
+Program Cat=PA Msb=87 Lsb=64 Prg=105 # 106 East Melody
+Program Cat=PA Msb=87 Lsb=64 Prg=106 # 107 MandolinTrem
+Program Cat=PA Msb=87 Lsb=64 Prg=107 # 108 Nylon Gtr
+Program Cat=PA Msb=87 Lsb=64 Prg=108 # 109 Gtr Strings
+Program Cat=PA Msb=87 Lsb=64 Prg=109 # 110 Steel Away
+Program Cat=PA Msb=87 Lsb=64 Prg=110 # 111 Heavenly Gtr
+Program Cat=PA Msb=87 Lsb=64 Prg=111 # 112 12str Gtr 1
+Program Cat=PA Msb=87 Lsb=64 Prg=112 # 113 12str Gtr 2
+Program Cat=PA Msb=87 Lsb=64 Prg=113 # 114 Jz Gtr Hall
+Program Cat=PA Msb=87 Lsb=64 Prg=114 # 115 LetterFrmPat
+Program Cat=PA Msb=87 Lsb=64 Prg=115 # 116 Jazz Scat
+Program Cat=PA Msb=87 Lsb=64 Prg=116 # 117 Lounge Gig
+Program Cat=PA Msb=87 Lsb=64 Prg=117 # 118 JC Strat
+Program Cat=PA Msb=87 Lsb=64 Prg=118 # 119 Twin Strats
+Program Cat=PA Msb=87 Lsb=64 Prg=119 # 120 JV Strat
+Program Cat=PA Msb=87 Lsb=64 Prg=120 # 121 Syn Strat
+Program Cat=PA Msb=87 Lsb=64 Prg=121 # 122 Rotary Gtr
+Program Cat=PA Msb=87 Lsb=64 Prg=122 # 123 Muted Gtr
+Program Cat=PA Msb=87 Lsb=64 Prg=123 # 124 SwitchOnMute
+Program Cat=PA Msb=87 Lsb=64 Prg=124 # 125 Power Trip
+Program Cat=PA Msb=87 Lsb=64 Prg=125 # 126 Crunch Split
+Program Cat=PA Msb=87 Lsb=64 Prg=126 # 127 Rezodrive
+Program Cat=PA Msb=87 Lsb=64 Prg=127 # 128 RockYurSocks
+
+Program Cat=PB Msb=87 Lsb=65 Prg=0 # 001 Dist Gtr 1
+Program Cat=PB Msb=87 Lsb=65 Prg=1 # 002 Dist Gtr 2
+Program Cat=PB Msb=87 Lsb=65 Prg=2 # 003 R&R Chunk
+Program Cat=PB Msb=87 Lsb=65 Prg=3 # 004 Phripphuzz
+Program Cat=PB Msb=87 Lsb=65 Prg=4 # 005 Grungeroni
+Program Cat=PB Msb=87 Lsb=65 Prg=5 # 006 Black Widow
+Program Cat=PB Msb=87 Lsb=65 Prg=6 # 007 Velo-Wah Gtr
+Program Cat=PB Msb=87 Lsb=65 Prg=7 # 008 Mod-Wah Gtr
+Program Cat=PB Msb=87 Lsb=65 Prg=8 # 009 Pick Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=9 # 010 Hip Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=10 # 011 Perc.Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=11 # 012 Homey Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=12 # 013 Finger Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=13 # 014 Nylon Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=14 # 015 Ac.Upright
+Program Cat=PB Msb=87 Lsb=65 Prg=15 # 016 Wet Fretls
+Program Cat=PB Msb=87 Lsb=65 Prg=16 # 017 Fretls Dry
+Program Cat=PB Msb=87 Lsb=65 Prg=17 # 018 Slap Bass 1
+Program Cat=PB Msb=87 Lsb=65 Prg=18 # 019 Slap Bass 2
+Program Cat=PB Msb=87 Lsb=65 Prg=19 # 020 Slap Bass 3
+Program Cat=PB Msb=87 Lsb=65 Prg=20 # 021 Slap Bass 4
+Program Cat=PB Msb=87 Lsb=65 Prg=21 # 022 4 Pole Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=22 # 023 Tick Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=23 # 024 House Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=24 # 025 Mondo Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=25 # 026 Clk AnalogBs
+Program Cat=PB Msb=87 Lsb=65 Prg=26 # 027 Bass In Face
+Program Cat=PB Msb=87 Lsb=65 Prg=27 # 028 101 Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=28 # 029 Noiz Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=29 # 030 Super Jup Bs
+Program Cat=PB Msb=87 Lsb=65 Prg=30 # 031 Occitan Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=31 # 032 Hugo Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=32 # 033 Multi Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=33 # 034 Moist Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=34 # 035 BritelowBass
+Program Cat=PB Msb=87 Lsb=65 Prg=35 # 036 Untamed Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=36 # 037 Rubber Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=37 # 038 Stereoww Bs
+Program Cat=PB Msb=87 Lsb=65 Prg=38 # 039 Wonder Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=39 # 040 Deep Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=40 # 041 Super JX Bs
+Program Cat=PB Msb=87 Lsb=65 Prg=41 # 042 W<RED>-Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=42 # 043 HI-Ring Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=43 # 044 Euro Bass
+Program Cat=PB Msb=87 Lsb=65 Prg=44 # 045 SinusoidRave
+Program Cat=PB Msb=87 Lsb=65 Prg=45 # 046 Alternative
+Program Cat=PB Msb=87 Lsb=65 Prg=46 # 047 Acid Line
+Program Cat=PB Msb=87 Lsb=65 Prg=47 # 048 Auto TB-303
+Program Cat=PB Msb=87 Lsb=65 Prg=48 # 049 Hihat Tekno
+Program Cat=PB Msb=87 Lsb=65 Prg=49 # 050 Velo Tekno 1
+Program Cat=PB Msb=87 Lsb=65 Prg=50 # 051 Raggatronic
+Program Cat=PB Msb=87 Lsb=65 Prg=51 # 052 Blade Racer
+Program Cat=PB Msb=87 Lsb=65 Prg=52 # 053 S&H Pad
+Program Cat=PB Msb=87 Lsb=65 Prg=53 # 054 Syncrosonix
+Program Cat=PB Msb=87 Lsb=65 Prg=54 # 055 Fooled Again
+Program Cat=PB Msb=87 Lsb=65 Prg=55 # 056 Alive
+Program Cat=PB Msb=87 Lsb=65 Prg=56 # 057 Velo Tekno 2
+Program Cat=PB Msb=87 Lsb=65 Prg=57 # 058 Rezoid
+Program Cat=PB Msb=87 Lsb=65 Prg=58 # 059 Raverborg
+Program Cat=PB Msb=87 Lsb=65 Prg=59 # 060 Blow Hit
+Program Cat=PB Msb=87 Lsb=65 Prg=60 # 061 Hammer Bell
+Program Cat=PB Msb=87 Lsb=65 Prg=61 # 062 Seq Mallet
+Program Cat=PB Msb=87 Lsb=65 Prg=62 # 063 Intentions
+Program Cat=PB Msb=87 Lsb=65 Prg=63 # 064 Pick It
+Program Cat=PB Msb=87 Lsb=65 Prg=64 # 065 Analog Seq
+Program Cat=PB Msb=87 Lsb=65 Prg=65 # 066 Impact Vox
+Program Cat=PB Msb=87 Lsb=65 Prg=66 # 067 TeknoSoloVox
+Program Cat=PB Msb=87 Lsb=65 Prg=67 # 068 X-Mod Man
+Program Cat=PB Msb=87 Lsb=65 Prg=68 # 069 Paz <==> Zap
+Program Cat=PB Msb=87 Lsb=65 Prg=69 # 070 4 Hits 4 You
+Program Cat=PB Msb=87 Lsb=65 Prg=70 # 071 Impact
+Program Cat=PB Msb=87 Lsb=65 Prg=71 # 072 Phase Hit
+Program Cat=PB Msb=87 Lsb=65 Prg=72 # 073 Tekno Hit 1
+Program Cat=PB Msb=87 Lsb=65 Prg=73 # 074 Tekno Hit 2
+Program Cat=PB Msb=87 Lsb=65 Prg=74 # 075 Tekno Hit 3
+Program Cat=PB Msb=87 Lsb=65 Prg=75 # 076 Reverse Hit
+Program Cat=PB Msb=87 Lsb=65 Prg=76 # 077 SquareLead 1
+Program Cat=PB Msb=87 Lsb=65 Prg=77 # 078 SquareLead 2
+Program Cat=PB Msb=87 Lsb=65 Prg=78 # 079 You and Luck
+Program Cat=PB Msb=87 Lsb=65 Prg=79 # 080 Belly Lead
+Program Cat=PB Msb=87 Lsb=65 Prg=80 # 081 WhistlinAtom
+Program Cat=PB Msb=87 Lsb=65 Prg=81 # 082 Edye Boost
+Program Cat=PB Msb=87 Lsb=65 Prg=82 # 083 MG Solo
+Program Cat=PB Msb=87 Lsb=65 Prg=83 # 084 FXM Saw Lead
+Program Cat=PB Msb=87 Lsb=65 Prg=84 # 085 Sawteeth
+Program Cat=PB Msb=87 Lsb=65 Prg=85 # 086 Smoothe
+Program Cat=PB Msb=87 Lsb=65 Prg=86 # 087 MG Lead
+Program Cat=PB Msb=87 Lsb=65 Prg=87 # 088 MG Interval
+Program Cat=PB Msb=87 Lsb=65 Prg=88 # 089 Pulse Lead 1
+Program Cat=PB Msb=87 Lsb=65 Prg=89 # 090 Pulse Lead 2
+Program Cat=PB Msb=87 Lsb=65 Prg=90 # 091 Little Devil
+Program Cat=PB Msb=87 Lsb=65 Prg=91 # 092 Loud SynLead
+Program Cat=PB Msb=87 Lsb=65 Prg=92 # 093 Analog Lead
+Program Cat=PB Msb=87 Lsb=65 Prg=93 # 094 5th Lead
+Program Cat=PB Msb=87 Lsb=65 Prg=94 # 095 Flute
+Program Cat=PB Msb=87 Lsb=65 Prg=95 # 096 Piccolo
+Program Cat=PB Msb=87 Lsb=65 Prg=96 # 097 VOX Flute
+Program Cat=PB Msb=87 Lsb=65 Prg=97 # 098 Air Lead
+Program Cat=PB Msb=87 Lsb=65 Prg=98 # 099 Pan Pipes
+Program Cat=PB Msb=87 Lsb=65 Prg=99 # 100 Airplaaane
+Program Cat=PB Msb=87 Lsb=65 Prg=100 # 101 Taj Mahal
+Program Cat=PB Msb=87 Lsb=65 Prg=101 # 102 Raya Shaku
+Program Cat=PB Msb=87 Lsb=65 Prg=102 # 103 Oboe mf
+Program Cat=PB Msb=87 Lsb=65 Prg=103 # 104 Oboe Express
+Program Cat=PB Msb=87 Lsb=65 Prg=104 # 105 Clarinet mp
+Program Cat=PB Msb=87 Lsb=65 Prg=105 # 106 ClariExpress
+Program Cat=PB Msb=87 Lsb=65 Prg=106 # 107 Mitzva Split
+Program Cat=PB Msb=87 Lsb=65 Prg=107 # 108 ChamberWinds
+Program Cat=PB Msb=87 Lsb=65 Prg=108 # 109 ChamberWoods
+Program Cat=PB Msb=87 Lsb=65 Prg=109 # 110 Film Orch
+Program Cat=PB Msb=87 Lsb=65 Prg=110 # 111 Sop.Sax mf
+Program Cat=PB Msb=87 Lsb=65 Prg=111 # 112 Alto Sax
+Program Cat=PB Msb=87 Lsb=65 Prg=112 # 113 AltoLead Sax
+Program Cat=PB Msb=87 Lsb=65 Prg=113 # 114 Tenor Sax
+Program Cat=PB Msb=87 Lsb=65 Prg=114 # 115 Baritone Sax
+Program Cat=PB Msb=87 Lsb=65 Prg=115 # 116 Take A Tenor
+Program Cat=PB Msb=87 Lsb=65 Prg=116 # 117 Sax Section
+Program Cat=PB Msb=87 Lsb=65 Prg=117 # 118 Bigband Sax
+Program Cat=PB Msb=87 Lsb=65 Prg=118 # 119 Harmonica
+Program Cat=PB Msb=87 Lsb=65 Prg=119 # 120 Harmo Blues
+Program Cat=PB Msb=87 Lsb=65 Prg=120 # 121 BluesHarp
+Program Cat=PB Msb=87 Lsb=65 Prg=121 # 122 Hillbillys
+Program Cat=PB Msb=87 Lsb=65 Prg=122 # 123 French Bags
+Program Cat=PB Msb=87 Lsb=65 Prg=123 # 124 Majestic Tpt
+Program Cat=PB Msb=87 Lsb=65 Prg=124 # 125 Voluntare
+Program Cat=PB Msb=87 Lsb=65 Prg=125 # 126 2Trumpets
+Program Cat=PB Msb=87 Lsb=65 Prg=126 # 127 Tpt Sect
+Program Cat=PB Msb=87 Lsb=65 Prg=127 # 128 Mute TP mod
+
+Program Cat=PC Msb=87 Lsb=66 Prg=0 # 001 Harmon Mute
+Program Cat=PC Msb=87 Lsb=66 Prg=1 # 002 Tp&Sax Sect
+Program Cat=PC Msb=87 Lsb=66 Prg=2 # 003 Sax+Tp+Tb
+Program Cat=PC Msb=87 Lsb=66 Prg=3 # 004 Brass Sect
+Program Cat=PC Msb=87 Lsb=66 Prg=4 # 005 Trombone
+Program Cat=PC Msb=87 Lsb=66 Prg=5 # 006 Hybrid Bones
+Program Cat=PC Msb=87 Lsb=66 Prg=6 # 007 Noble Horns
+Program Cat=PC Msb=87 Lsb=66 Prg=7 # 008 Massed Horns
+Program Cat=PC Msb=87 Lsb=66 Prg=8 # 009 Horn Swell
+Program Cat=PC Msb=87 Lsb=66 Prg=9 # 010 Brass It!
+Program Cat=PC Msb=87 Lsb=66 Prg=10 # 011 Brass Attack
+Program Cat=PC Msb=87 Lsb=66 Prg=11 # 012 Archimede
+Program Cat=PC Msb=87 Lsb=66 Prg=12 # 013 Rugby Horn
+Program Cat=PC Msb=87 Lsb=66 Prg=13 # 014 MKS-80 Brass
+Program Cat=PC Msb=87 Lsb=66 Prg=14 # 015 True ANALOG
+Program Cat=PC Msb=87 Lsb=66 Prg=15 # 016 Dark Vox
+Program Cat=PC Msb=87 Lsb=66 Prg=16 # 017 RandomVowels
+Program Cat=PC Msb=87 Lsb=66 Prg=17 # 018 Angels Sing
+Program Cat=PC Msb=87 Lsb=66 Prg=18 # 019 Pvox Oooze
+Program Cat=PC Msb=87 Lsb=66 Prg=19 # 020 Longing...
+Program Cat=PC Msb=87 Lsb=66 Prg=20 # 021 Arasian Morn
+Program Cat=PC Msb=87 Lsb=66 Prg=21 # 022 Beauty Vox
+Program Cat=PC Msb=87 Lsb=66 Prg=22 # 023 Mary-AnneVox
+Program Cat=PC Msb=87 Lsb=66 Prg=23 # 024 Belltree Vox
+Program Cat=PC Msb=87 Lsb=66 Prg=24 # 025 Vox Panner
+Program Cat=PC Msb=87 Lsb=66 Prg=25 # 026 Spaced Voxx
+Program Cat=PC Msb=87 Lsb=66 Prg=26 # 027 Glass Voices
+Program Cat=PC Msb=87 Lsb=66 Prg=27 # 028 Tubular Vox
+Program Cat=PC Msb=87 Lsb=66 Prg=28 # 029 Velo Voxx
+Program Cat=PC Msb=87 Lsb=66 Prg=29 # 030 Wavox
+Program Cat=PC Msb=87 Lsb=66 Prg=30 # 031 Doos
+Program Cat=PC Msb=87 Lsb=66 Prg=31 # 032 Synvox Comps
+Program Cat=PC Msb=87 Lsb=66 Prg=32 # 033 Vocal Oohz
+Program Cat=PC Msb=87 Lsb=66 Prg=33 # 034 LFO Vox
+Program Cat=PC Msb=87 Lsb=66 Prg=34 # 035 St.Strings
+Program Cat=PC Msb=87 Lsb=66 Prg=35 # 036 Warm Strings
+Program Cat=PC Msb=87 Lsb=66 Prg=36 # 037 Somber Str
+Program Cat=PC Msb=87 Lsb=66 Prg=37 # 038 Marcato
+Program Cat=PC Msb=87 Lsb=66 Prg=38 # 039 Bright Str
+Program Cat=PC Msb=87 Lsb=66 Prg=39 # 040 String Ens
+Program Cat=PC Msb=87 Lsb=66 Prg=40 # 041 TremoloStrng
+Program Cat=PC Msb=87 Lsb=66 Prg=41 # 042 Chambers
+Program Cat=PC Msb=87 Lsb=66 Prg=42 # 043 ViolinCello
+Program Cat=PC Msb=87 Lsb=66 Prg=43 # 044 Symphonique
+Program Cat=PC Msb=87 Lsb=66 Prg=44 # 045 Film Octaves
+Program Cat=PC Msb=87 Lsb=66 Prg=45 # 046 Film Layers
+Program Cat=PC Msb=87 Lsb=66 Prg=46 # 047 Bass Pizz
+Program Cat=PC Msb=87 Lsb=66 Prg=47 # 048 Real Pizz
+Program Cat=PC Msb=87 Lsb=66 Prg=48 # 049 Harp On It
+Program Cat=PC Msb=87 Lsb=66 Prg=49 # 050 Harp
+Program Cat=PC Msb=87 Lsb=66 Prg=50 # 051 JP-8 Str 1
+Program Cat=PC Msb=87 Lsb=66 Prg=51 # 052 JP-8 Str 2
+Program Cat=PC Msb=87 Lsb=66 Prg=52 # 053 E-Motion Pad
+Program Cat=PC Msb=87 Lsb=66 Prg=53 # 054 JP-8 Str 3
+Program Cat=PC Msb=87 Lsb=66 Prg=54 # 055 Vintage Orch
+Program Cat=PC Msb=87 Lsb=66 Prg=55 # 056 JUNO Strings
+Program Cat=PC Msb=87 Lsb=66 Prg=56 # 057 Gigantalog
+Program Cat=PC Msb=87 Lsb=66 Prg=57 # 058 PWM Strings
+Program Cat=PC Msb=87 Lsb=66 Prg=58 # 059 Warmth
+Program Cat=PC Msb=87 Lsb=66 Prg=59 # 060 ORBit Pad
+Program Cat=PC Msb=87 Lsb=66 Prg=60 # 061 Deep Strings
+Program Cat=PC Msb=87 Lsb=66 Prg=61 # 062 Pulsify
+Program Cat=PC Msb=87 Lsb=66 Prg=62 # 063 Pulse Pad
+Program Cat=PC Msb=87 Lsb=66 Prg=63 # 064 Greek Power
+Program Cat=PC Msb=87 Lsb=66 Prg=64 # 065 Harmonicum
+Program Cat=PC Msb=87 Lsb=66 Prg=65 # 066 D-50 Heaven
+Program Cat=PC Msb=87 Lsb=66 Prg=66 # 067 Afro Horns
+Program Cat=PC Msb=87 Lsb=66 Prg=67 # 068 Pop Pad
+Program Cat=PC Msb=87 Lsb=66 Prg=68 # 069 Dreamesque
+Program Cat=PC Msb=87 Lsb=66 Prg=69 # 070 Square Pad
+Program Cat=PC Msb=87 Lsb=66 Prg=70 # 071 JP-8 Hollow
+Program Cat=PC Msb=87 Lsb=66 Prg=71 # 072 JP-8Haunting
+Program Cat=PC Msb=87 Lsb=66 Prg=72 # 073 Heirborne
+Program Cat=PC Msb=87 Lsb=66 Prg=73 # 074 Hush Pad
+Program Cat=PC Msb=87 Lsb=66 Prg=74 # 075 Jet Pad 1
+Program Cat=PC Msb=87 Lsb=66 Prg=75 # 076 Jet Pad 2
+Program Cat=PC Msb=87 Lsb=66 Prg=76 # 077 Phaze Pad
+Program Cat=PC Msb=87 Lsb=66 Prg=77 # 078 Phaze Str
+Program Cat=PC Msb=87 Lsb=66 Prg=78 # 079 Jet Str Ens
+Program Cat=PC Msb=87 Lsb=66 Prg=79 # 080 Pivotal Pad
+Program Cat=PC Msb=87 Lsb=66 Prg=80 # 081 3D Flanged
+Program Cat=PC Msb=87 Lsb=66 Prg=81 # 082 Fantawine
+Program Cat=PC Msb=87 Lsb=66 Prg=82 # 083 Glassy Pad
+Program Cat=PC Msb=87 Lsb=66 Prg=83 # 084 Moving Glass
+Program Cat=PC Msb=87 Lsb=66 Prg=84 # 085 Glasswaves
+Program Cat=PC Msb=87 Lsb=66 Prg=85 # 086 Shiny Pad
+Program Cat=PC Msb=87 Lsb=66 Prg=86 # 087 ShiftedGlass
+Program Cat=PC Msb=87 Lsb=66 Prg=87 # 088 Chime Pad
+Program Cat=PC Msb=87 Lsb=66 Prg=88 # 089 Spin Pad
+Program Cat=PC Msb=87 Lsb=66 Prg=89 # 090 Rotary Pad
+Program Cat=PC Msb=87 Lsb=66 Prg=90 # 091 Dawn 2 Dusk
+Program Cat=PC Msb=87 Lsb=66 Prg=91 # 092 Aurora
+Program Cat=PC Msb=87 Lsb=66 Prg=92 # 093 Strobe Mode
+Program Cat=PC Msb=87 Lsb=66 Prg=93 # 094 Albion
+Program Cat=PC Msb=87 Lsb=66 Prg=94 # 095 Running Pad
+Program Cat=PC Msb=87 Lsb=66 Prg=95 # 096 Stepped Pad
+Program Cat=PC Msb=87 Lsb=66 Prg=96 # 097 Random Pad
+Program Cat=PC Msb=87 Lsb=66 Prg=97 # 098 SoundtrkDANC
+Program Cat=PC Msb=87 Lsb=66 Prg=98 # 099 Flying Waltz
+Program Cat=PC Msb=87 Lsb=66 Prg=99 # 100 Vanishing
+Program Cat=PC Msb=87 Lsb=66 Prg=100 # 101 5th Sweep
+Program Cat=PC Msb=87 Lsb=66 Prg=101 # 102 Phazweep
+Program Cat=PC Msb=87 Lsb=66 Prg=102 # 103 Big BPF
+Program Cat=PC Msb=87 Lsb=66 Prg=103 # 104 MG Sweep
+Program Cat=PC Msb=87 Lsb=66 Prg=104 # 105 CeremonyTimp
+Program Cat=PC Msb=87 Lsb=66 Prg=105 # 106 Dyno Toms
+Program Cat=PC Msb=87 Lsb=66 Prg=106 # 107 Sands ofTime
+Program Cat=PC Msb=87 Lsb=66 Prg=107 # 108 Inertia
+Program Cat=PC Msb=87 Lsb=66 Prg=108 # 109 Vektogram
+Program Cat=PC Msb=87 Lsb=66 Prg=109 # 110 Crash Pad
+Program Cat=PC Msb=87 Lsb=66 Prg=110 # 111 Feedback VOX
+Program Cat=PC Msb=87 Lsb=66 Prg=111 # 112 Cascade
+Program Cat=PC Msb=87 Lsb=66 Prg=112 # 113 Shattered
+Program Cat=PC Msb=87 Lsb=66 Prg=113 # 114 NextFrontier
+Program Cat=PC Msb=87 Lsb=66 Prg=114 # 115 Pure Tibet
+Program Cat=PC Msb=87 Lsb=66 Prg=115 # 116 Chime Wash
+Program Cat=PC Msb=87 Lsb=66 Prg=116 # 117 Night Shade
+Program Cat=PC Msb=87 Lsb=66 Prg=117 # 118 Tortured
+Program Cat=PC Msb=87 Lsb=66 Prg=118 # 119 Dissimilate
+Program Cat=PC Msb=87 Lsb=66 Prg=119 # 120 Dunes
+Program Cat=PC Msb=87 Lsb=66 Prg=120 # 121 Ocean Floor
+Program Cat=PC Msb=87 Lsb=66 Prg=121 # 122 Cyber Space
+Program Cat=PC Msb=87 Lsb=66 Prg=122 # 123 Biosphere
+Program Cat=PC Msb=87 Lsb=66 Prg=123 # 124 Variable Run
+Program Cat=PC Msb=87 Lsb=66 Prg=124 # 125 Ice Hall
+Program Cat=PC Msb=87 Lsb=66 Prg=125 # 126 ComputerRoom
+Program Cat=PC Msb=87 Lsb=66 Prg=126 # 127 Inverted
+Program Cat=PC Msb=87 Lsb=66 Prg=127 # 128 Terminate
+
+Program Cat=PD Msb=87 Lsb=67 Prg=0 # 001 Echo Piano
+Program Cat=PD Msb=87 Lsb=67 Prg=1 # 002 Upright Pno
+Program Cat=PD Msb=87 Lsb=67 Prg=2 # 003 RD-1000
+Program Cat=PD Msb=87 Lsb=67 Prg=3 # 004 Player's EP
+Program Cat=PD Msb=87 Lsb=67 Prg=4 # 005 D-50 Rhodes
+Program Cat=PD Msb=87 Lsb=67 Prg=5 # 006 Innocent EP
+Program Cat=PD Msb=87 Lsb=67 Prg=6 # 007 Echo Rhodes
+Program Cat=PD Msb=87 Lsb=67 Prg=7 # 008 See-Thru EP
+Program Cat=PD Msb=87 Lsb=67 Prg=8 # 009 FM BellPiano
+Program Cat=PD Msb=87 Lsb=67 Prg=9 # 010 Ring E.Piano
+Program Cat=PD Msb=87 Lsb=67 Prg=10 # 011 Soap Opera
+Program Cat=PD Msb=87 Lsb=67 Prg=11 # 012 Dirty Organ
+Program Cat=PD Msb=87 Lsb=67 Prg=12 # 013 Surf's Up!
+Program Cat=PD Msb=87 Lsb=67 Prg=13 # 014 Organesque
+Program Cat=PD Msb=87 Lsb=67 Prg=14 # 015 pp Harmonium
+Program Cat=PD Msb=87 Lsb=67 Prg=15 # 016 PieceOfCheez
+Program Cat=PD Msb=87 Lsb=67 Prg=16 # 017 Harpsy Clav
+Program Cat=PD Msb=87 Lsb=67 Prg=17 # 018 Exotic Velo
+Program Cat=PD Msb=87 Lsb=67 Prg=18 # 019 HolidayCheer
+Program Cat=PD Msb=87 Lsb=67 Prg=19 # 020 Morning Lite
+Program Cat=PD Msb=87 Lsb=67 Prg=20 # 021 Prefab Chime
+Program Cat=PD Msb=87 Lsb=67 Prg=21 # 022 Belfry Chime
+Program Cat=PD Msb=87 Lsb=67 Prg=22 # 023 Stacc.Heaven
+Program Cat=PD Msb=87 Lsb=67 Prg=23 # 024 2.2 Bell Pad
+Program Cat=PD Msb=87 Lsb=67 Prg=24 # 025 Far East
+Program Cat=PD Msb=87 Lsb=67 Prg=25 # 026 Wire Pad
+Program Cat=PD Msb=87 Lsb=67 Prg=26 # 027 PhaseBlipper
+Program Cat=PD Msb=87 Lsb=67 Prg=27 # 028 Sweep Clav
+Program Cat=PD Msb=87 Lsb=67 Prg=28 # 029 Glider
+Program Cat=PD Msb=87 Lsb=67 Prg=29 # 030 Solo Steel
+Program Cat=PD Msb=87 Lsb=67 Prg=30 # 031 DesertCrystl
+Program Cat=PD Msb=87 Lsb=67 Prg=31 # 032 Clear Guitar
+Program Cat=PD Msb=87 Lsb=67 Prg=32 # 033 Solo Strat
+Program Cat=PD Msb=87 Lsb=67 Prg=33 # 034 Feed Me!
+Program Cat=PD Msb=87 Lsb=67 Prg=34 # 035 Tube Smoke
+Program Cat=PD Msb=87 Lsb=67 Prg=35 # 036 Creamy
+Program Cat=PD Msb=87 Lsb=67 Prg=36 # 037 Blusey OD
+Program Cat=PD Msb=87 Lsb=67 Prg=37 # 038 Grindstone
+Program Cat=PD Msb=87 Lsb=67 Prg=38 # 039 OD 5ths
+Program Cat=PD Msb=87 Lsb=67 Prg=39 # 040 East Europe
+Program Cat=PD Msb=87 Lsb=67 Prg=40 # 041 Dulcitar
+Program Cat=PD Msb=87 Lsb=67 Prg=41 # 042 Atmos Harp
+Program Cat=PD Msb=87 Lsb=67 Prg=42 # 043 Pilgrimage
+Program Cat=PD Msb=87 Lsb=67 Prg=43 # 044 202 Rude Bs
+Program Cat=PD Msb=87 Lsb=67 Prg=44 # 045 2pole Bass
+Program Cat=PD Msb=87 Lsb=67 Prg=45 # 046 4pole Bass
+Program Cat=PD Msb=87 Lsb=67 Prg=46 # 047 Phaser MC
+Program Cat=PD Msb=87 Lsb=67 Prg=47 # 048 Miniphaser
+Program Cat=PD Msb=87 Lsb=67 Prg=48 # 049 Acid TB
+Program Cat=PD Msb=87 Lsb=67 Prg=49 # 050 Full Orchest
+Program Cat=PD Msb=87 Lsb=67 Prg=50 # 051 Str + Winds
+Program Cat=PD Msb=87 Lsb=67 Prg=51 # 052 Flute 2080
+Program Cat=PD Msb=87 Lsb=67 Prg=52 # 053 Scat Flute
+Program Cat=PD Msb=87 Lsb=67 Prg=53 # 054 Sax Choir
+Program Cat=PD Msb=87 Lsb=67 Prg=54 # 055 Ballad Trump
+Program Cat=PD Msb=87 Lsb=67 Prg=55 # 056 Sm.Brass Grp
+Program Cat=PD Msb=87 Lsb=67 Prg=56 # 057 Royale
+Program Cat=PD Msb=87 Lsb=67 Prg=57 # 058 Brass Mutes
+Program Cat=PD Msb=87 Lsb=67 Prg=58 # 059 Breathy Brs
+Program Cat=PD Msb=87 Lsb=67 Prg=59 # 060 3 Osc Brass
+Program Cat=PD Msb=87 Lsb=67 Prg=60 # 061 P5 Polymod
+Program Cat=PD Msb=87 Lsb=67 Prg=61 # 062 Triumph Brs
+Program Cat=PD Msb=87 Lsb=67 Prg=62 # 063 Techno Dream
+Program Cat=PD Msb=87 Lsb=67 Prg=63 # 064 Organizer
+Program Cat=PD Msb=87 Lsb=67 Prg=64 # 065 Civilization
+Program Cat=PD Msb=87 Lsb=67 Prg=65 # 066 Mental Chord
+Program Cat=PD Msb=87 Lsb=67 Prg=66 # 067 House Chord
+Program Cat=PD Msb=87 Lsb=67 Prg=67 # 068 Sequalog
+Program Cat=PD Msb=87 Lsb=67 Prg=68 # 069 Booster Bips
+Program Cat=PD Msb=87 Lsb=67 Prg=69 # 070 VintagePlunk
+Program Cat=PD Msb=87 Lsb=67 Prg=70 # 071 Plik-Plok
+Program Cat=PD Msb=87 Lsb=67 Prg=71 # 072 RingSequence
+Program Cat=PD Msb=87 Lsb=67 Prg=72 # 073 Cyber Swing
+Program Cat=PD Msb=87 Lsb=67 Prg=73 # 074 Keep :-)
+Program Cat=PD Msb=87 Lsb=67 Prg=74 # 075 Resojuice
+Program Cat=PD Msb=87 Lsb=67 Prg=75 # 076 B'on d'moov!
+Program Cat=PD Msb=87 Lsb=67 Prg=76 # 077 Dist TB-303
+Program Cat=PD Msb=87 Lsb=67 Prg=77 # 078 Temple of JV
+Program Cat=PD Msb=87 Lsb=67 Prg=78 # 079 Planet Asia
+Program Cat=PD Msb=87 Lsb=67 Prg=79 # 080 Afterlife
+Program Cat=PD Msb=87 Lsb=67 Prg=80 # 081 Trancing Pad
+Program Cat=PD Msb=87 Lsb=67 Prg=81 # 082 Pulsatronic
+Program Cat=PD Msb=87 Lsb=67 Prg=82 # 083 Cyber Dreams
+Program Cat=PD Msb=87 Lsb=67 Prg=83 # 084 Warm Pipe
+Program Cat=PD Msb=87 Lsb=67 Prg=84 # 085 Pure Pipe
+Program Cat=PD Msb=87 Lsb=67 Prg=85 # 086 SH-2000
+Program Cat=PD Msb=87 Lsb=67 Prg=86 # 087 X..? Whistle
+Program Cat=PD Msb=87 Lsb=67 Prg=87 # 088 Jay Vee Solo
+Program Cat=PD Msb=87 Lsb=67 Prg=88 # 089 Progresso Ld
+Program Cat=PD Msb=87 Lsb=67 Prg=89 # 090 Adrenaline
+Program Cat=PD Msb=87 Lsb=67 Prg=90 # 091 Enlighten
+Program Cat=PD Msb=87 Lsb=67 Prg=91 # 092 Glass Blower
+Program Cat=PD Msb=87 Lsb=67 Prg=92 # 093 Earth Blow
+Program Cat=PD Msb=87 Lsb=67 Prg=93 # 094 JX SqrCarpet
+Program Cat=PD Msb=87 Lsb=67 Prg=94 # 095 Dimensional
+Program Cat=PD Msb=87 Lsb=67 Prg=95 # 096 Jupiterings
+Program Cat=PD Msb=87 Lsb=67 Prg=96 # 097 Analog Drama
+Program Cat=PD Msb=87 Lsb=67 Prg=97 # 098 Rich Dynapad
+Program Cat=PD Msb=87 Lsb=67 Prg=98 # 099 Silky Way
+Program Cat=PD Msb=87 Lsb=67 Prg=99 # 100 Gluey Pad
+Program Cat=PD Msb=87 Lsb=67 Prg=100 # 101 BandPass Mod
+Program Cat=PD Msb=87 Lsb=67 Prg=101 # 102 Soundtraque
+Program Cat=PD Msb=87 Lsb=67 Prg=102 # 103 Translucence
+Program Cat=PD Msb=87 Lsb=67 Prg=103 # 104 Darkshine
+Program Cat=PD Msb=87 Lsb=67 Prg=104 # 105 D'light
+Program Cat=PD Msb=87 Lsb=67 Prg=105 # 106 December Sky
+Program Cat=PD Msb=87 Lsb=67 Prg=106 # 107 Octapad
+Program Cat=PD Msb=87 Lsb=67 Prg=107 # 108 JUNO Power!
+Program Cat=PD Msb=87 Lsb=67 Prg=108 # 109 Spectrum Mod
+Program Cat=PD Msb=87 Lsb=67 Prg=109 # 110 Stringsheen
+Program Cat=PD Msb=87 Lsb=67 Prg=110 # 111 GR500 TmpDly
+Program Cat=PD Msb=87 Lsb=67 Prg=111 # 112 Mod DirtyWav
+Program Cat=PD Msb=87 Lsb=67 Prg=112 # 113 Silicon Str
+Program Cat=PD Msb=87 Lsb=67 Prg=113 # 114 D50FantaPerc
+Program Cat=PD Msb=87 Lsb=67 Prg=114 # 115 Rotodreams
+Program Cat=PD Msb=87 Lsb=67 Prg=115 # 116 Blue Notes
+Program Cat=PD Msb=87 Lsb=67 Prg=116 # 117 RiversOfTime
+Program Cat=PD Msb=87 Lsb=67 Prg=117 # 118 Phobos
+Program Cat=PD Msb=87 Lsb=67 Prg=118 # 119 2 0 8 0
+Program Cat=PD Msb=87 Lsb=67 Prg=119 # 120 Unearthly
+Program Cat=PD Msb=87 Lsb=67 Prg=120 # 121 Glistening
+Program Cat=PD Msb=87 Lsb=67 Prg=121 # 122 Sci-Fi Str
+Program Cat=PD Msb=87 Lsb=67 Prg=122 # 123 Shadows
+Program Cat=PD Msb=87 Lsb=67 Prg=123 # 124 Helium Queen
+Program Cat=PD Msb=87 Lsb=67 Prg=124 # 125 Sci-Fi FX x4
+Program Cat=PD Msb=87 Lsb=67 Prg=125 # 126 Perky Noize
+Program Cat=PD Msb=87 Lsb=67 Prg=126 # 127 Droplet
+Program Cat=PD Msb=87 Lsb=67 Prg=127 # 128 Rain Forest
+
+Program Cat=PE Msb=87 Lsb=68 Prg=0 # 001 Grand XV
+Program Cat=PE Msb=87 Lsb=68 Prg=1 # 002 Contemplate
+Program Cat=PE Msb=87 Lsb=68 Prg=2 # 003 Rock Piano
+Program Cat=PE Msb=87 Lsb=68 Prg=3 # 004 RockPiano Ch
+Program Cat=PE Msb=87 Lsb=68 Prg=4 # 005 Pianomonics
+Program Cat=PE Msb=87 Lsb=68 Prg=5 # 006 Piano+SftPad
+Program Cat=PE Msb=87 Lsb=68 Prg=6 # 007 WarmVoxPiano
+Program Cat=PE Msb=87 Lsb=68 Prg=7 # 008 Y2K Concerto
+Program Cat=PE Msb=87 Lsb=68 Prg=8 # 009 Piano+AirPad
+Program Cat=PE Msb=87 Lsb=68 Prg=9 # 010 ChoraLeader
+Program Cat=PE Msb=87 Lsb=68 Prg=10 # 011 SparklePiano
+Program Cat=PE Msb=87 Lsb=68 Prg=11 # 012 Retro Rhodes
+Program Cat=PE Msb=87 Lsb=68 Prg=12 # 013 Fat Rhodes
+Program Cat=PE Msb=87 Lsb=68 Prg=13 # 014 Rhodes Trem
+Program Cat=PE Msb=87 Lsb=68 Prg=14 # 015 Phaser Dyno
+Program Cat=PE Msb=87 Lsb=68 Prg=15 # 016 Hit Rhodes
+Program Cat=PE Msb=87 Lsb=68 Prg=16 # 017 Sweet Tynes
+Program Cat=PE Msb=87 Lsb=68 Prg=17 # 018 Pluk Rhodes
+Program Cat=PE Msb=87 Lsb=68 Prg=18 # 019 Rhodes Trip
+Program Cat=PE Msb=87 Lsb=68 Prg=19 # 020 AmbiRhodes
+Program Cat=PE Msb=87 Lsb=68 Prg=20 # 021 Rholitzer
+Program Cat=PE Msb=87 Lsb=68 Prg=21 # 022 Wurlie
+Program Cat=PE Msb=87 Lsb=68 Prg=22 # 023 FM Delight
+Program Cat=PE Msb=87 Lsb=68 Prg=23 # 024 Cutter Clav
+Program Cat=PE Msb=87 Lsb=68 Prg=24 # 025 Mute Clav D6
+Program Cat=PE Msb=87 Lsb=68 Prg=25 # 026 PhazeWahClav
+Program Cat=PE Msb=87 Lsb=68 Prg=26 # 027 St.Harpsichd
+Program Cat=PE Msb=87 Lsb=68 Prg=27 # 028 3PartInventn
+Program Cat=PE Msb=87 Lsb=68 Prg=28 # 029 Soft Perky
+Program Cat=PE Msb=87 Lsb=68 Prg=29 # 030 Fullness
+Program Cat=PE Msb=87 Lsb=68 Prg=30 # 031 Paleface 1
+Program Cat=PE Msb=87 Lsb=68 Prg=31 # 032 Paleface 2
+Program Cat=PE Msb=87 Lsb=68 Prg=32 # 033 Soft B
+Program Cat=PE Msb=87 Lsb=68 Prg=33 # 034 British B
+Program Cat=PE Msb=87 Lsb=68 Prg=34 # 035 Rocker Org
+Program Cat=PE Msb=87 Lsb=68 Prg=35 # 036 Split B
+Program Cat=PE Msb=87 Lsb=68 Prg=36 # 037 PercInterval
+Program Cat=PE Msb=87 Lsb=68 Prg=37 # 038 Happy 60s
+Program Cat=PE Msb=87 Lsb=68 Prg=38 # 039 96 Years
+Program Cat=PE Msb=87 Lsb=68 Prg=39 # 040 Glory Us Rok
+Program Cat=PE Msb=87 Lsb=68 Prg=40 # 041 Church Harmn
+Program Cat=PE Msb=87 Lsb=68 Prg=41 # 042 Cathdr Harmn
+Program Cat=PE Msb=87 Lsb=68 Prg=42 # 043 Morph Pad
+Program Cat=PE Msb=87 Lsb=68 Prg=43 # 044 Air Pad
+Program Cat=PE Msb=87 Lsb=68 Prg=44 # 045 Soft Padding
+Program Cat=PE Msb=87 Lsb=68 Prg=45 # 046 Warmth Pad
+Program Cat=PE Msb=87 Lsb=68 Prg=46 # 047 ClassicJPpad
+Program Cat=PE Msb=87 Lsb=68 Prg=47 # 048 Jupiter Str
+Program Cat=PE Msb=87 Lsb=68 Prg=48 # 049 Fat Pad
+Program Cat=PE Msb=87 Lsb=68 Prg=49 # 050 GR700 Pad
+Program Cat=PE Msb=87 Lsb=68 Prg=50 # 051 Paradise
+Program Cat=PE Msb=87 Lsb=68 Prg=51 # 052 Moonchimes
+Program Cat=PE Msb=87 Lsb=68 Prg=52 # 053 SusPed Swap
+Program Cat=PE Msb=87 Lsb=68 Prg=53 # 054 PhasingPad
+Program Cat=PE Msb=87 Lsb=68 Prg=54 # 055 Ethereal Str
+Program Cat=PE Msb=87 Lsb=68 Prg=55 # 056 Velcropad
+Program Cat=PE Msb=87 Lsb=68 Prg=56 # 057 NothrnLights
+Program Cat=PE Msb=87 Lsb=68 Prg=57 # 058 Sun Dive
+Program Cat=PE Msb=87 Lsb=68 Prg=58 # 059 Brite Vox 1
+Program Cat=PE Msb=87 Lsb=68 Prg=59 # 060 Brite Vox 2
+Program Cat=PE Msb=87 Lsb=68 Prg=60 # 061 Ooh)Aah Mod
+Program Cat=PE Msb=87 Lsb=68 Prg=61 # 062 Vocals: Ooh
+Program Cat=PE Msb=87 Lsb=68 Prg=62 # 063 Vocals: Scat
+Program Cat=PE Msb=87 Lsb=68 Prg=63 # 064 Vocals: Boys
+Program Cat=PE Msb=87 Lsb=68 Prg=64 # 065 St. Choir
+Program Cat=PE Msb=87 Lsb=68 Prg=65 # 066 SampleThe80s
+Program Cat=PE Msb=87 Lsb=68 Prg=66 # 067 Sacred Tree
+Program Cat=PE Msb=87 Lsb=68 Prg=67 # 068 VP330 OctEko
+Program Cat=PE Msb=87 Lsb=68 Prg=68 # 069 XV Strings
+Program Cat=PE Msb=87 Lsb=68 Prg=69 # 070 Fat Strings
+Program Cat=PE Msb=87 Lsb=68 Prg=70 # 071 Dolce p/m/f
+Program Cat=PE Msb=87 Lsb=68 Prg=71 # 072 Sad Strings
+Program Cat=PE Msb=87 Lsb=68 Prg=72 # 073 Lush Strings
+Program Cat=PE Msb=87 Lsb=68 Prg=73 # 074 Strings4Film
+Program Cat=PE Msb=87 Lsb=68 Prg=74 # 075 Marcato Str
+Program Cat=PE Msb=87 Lsb=68 Prg=75 # 076 End Titles
+Program Cat=PE Msb=87 Lsb=68 Prg=76 # 077 ChmbrQuartet
+Program Cat=PE Msb=87 Lsb=68 Prg=77 # 078 ChamberSect.
+Program Cat=PE Msb=87 Lsb=68 Prg=78 # 079 FullChmbrStr
+Program Cat=PE Msb=87 Lsb=68 Prg=79 # 080 Tape Strings
+Program Cat=PE Msb=87 Lsb=68 Prg=80 # 081 Henry VIII
+Program Cat=PE Msb=87 Lsb=68 Prg=81 # 082 Prelude
+Program Cat=PE Msb=87 Lsb=68 Prg=82 # 083 Str&Brs Orch
+Program Cat=PE Msb=87 Lsb=68 Prg=83 # 084 Hornz
+Program Cat=PE Msb=87 Lsb=68 Prg=84 # 085 TudorFanfare
+Program Cat=PE Msb=87 Lsb=68 Prg=85 # 086 ChamberPlyrs
+Program Cat=PE Msb=87 Lsb=68 Prg=86 # 087 Flute/Clari
+Program Cat=PE Msb=87 Lsb=68 Prg=87 # 088 Orch Reeds
+Program Cat=PE Msb=87 Lsb=68 Prg=88 # 089 Dual Flutes
+Program Cat=PE Msb=87 Lsb=68 Prg=89 # 090 Jazzer Flute
+Program Cat=PE Msb=87 Lsb=68 Prg=90 # 091 LegatoBamboo
+Program Cat=PE Msb=87 Lsb=68 Prg=91 # 092 Ambience Flt
+Program Cat=PE Msb=87 Lsb=68 Prg=92 # 093 The Andes
+Program Cat=PE Msb=87 Lsb=68 Prg=93 # 094 Deja Vlute
+Program Cat=PE Msb=87 Lsb=68 Prg=94 # 095 Simply Brass
+Program Cat=PE Msb=87 Lsb=68 Prg=95 # 096 FullSt Brass
+Program Cat=PE Msb=87 Lsb=68 Prg=96 # 097 Dragnet
+Program Cat=PE Msb=87 Lsb=68 Prg=97 # 098 NewR&RBrass
+Program Cat=PE Msb=87 Lsb=68 Prg=98 # 099 Tower Trumps
+Program Cat=PE Msb=87 Lsb=68 Prg=99 # 100 BigBrassBand
+Program Cat=PE Msb=87 Lsb=68 Prg=100 # 101 Lil'BigHornz
+Program Cat=PE Msb=87 Lsb=68 Prg=101 # 102 VoyagerBrass
+Program Cat=PE Msb=87 Lsb=68 Prg=102 # 103 Symph Horns
+Program Cat=PE Msb=87 Lsb=68 Prg=103 # 104 Trombone Atm
+Program Cat=PE Msb=87 Lsb=68 Prg=104 # 105 XV Trombone
+Program Cat=PE Msb=87 Lsb=68 Prg=105 # 106 XV Trumpet
+Program Cat=PE Msb=87 Lsb=68 Prg=106 # 107 JupiterHorns
+Program Cat=PE Msb=87 Lsb=68 Prg=107 # 108 Solo SoprSax
+Program Cat=PE Msb=87 Lsb=68 Prg=108 # 109 Solo AltoSax
+Program Cat=PE Msb=87 Lsb=68 Prg=109 # 110 XV DynoTenor
+Program Cat=PE Msb=87 Lsb=68 Prg=110 # 111 Honker Bari
+Program Cat=PE Msb=87 Lsb=68 Prg=111 # 112 Full Saxz
+Program Cat=PE Msb=87 Lsb=68 Prg=112 # 113 Soaring Hrns
+Program Cat=PE Msb=87 Lsb=68 Prg=113 # 114 Glass Orbit
+Program Cat=PE Msb=87 Lsb=68 Prg=114 # 115 5th Atm /Aft
+Program Cat=PE Msb=87 Lsb=68 Prg=115 # 116 Lo-fi Sweep
+Program Cat=PE Msb=87 Lsb=68 Prg=116 # 117 Modular Life
+Program Cat=PE Msb=87 Lsb=68 Prg=117 # 118 Oscillations
+Program Cat=PE Msb=87 Lsb=68 Prg=118 # 119 Combing
+Program Cat=PE Msb=87 Lsb=68 Prg=119 # 120 Rolling 5ths
+Program Cat=PE Msb=87 Lsb=68 Prg=120 # 121 Analogue Str
+Program Cat=PE Msb=87 Lsb=68 Prg=121 # 122 Lunar Strngs
+Program Cat=PE Msb=87 Lsb=68 Prg=122 # 123 BPFsweep Mod
+Program Cat=PE Msb=87 Lsb=68 Prg=123 # 124 Queen V
+Program Cat=PE Msb=87 Lsb=68 Prg=124 # 125 SkinnyBounce
+Program Cat=PE Msb=87 Lsb=68 Prg=125 # 126 SquareBounce
+Program Cat=PE Msb=87 Lsb=68 Prg=126 # 127 Galactic
+Program Cat=PE Msb=87 Lsb=68 Prg=127 # 128 Powerwiggle
+
+Program Cat=PF Msb=87 Lsb=69 Prg=0 # 001 80s Retrosyn
+Program Cat=PF Msb=87 Lsb=69 Prg=1 # 002 Power Stack
+Program Cat=PF Msb=87 Lsb=69 Prg=2 # 003 Don't Jump
+Program Cat=PF Msb=87 Lsb=69 Prg=3 # 004 Big Bubbles
+Program Cat=PF Msb=87 Lsb=69 Prg=4 # 005 X-mod Sweep
+Program Cat=PF Msb=87 Lsb=69 Prg=5 # 006 Bag O' Bones
+Program Cat=PF Msb=87 Lsb=69 Prg=6 # 007 AirSoThin
+Program Cat=PF Msb=87 Lsb=69 Prg=7 # 008 Analogical
+Program Cat=PF Msb=87 Lsb=69 Prg=8 # 009 Waspy Pulse
+Program Cat=PF Msb=87 Lsb=69 Prg=9 # 010 Soaring Saws
+Program Cat=PF Msb=87 Lsb=69 Prg=10 # 011 Square Roots
+Program Cat=PF Msb=87 Lsb=69 Prg=11 # 012 BOG
+Program Cat=PF Msb=87 Lsb=69 Prg=12 # 013 Talking Box
+Program Cat=PF Msb=87 Lsb=69 Prg=13 # 014 Retro Lead
+Program Cat=PF Msb=87 Lsb=69 Prg=14 # 015 LivingInSync
+Program Cat=PF Msb=87 Lsb=69 Prg=15 # 016 Leads United
+Program Cat=PF Msb=87 Lsb=69 Prg=16 # 017 Dirty Sync
+Program Cat=PF Msb=87 Lsb=69 Prg=17 # 018 DistortaSync
+Program Cat=PF Msb=87 Lsb=69 Prg=18 # 019 Blistering
+Program Cat=PF Msb=87 Lsb=69 Prg=19 # 020 Guttural
+Program Cat=PF Msb=87 Lsb=69 Prg=20 # 021 Flyin' High
+Program Cat=PF Msb=87 Lsb=69 Prg=21 # 022 Soft Tooth
+Program Cat=PF Msb=87 Lsb=69 Prg=22 # 023 Soaring Sqr
+Program Cat=PF Msb=87 Lsb=69 Prg=23 # 024 Soaring Sync
+Program Cat=PF Msb=87 Lsb=69 Prg=24 # 025 Nasal Spray
+Program Cat=PF Msb=87 Lsb=69 Prg=25 # 026 Lamb Lead
+Program Cat=PF Msb=87 Lsb=69 Prg=26 # 027 Creamer
+Program Cat=PF Msb=87 Lsb=69 Prg=27 # 028 Sine System
+Program Cat=PF Msb=87 Lsb=69 Prg=28 # 029 Soft Nylon
+Program Cat=PF Msb=87 Lsb=69 Prg=29 # 030 Nylozzicato
+Program Cat=PF Msb=87 Lsb=69 Prg=30 # 031 Mutezzicato
+Program Cat=PF Msb=87 Lsb=69 Prg=31 # 032 Hybrid Nylon
+Program Cat=PF Msb=87 Lsb=69 Prg=32 # 033 XV SteelGt 1
+Program Cat=PF Msb=87 Lsb=69 Prg=33 # 034 XV SteelGt 2
+Program Cat=PF Msb=87 Lsb=69 Prg=34 # 035 Comp'Steel
+Program Cat=PF Msb=87 Lsb=69 Prg=35 # 036 Double Steel
+Program Cat=PF Msb=87 Lsb=69 Prg=36 # 037 Folk Guitar
+Program Cat=PF Msb=87 Lsb=69 Prg=37 # 038 SpanishNight
+Program Cat=PF Msb=87 Lsb=69 Prg=38 # 039 Plug n' Play
+Program Cat=PF Msb=87 Lsb=69 Prg=39 # 040 Fab 4 Guitar
+Program Cat=PF Msb=87 Lsb=69 Prg=40 # 041 Searing Lead
+Program Cat=PF Msb=87 Lsb=69 Prg=41 # 042 Punker
+Program Cat=PF Msb=87 Lsb=69 Prg=42 # 043 LouderPlease
+Program Cat=PF Msb=87 Lsb=69 Prg=43 # 044 XV Upright
+Program Cat=PF Msb=87 Lsb=69 Prg=44 # 045 XV Ac.Bass
+Program Cat=PF Msb=87 Lsb=69 Prg=45 # 046 LookMaNoFret
+Program Cat=PF Msb=87 Lsb=69 Prg=46 # 047 XV Fretless
+Program Cat=PF Msb=87 Lsb=69 Prg=47 # 048 Basic F'less
+Program Cat=PF Msb=87 Lsb=69 Prg=48 # 049 8-str F'less
+Program Cat=PF Msb=87 Lsb=69 Prg=49 # 050 Tap Bass
+Program Cat=PF Msb=87 Lsb=69 Prg=50 # 051 Pop Bass
+Program Cat=PF Msb=87 Lsb=69 Prg=51 # 052 P.Bs Chorus
+Program Cat=PF Msb=87 Lsb=69 Prg=52 # 053 TremCho Bs
+Program Cat=PF Msb=87 Lsb=69 Prg=53 # 054 Creamy Bass
+Program Cat=PF Msb=87 Lsb=69 Prg=54 # 055 Buster Bass
+Program Cat=PF Msb=87 Lsb=69 Prg=55 # 056 TB Squelch
+Program Cat=PF Msb=87 Lsb=69 Prg=56 # 057 Ticker Bass
+Program Cat=PF Msb=87 Lsb=69 Prg=57 # 058 Muscle Bass
+Program Cat=PF Msb=87 Lsb=69 Prg=58 # 059 Grounded Bs
+Program Cat=PF Msb=87 Lsb=69 Prg=59 # 060 West End Bs
+Program Cat=PF Msb=87 Lsb=69 Prg=60 # 061 Snap Bass
+Program Cat=PF Msb=87 Lsb=69 Prg=61 # 062 700 Bassboy
+Program Cat=PF Msb=87 Lsb=69 Prg=62 # 063 8VCO MonoSyn
+Program Cat=PF Msb=87 Lsb=69 Prg=63 # 064 ResoMoist Bs
+Program Cat=PF Msb=87 Lsb=69 Prg=64 # 065 Kickin' Bass
+Program Cat=PF Msb=87 Lsb=69 Prg=65 # 066 Sub Zero
+Program Cat=PF Msb=87 Lsb=69 Prg=66 # 067 Liquid Bass
+Program Cat=PF Msb=87 Lsb=69 Prg=67 # 068 Hefty Bass
+Program Cat=PF Msb=87 Lsb=69 Prg=68 # 069 Severe Ow Bs
+Program Cat=PF Msb=87 Lsb=69 Prg=69 # 070 Chime Bells
+Program Cat=PF Msb=87 Lsb=69 Prg=70 # 071 Celestabox
+Program Cat=PF Msb=87 Lsb=69 Prg=71 # 072 Brass Tubes
+Program Cat=PF Msb=87 Lsb=69 Prg=72 # 073 Dreams East
+Program Cat=PF Msb=87 Lsb=69 Prg=73 # 074 Synergistic
+Program Cat=PF Msb=87 Lsb=69 Prg=74 # 075 Andreas Cave
+Program Cat=PF Msb=87 Lsb=69 Prg=75 # 076 AmbiPizza
+Program Cat=PF Msb=87 Lsb=69 Prg=76 # 077 Voxy Nylon
+Program Cat=PF Msb=87 Lsb=69 Prg=77 # 078 EastrnEurope
+Program Cat=PF Msb=87 Lsb=69 Prg=78 # 079 Celtic Harp
+Program Cat=PF Msb=87 Lsb=69 Prg=79 # 080 Reso Sitar
+Program Cat=PF Msb=87 Lsb=69 Prg=80 # 081 The Ganges
+Program Cat=PF Msb=87 Lsb=69 Prg=81 # 082 MountainFolk
+Program Cat=PF Msb=87 Lsb=69 Prg=82 # 083 Byzantine
+Program Cat=PF Msb=87 Lsb=69 Prg=83 # 084 AsiaPlectrum
+Program Cat=PF Msb=87 Lsb=69 Prg=84 # 085 VelHarp)Harm
+Program Cat=PF Msb=87 Lsb=69 Prg=85 # 086 Pluckaphone
+Program Cat=PF Msb=87 Lsb=69 Prg=86 # 087 Slap Timps
+Program Cat=PF Msb=87 Lsb=69 Prg=87 # 088 Suite Combo
+Program Cat=PF Msb=87 Lsb=69 Prg=88 # 089 Jet Voxs
+Program Cat=PF Msb=87 Lsb=69 Prg=89 # 090 Dirty Hit
+Program Cat=PF Msb=87 Lsb=69 Prg=90 # 091 MOVE!
+Program Cat=PF Msb=87 Lsb=69 Prg=91 # 092 Reel Slam
+Program Cat=PF Msb=87 Lsb=69 Prg=92 # 093 OffTheRecord
+Program Cat=PF Msb=87 Lsb=69 Prg=93 # 094 2ndRateChord
+Program Cat=PF Msb=87 Lsb=69 Prg=94 # 095 RageInYouth
+Program Cat=PF Msb=87 Lsb=69 Prg=95 # 096 MinorIncidnt
+Program Cat=PF Msb=87 Lsb=69 Prg=96 # 097 Phunky DC
+Program Cat=PF Msb=87 Lsb=69 Prg=97 # 098 Agent X
+Program Cat=PF Msb=87 Lsb=69 Prg=98 # 099 Winky
+Program Cat=PF Msb=87 Lsb=69 Prg=99 # 100 Looney 2nz
+Program Cat=PF Msb=87 Lsb=69 Prg=100 # 101 Shortrave
+Program Cat=PF Msb=87 Lsb=69 Prg=101 # 102 DeeperBeeper
+Program Cat=PF Msb=87 Lsb=69 Prg=102 # 103 Percolator
+Program Cat=PF Msb=87 Lsb=69 Prg=103 # 104 Filter Morph
+Program Cat=PF Msb=87 Lsb=69 Prg=104 # 105 Choir Bounce
+Program Cat=PF Msb=87 Lsb=69 Prg=105 # 106 Rippling
+Program Cat=PF Msb=87 Lsb=69 Prg=106 # 107 SteppingPhsr
+Program Cat=PF Msb=87 Lsb=69 Prg=107 # 108 Trance Fair
+Program Cat=PF Msb=87 Lsb=69 Prg=108 # 109 GermanBounce
+Program Cat=PF Msb=87 Lsb=69 Prg=109 # 110 Acid JaZZ
+Program Cat=PF Msb=87 Lsb=69 Prg=110 # 111 Cutter>ModWh
+Program Cat=PF Msb=87 Lsb=69 Prg=111 # 112 Blades
+Program Cat=PF Msb=87 Lsb=69 Prg=112 # 113 Mad Bender
+Program Cat=PF Msb=87 Lsb=69 Prg=113 # 114 Shapeshifter
+Program Cat=PF Msb=87 Lsb=69 Prg=114 # 115 ForestMoon
+Program Cat=PF Msb=87 Lsb=69 Prg=115 # 116 Predator 2
+Program Cat=PF Msb=87 Lsb=69 Prg=116 # 117 Dark Side
+Program Cat=PF Msb=87 Lsb=69 Prg=117 # 118 The Beast
+Program Cat=PF Msb=87 Lsb=69 Prg=118 # 119 X-mod Reso
+Program Cat=PF Msb=87 Lsb=69 Prg=119 # 120 Planet Meta
+Program Cat=PF Msb=87 Lsb=69 Prg=120 # 121 Nexus
+Program Cat=PF Msb=87 Lsb=69 Prg=121 # 122 Halographix
+Program Cat=PF Msb=87 Lsb=69 Prg=122 # 123 Moon Rise
+Program Cat=PF Msb=87 Lsb=69 Prg=123 # 124 Gruvacious
+Program Cat=PF Msb=87 Lsb=69 Prg=124 # 125 Windy Dunes
+Program Cat=PF Msb=87 Lsb=69 Prg=125 # 126 Ice Blasts
+Program Cat=PF Msb=87 Lsb=69 Prg=126 # 127 Ringy Thingy
+Program Cat=PF Msb=87 Lsb=69 Prg=127 # 128 Atmospherics
+
+Program Cat=PG Msb=87 Lsb=70 Prg=0 # 001 Power Octs
+Program Cat=PG Msb=87 Lsb=70 Prg=1 # 002 WaterPiano2
+Program Cat=PG Msb=87 Lsb=70 Prg=2 # 003 Swimming EP
+Program Cat=PG Msb=87 Lsb=70 Prg=3 # 004 XV Crystal
+Program Cat=PG Msb=87 Lsb=70 Prg=4 # 005 Cold Roadz
+Program Cat=PG Msb=87 Lsb=70 Prg=5 # 006 Backrhodes
+Program Cat=PG Msb=87 Lsb=70 Prg=6 # 007 Amped Wurlie
+Program Cat=PG Msb=87 Lsb=70 Prg=7 # 008 Dirty Wurlie
+Program Cat=PG Msb=87 Lsb=70 Prg=8 # 009 Musicbox XV
+Program Cat=PG Msb=87 Lsb=70 Prg=9 # 010 Klubb Organ
+Program Cat=PG Msb=87 Lsb=70 Prg=10 # 011 Drew's Bee
+Program Cat=PG Msb=87 Lsb=70 Prg=11 # 012 Velvet Organ
+Program Cat=PG Msb=87 Lsb=70 Prg=12 # 013 Distorted B
+Program Cat=PG Msb=87 Lsb=70 Prg=13 # 014 Radikal B
+Program Cat=PG Msb=87 Lsb=70 Prg=14 # 015 Boogie Organ
+Program Cat=PG Msb=87 Lsb=70 Prg=15 # 016 Mood Ringz
+Program Cat=PG Msb=87 Lsb=70 Prg=16 # 017 Wedo-Wodo
+Program Cat=PG Msb=87 Lsb=70 Prg=17 # 018 S.O.S.trings
+Program Cat=PG Msb=87 Lsb=70 Prg=18 # 019 Syncronicity
+Program Cat=PG Msb=87 Lsb=70 Prg=19 # 020 DanceMachina
+Program Cat=PG Msb=87 Lsb=70 Prg=20 # 021 Vox Chopper
+Program Cat=PG Msb=87 Lsb=70 Prg=21 # 022 SlicingSyVox
+Program Cat=PG Msb=87 Lsb=70 Prg=22 # 023 PressureDome
+Program Cat=PG Msb=87 Lsb=70 Prg=23 # 024 Quasar /Aft
+Program Cat=PG Msb=87 Lsb=70 Prg=24 # 025 Ionizer
+Program Cat=PG Msb=87 Lsb=70 Prg=25 # 026 MilleniumStr
+Program Cat=PG Msb=87 Lsb=70 Prg=26 # 027 Bounce Baby!
+Program Cat=PG Msb=87 Lsb=70 Prg=27 # 028 Bounce Daddy
+Program Cat=PG Msb=87 Lsb=70 Prg=28 # 029 Bounce Mama!
+Program Cat=PG Msb=87 Lsb=70 Prg=29 # 030 Bounce Noize
+Program Cat=PG Msb=87 Lsb=70 Prg=30 # 031 What a Gate!
+Program Cat=PG Msb=87 Lsb=70 Prg=31 # 032 Mini Sequenz
+Program Cat=PG Msb=87 Lsb=70 Prg=32 # 033 Slice & Dice
+Program Cat=PG Msb=87 Lsb=70 Prg=33 # 034 BrushingSaw1
+Program Cat=PG Msb=87 Lsb=70 Prg=34 # 035 BrushingSaw2
+Program Cat=PG Msb=87 Lsb=70 Prg=35 # 036 Cultivate
+Program Cat=PG Msb=87 Lsb=70 Prg=36 # 037 5080 Random
+Program Cat=PG Msb=87 Lsb=70 Prg=37 # 038 XV Stepping
+Program Cat=PG Msb=87 Lsb=70 Prg=38 # 039 India Garden
+Program Cat=PG Msb=87 Lsb=70 Prg=39 # 040 Belly Pad
+Program Cat=PG Msb=87 Lsb=70 Prg=40 # 041 Spectre
+Program Cat=PG Msb=87 Lsb=70 Prg=41 # 042 SoaringHrns2
+Program Cat=PG Msb=87 Lsb=70 Prg=42 # 043 Sabbath Day
+Program Cat=PG Msb=87 Lsb=70 Prg=43 # 044 XV BlowPad
+Program Cat=PG Msb=87 Lsb=70 Prg=44 # 045 White Arcade
+Program Cat=PG Msb=87 Lsb=70 Prg=45 # 046 Borealis
+Program Cat=PG Msb=87 Lsb=70 Prg=46 # 047 OvertoneScan
+Program Cat=PG Msb=87 Lsb=70 Prg=47 # 048 Whisper Vox
+Program Cat=PG Msb=87 Lsb=70 Prg=48 # 049 Jupiter 21
+Program Cat=PG Msb=87 Lsb=70 Prg=49 # 050 Filt Strings
+Program Cat=PG Msb=87 Lsb=70 Prg=50 # 051 HybStringsXV
+Program Cat=PG Msb=87 Lsb=70 Prg=51 # 052 Soft Symphny
+Program Cat=PG Msb=87 Lsb=70 Prg=52 # 053 Wood Symphny
+Program Cat=PG Msb=87 Lsb=70 Prg=53 # 054 HybOrchestra
+Program Cat=PG Msb=87 Lsb=70 Prg=54 # 055 Brassy Symph
+Program Cat=PG Msb=87 Lsb=70 Prg=55 # 056 Biggie Brass
+Program Cat=PG Msb=87 Lsb=70 Prg=56 # 057 BiggieBrass2
+Program Cat=PG Msb=87 Lsb=70 Prg=57 # 058 LA Sax's
+Program Cat=PG Msb=87 Lsb=70 Prg=58 # 059 Wind Wood
+Program Cat=PG Msb=87 Lsb=70 Prg=59 # 060 Lonely Oboe
+Program Cat=PG Msb=87 Lsb=70 Prg=60 # 061 Harmonica XV
+Program Cat=PG Msb=87 Lsb=70 Prg=61 # 062 Tooters Lead
+Program Cat=PG Msb=87 Lsb=70 Prg=62 # 063 Digi Phased
+Program Cat=PG Msb=87 Lsb=70 Prg=63 # 064 Synth Ethics
+Program Cat=PG Msb=87 Lsb=70 Prg=64 # 065 Harm is Fine
+Program Cat=PG Msb=87 Lsb=70 Prg=65 # 066 D-2000
+Program Cat=PG Msb=87 Lsb=70 Prg=66 # 067 Ackward East
+Program Cat=PG Msb=87 Lsb=70 Prg=67 # 068 Powersoaker
+Program Cat=PG Msb=87 Lsb=70 Prg=68 # 069 Mean Thing
+Program Cat=PG Msb=87 Lsb=70 Prg=69 # 070 Jet Sync
+Program Cat=PG Msb=87 Lsb=70 Prg=70 # 071 Crying Solo
+Program Cat=PG Msb=87 Lsb=70 Prg=71 # 072 Southern Fry
+Program Cat=PG Msb=87 Lsb=70 Prg=72 # 073 Strum Distrt
+Program Cat=PG Msb=87 Lsb=70 Prg=73 # 074 Match Drive
+Program Cat=PG Msb=87 Lsb=70 Prg=74 # 075 Stacked
+Program Cat=PG Msb=87 Lsb=70 Prg=75 # 076 2-Stack Over
+Program Cat=PG Msb=87 Lsb=70 Prg=76 # 077 COSM Searing
+Program Cat=PG Msb=87 Lsb=70 Prg=77 # 078 COSM Loud Gt
+Program Cat=PG Msb=87 Lsb=70 Prg=78 # 079 Blue Mutes
+Program Cat=PG Msb=87 Lsb=70 Prg=79 # 080 Metal 5150
+Program Cat=PG Msb=87 Lsb=70 Prg=80 # 081 Crunch Phase
+Program Cat=PG Msb=87 Lsb=70 Prg=81 # 082 Alt Dist Gtr
+Program Cat=PG Msb=87 Lsb=70 Prg=82 # 083 So nice!
+Program Cat=PG Msb=87 Lsb=70 Prg=83 # 084 Punch Bass
+Program Cat=PG Msb=87 Lsb=70 Prg=84 # 085 COSM Bass
+Program Cat=PG Msb=87 Lsb=70 Prg=85 # 086 Stream Bell
+Program Cat=PG Msb=87 Lsb=70 Prg=86 # 087 Shuffle Bell
+Program Cat=PG Msb=87 Lsb=70 Prg=87 # 088 Echo Vibe
+Program Cat=PG Msb=87 Lsb=70 Prg=88 # 089 Tremolo Vibe
+Program Cat=PG Msb=87 Lsb=70 Prg=89 # 090 True Vibe
+Program Cat=PG Msb=87 Lsb=70 Prg=90 # 091 Marimbula
+Program Cat=PG Msb=87 Lsb=70 Prg=91 # 092 Hit Bitz
+Program Cat=PG Msb=87 Lsb=70 Prg=92 # 093 80s LoFi Hit
+Program Cat=PG Msb=87 Lsb=70 Prg=93 # 094 Auto Chord
+Program Cat=PG Msb=87 Lsb=70 Prg=94 # 095 3rdTeenChord
+Program Cat=PG Msb=87 Lsb=70 Prg=95 # 096 Bend a Chord
+Program Cat=PG Msb=87 Lsb=70 Prg=96 # 097 DiscreteChrd
+Program Cat=PG Msb=87 Lsb=70 Prg=97 # 098 Ambi Voices
+Program Cat=PG Msb=87 Lsb=70 Prg=98 # 099 Say Yeah !
+Program Cat=PG Msb=87 Lsb=70 Prg=99 # 100 Xcuse me
+Program Cat=PG Msb=87 Lsb=70 Prg=100 # 101 5ths in 4ths
+Program Cat=PG Msb=87 Lsb=70 Prg=101 # 102 Pretty Ugly
+Program Cat=PG Msb=87 Lsb=70 Prg=102 # 103 Con Sequence
+Program Cat=PG Msb=87 Lsb=70 Prg=103 # 104 BermudaShort
+Program Cat=PG Msb=87 Lsb=70 Prg=104 # 105 Saw n' 202
+Program Cat=PG Msb=87 Lsb=70 Prg=105 # 106 Technoheadz
+Program Cat=PG Msb=87 Lsb=70 Prg=106 # 107 Boss'd Synth
+Program Cat=PG Msb=87 Lsb=70 Prg=107 # 108 Cross Fire
+Program Cat=PG Msb=87 Lsb=70 Prg=108 # 109 Techno Cave
+Program Cat=PG Msb=87 Lsb=70 Prg=109 # 110 Generator
+Program Cat=PG Msb=87 Lsb=70 Prg=110 # 111 GenderBender
+Program Cat=PG Msb=87 Lsb=70 Prg=111 # 112 Xtremities
+Program Cat=PG Msb=87 Lsb=70 Prg=112 # 113 AM 05:59
+Program Cat=PG Msb=87 Lsb=70 Prg=113 # 114 Happy Brass
+Program Cat=PG Msb=87 Lsb=70 Prg=114 # 115 Runaway Rez
+Program Cat=PG Msb=87 Lsb=70 Prg=115 # 116 Dropplets
+Program Cat=PG Msb=87 Lsb=70 Prg=116 # 117 Indian Guru
+Program Cat=PG Msb=87 Lsb=70 Prg=117 # 118 Cosmic Rain
+Program Cat=PG Msb=87 Lsb=70 Prg=118 # 119 Trying Winds
+Program Cat=PG Msb=87 Lsb=70 Prg=119 # 120 Space Whiz
+Program Cat=PG Msb=87 Lsb=70 Prg=120 # 121 DigitalDrone
+Program Cat=PG Msb=87 Lsb=70 Prg=121 # 122 Space Race
+Program Cat=PG Msb=87 Lsb=70 Prg=122 # 123 Bowed Bell
+Program Cat=PG Msb=87 Lsb=70 Prg=123 # 124 X-Tension
+Program Cat=PG Msb=87 Lsb=70 Prg=124 # 125 DUB!!!
+Program Cat=PG Msb=87 Lsb=70 Prg=125 # 126 Dream Diver
+Program Cat=PG Msb=87 Lsb=70 Prg=126 # 127 Flashback
+Program Cat=PG Msb=87 Lsb=70 Prg=127 # 128 St.LoFiNoise
+
+Program Cat=PH Msb=87 Lsb=71 Prg=0 # 001 Hall Grand
+Program Cat=PH Msb=87 Lsb=71 Prg=1 # 002 Warm pF Mix
+Program Cat=PH Msb=87 Lsb=71 Prg=2 # 003 R&Ballad Mix
+Program Cat=PH Msb=87 Lsb=71 Prg=3 # 004 PingE Piano
+Program Cat=PH Msb=87 Lsb=71 Prg=4 # 005 Hybrid EP
+Program Cat=PH Msb=87 Lsb=71 Prg=5 # 006 Wurly Gum
+Program Cat=PH Msb=87 Lsb=71 Prg=6 # 007 Wurli World
+Program Cat=PH Msb=87 Lsb=71 Prg=7 # 008 Voxfuzz Klav
+Program Cat=PH Msb=87 Lsb=71 Prg=8 # 009 Light Keys
+Program Cat=PH Msb=87 Lsb=71 Prg=9 # 010 Digibell Pad
+Program Cat=PH Msb=87 Lsb=71 Prg=10 # 011 IslandSpirit
+Program Cat=PH Msb=87 Lsb=71 Prg=11 # 012 Ambient Wood
+Program Cat=PH Msb=87 Lsb=71 Prg=12 # 013 VeloClikOrgn
+Program Cat=PH Msb=87 Lsb=71 Prg=13 # 014 Verby Organ
+Program Cat=PH Msb=87 Lsb=71 Prg=14 # 015 Wedding Mass
+Program Cat=PH Msb=87 Lsb=71 Prg=15 # 016 Blues Harp
+Program Cat=PH Msb=87 Lsb=71 Prg=16 # 017 Thick Steel
+Program Cat=PH Msb=87 Lsb=71 Prg=17 # 018 SteelRelease
+Program Cat=PH Msb=87 Lsb=71 Prg=18 # 019 Two+Ensemble
+Program Cat=PH Msb=87 Lsb=71 Prg=19 # 020 Harmless
+Program Cat=PH Msb=87 Lsb=71 Prg=20 # 021 Swell Strat
+Program Cat=PH Msb=87 Lsb=71 Prg=21 # 022 StratSeq'nce
+Program Cat=PH Msb=87 Lsb=71 Prg=22 # 023 Cutting X
+Program Cat=PH Msb=87 Lsb=71 Prg=23 # 024 Hurtin'Tubes
+Program Cat=PH Msb=87 Lsb=71 Prg=24 # 025 Stringless
+Program Cat=PH Msb=87 Lsb=71 Prg=25 # 026 Stick Chopz
+Program Cat=PH Msb=87 Lsb=71 Prg=26 # 027 Fundamental
+Program Cat=PH Msb=87 Lsb=71 Prg=27 # 028 Brash Bass
+Program Cat=PH Msb=87 Lsb=71 Prg=28 # 029 ChamberQrt.1
+Program Cat=PH Msb=87 Lsb=71 Prg=29 # 030 Lead 4x Vlns
+Program Cat=PH Msb=87 Lsb=71 Prg=30 # 031 BatonStrings
+Program Cat=PH Msb=87 Lsb=71 Prg=31 # 032 UltraSmooth
+Program Cat=PH Msb=87 Lsb=71 Prg=32 # 033 Hold A Chord
+Program Cat=PH Msb=87 Lsb=71 Prg=33 # 034 My Orchestra
+Program Cat=PH Msb=87 Lsb=71 Prg=34 # 035 SwellEnsembl
+Program Cat=PH Msb=87 Lsb=71 Prg=35 # 036 Valve Job
+Program Cat=PH Msb=87 Lsb=71 Prg=36 # 037 T8 Brass
+Program Cat=PH Msb=87 Lsb=71 Prg=37 # 038 FatSynBrass
+Program Cat=PH Msb=87 Lsb=71 Prg=38 # 039 Ambient Sax
+Program Cat=PH Msb=87 Lsb=71 Prg=39 # 040 Swingin'Bari
+Program Cat=PH Msb=87 Lsb=71 Prg=40 # 041 Saw Grits
+Program Cat=PH Msb=87 Lsb=71 Prg=41 # 042 JD Multi Ld
+Program Cat=PH Msb=87 Lsb=71 Prg=42 # 043 Over the top
+Program Cat=PH Msb=87 Lsb=71 Prg=43 # 044 Try this!
+Program Cat=PH Msb=87 Lsb=71 Prg=44 # 045 BoutiqueSine
+Program Cat=PH Msb=87 Lsb=71 Prg=45 # 046 Drifter
+Program Cat=PH Msb=87 Lsb=71 Prg=46 # 047 Enchanted XV
+Program Cat=PH Msb=87 Lsb=71 Prg=47 # 048 Water Tubes
+Program Cat=PH Msb=87 Lsb=71 Prg=48 # 049 Waterfront
+Program Cat=PH Msb=87 Lsb=71 Prg=49 # 050 Peking Opera
+Program Cat=PH Msb=87 Lsb=71 Prg=50 # 051 LegatoJupitr
+Program Cat=PH Msb=87 Lsb=71 Prg=51 # 052 Atlantis
+Program Cat=PH Msb=87 Lsb=71 Prg=52 # 053 LF Comb Hit
+Program Cat=PH Msb=87 Lsb=71 Prg=53 # 054 Backspinner
+Program Cat=PH Msb=87 Lsb=71 Prg=54 # 055 Tape Q
+Program Cat=PH Msb=87 Lsb=71 Prg=55 # 056 Technogrunge
+Program Cat=PH Msb=87 Lsb=71 Prg=56 # 057 Chordbender
+Program Cat=PH Msb=87 Lsb=71 Prg=57 # 058 Dance Zipper
+Program Cat=PH Msb=87 Lsb=71 Prg=58 # 059 5th Element
+Program Cat=PH Msb=87 Lsb=71 Prg=59 # 060 Fuzzy Logic
+Program Cat=PH Msb=87 Lsb=71 Prg=60 # 061 Sproing
+Program Cat=PH Msb=87 Lsb=71 Prg=61 # 062 McThrob
+Program Cat=PH Msb=87 Lsb=71 Prg=62 # 063 Space Bassed
+Program Cat=PH Msb=87 Lsb=71 Prg=63 # 064 Vocovox Wave
+Program Cat=PH Msb=87 Lsb=71 Prg=64 # 065 Froggy Bass
+Program Cat=PH Msb=87 Lsb=71 Prg=65 # 066 Tape Orch
+Program Cat=PH Msb=87 Lsb=71 Prg=66 # 067 Tekno Pizz
+Program Cat=PH Msb=87 Lsb=71 Prg=67 # 068 TechnoSurf 1
+Program Cat=PH Msb=87 Lsb=71 Prg=68 # 069 TechnoSurf 2
+Program Cat=PH Msb=87 Lsb=71 Prg=69 # 070 Double Helix
+Program Cat=PH Msb=87 Lsb=71 Prg=70 # 071 Rhythm Sync
+Program Cat=PH Msb=87 Lsb=71 Prg=71 # 072 TMT Scanner
+Program Cat=PH Msb=87 Lsb=71 Prg=72 # 073 Complex Echo
+Program Cat=PH Msb=87 Lsb=71 Prg=73 # 074 Groovedigger
+Program Cat=PH Msb=87 Lsb=71 Prg=74 # 075 20.000 miles
+Program Cat=PH Msb=87 Lsb=71 Prg=75 # 076 Vortex
+Program Cat=PH Msb=87 Lsb=71 Prg=76 # 077 man@work
+Program Cat=PH Msb=87 Lsb=71 Prg=77 # 078 XVoCode
+Program Cat=PH Msb=87 Lsb=71 Prg=78 # 079 Auto Riff
+Program Cat=PH Msb=87 Lsb=71 Prg=79 # 080 Digisquelch
+Program Cat=PH Msb=87 Lsb=71 Prg=80 # 081 TripTheAlarm
+Program Cat=PH Msb=87 Lsb=71 Prg=81 # 082 Aftertouchin
+Program Cat=PH Msb=87 Lsb=71 Prg=82 # 083 Throbulax
+Program Cat=PH Msb=87 Lsb=71 Prg=83 # 084 KeysEnsemble
+Program Cat=PH Msb=87 Lsb=71 Prg=84 # 085 Cheepy Synth
+Program Cat=PH Msb=87 Lsb=71 Prg=85 # 086 Funky Tube
+Program Cat=PH Msb=87 Lsb=71 Prg=86 # 087 Hydrogen
+Program Cat=PH Msb=87 Lsb=71 Prg=87 # 088 Promenade
+Program Cat=PH Msb=87 Lsb=71 Prg=88 # 089 Ray Tracer
+Program Cat=PH Msb=87 Lsb=71 Prg=89 # 090 Skinny
+Program Cat=PH Msb=87 Lsb=71 Prg=90 # 091 Dream 2002
+Program Cat=PH Msb=87 Lsb=71 Prg=91 # 092 DrawbarHeavn
+Program Cat=PH Msb=87 Lsb=71 Prg=92 # 093 Lo-fiBellPad
+Program Cat=PH Msb=87 Lsb=71 Prg=93 # 094 GemniStrings
+Program Cat=PH Msb=87 Lsb=71 Prg=94 # 095 Down2Earth
+Program Cat=PH Msb=87 Lsb=71 Prg=95 # 096 Silk Road
+Program Cat=PH Msb=87 Lsb=71 Prg=96 # 097 Mr.Swirly
+Program Cat=PH Msb=87 Lsb=71 Prg=97 # 098 MetaXV
+Program Cat=PH Msb=87 Lsb=71 Prg=98 # 099 FloatingVox
+Program Cat=PH Msb=87 Lsb=71 Prg=99 # 100 Spread Pad
+Program Cat=PH Msb=87 Lsb=71 Prg=100 # 101 Aliastrings
+Program Cat=PH Msb=87 Lsb=71 Prg=101 # 102 GlobalWarmup
+Program Cat=PH Msb=87 Lsb=71 Prg=102 # 103 2.2 Strings
+Program Cat=PH Msb=87 Lsb=71 Prg=103 # 104 Aftermath
+Program Cat=PH Msb=87 Lsb=71 Prg=104 # 105 11th Space
+Program Cat=PH Msb=87 Lsb=71 Prg=105 # 106 Cloud 9
+Program Cat=PH Msb=87 Lsb=71 Prg=106 # 107 Traffic Pad
+Program Cat=PH Msb=87 Lsb=71 Prg=107 # 108 Nanolog Pad
+Program Cat=PH Msb=87 Lsb=71 Prg=108 # 109 Etheraaahl
+Program Cat=PH Msb=87 Lsb=71 Prg=109 # 110 Pipe Dream
+Program Cat=PH Msb=87 Lsb=71 Prg=110 # 111 Cairo lead
+Program Cat=PH Msb=87 Lsb=71 Prg=111 # 112 Lochscapes
+Program Cat=PH Msb=87 Lsb=71 Prg=112 # 113 Celtic Song
+Program Cat=PH Msb=87 Lsb=71 Prg=113 # 114 Blown Str.
+Program Cat=PH Msb=87 Lsb=71 Prg=114 # 115 Mind Games
+Program Cat=PH Msb=87 Lsb=71 Prg=115 # 116 BadJuju
+Program Cat=PH Msb=87 Lsb=71 Prg=116 # 117 Eleanor
+Program Cat=PH Msb=87 Lsb=71 Prg=117 # 118 RadioHymn
+Program Cat=PH Msb=87 Lsb=71 Prg=118 # 119 Miasma
+Program Cat=PH Msb=87 Lsb=71 Prg=119 # 120 SubmarinBand
+Program Cat=PH Msb=87 Lsb=71 Prg=120 # 121 I Will Lead
+Program Cat=PH Msb=87 Lsb=71 Prg=121 # 122 LatheOfHeavn
+Program Cat=PH Msb=87 Lsb=71 Prg=122 # 123 CrystalGlass
+Program Cat=PH Msb=87 Lsb=71 Prg=123 # 124 Upwind Glata
+Program Cat=PH Msb=87 Lsb=71 Prg=124 # 125 Thor's Drums
+Program Cat=PH Msb=87 Lsb=71 Prg=125 # 126 TempoMadness
+Program Cat=PH Msb=87 Lsb=71 Prg=126 # 127 GenerationXV
+Program Cat=PH Msb=87 Lsb=71 Prg=127 # 128 Wedding Gig
+
+Program Cat=GM Msb=121 Lsb=0 Prg=0 # GM: 001 Piano 1
+Program Cat=GM Msb=121 Lsb=1 Prg=0 # GM: 002 Piano 1w
+Program Cat=GM Msb=121 Lsb=2 Prg=0 # GM: 003 European Pf
+Program Cat=GM Msb=121 Lsb=0 Prg=1 # GM: 004 Piano 2
+Program Cat=GM Msb=121 Lsb=1 Prg=1 # GM: 005 Piano 2w
+Program Cat=GM Msb=121 Lsb=0 Prg=2 # GM: 006 Piano 3
+Program Cat=GM Msb=121 Lsb=1 Prg=2 # GM: 007 Piano 3w
+Program Cat=GM Msb=121 Lsb=0 Prg=3 # GM: 008 Honky-tonk
+Program Cat=GM Msb=121 Lsb=1 Prg=3 # GM: 009 Honky-tonk 2
+Program Cat=GM Msb=121 Lsb=0 Prg=4 # GM: 010 E.Piano 1
+Program Cat=GM Msb=121 Lsb=1 Prg=4 # GM: 011 St.Soft EP
+Program Cat=GM Msb=121 Lsb=2 Prg=4 # GM: 012 FM+SA EP
+Program Cat=GM Msb=121 Lsb=3 Prg=4 # GM: 013 Wurly
+Program Cat=GM Msb=121 Lsb=0 Prg=5 # GM: 014 E.Piano 2
+Program Cat=GM Msb=121 Lsb=1 Prg=5 # GM: 015 Detuned EP 2
+Program Cat=GM Msb=121 Lsb=2 Prg=5 # GM: 016 St.FM EP
+Program Cat=GM Msb=121 Lsb=3 Prg=5 # GM: 017 EP Legend
+Program Cat=GM Msb=121 Lsb=4 Prg=5 # GM: 018 EP Phase
+Program Cat=GM Msb=121 Lsb=0 Prg=6 # GM: 019 Harpsichord
+Program Cat=GM Msb=121 Lsb=1 Prg=6 # GM: 020 Coupled Hps.
+Program Cat=GM Msb=121 Lsb=2 Prg=6 # GM: 021 Harpsi.w
+Program Cat=GM Msb=121 Lsb=3 Prg=6 # GM: 022 Harpsi.o
+Program Cat=GM Msb=121 Lsb=0 Prg=7 # GM: 023 Clav.
+Program Cat=GM Msb=121 Lsb=1 Prg=7 # GM: 024 Pulse Clav
+Program Cat=GM Msb=121 Lsb=0 Prg=8 # GM: 025 Celesta
+Program Cat=GM Msb=121 Lsb=0 Prg=9 # GM: 026 Glockenspiel
+Program Cat=GM Msb=121 Lsb=0 Prg=10 # GM: 027 Music Box
+Program Cat=GM Msb=121 Lsb=0 Prg=11 # GM: 028 Vibraphone
+Program Cat=GM Msb=121 Lsb=1 Prg=11 # GM: 029 Vibraphone w
+Program Cat=GM Msb=121 Lsb=0 Prg=12 # GM: 030 Marimba
+Program Cat=GM Msb=121 Lsb=1 Prg=12 # GM: 031 Marimba w
+Program Cat=GM Msb=121 Lsb=0 Prg=13 # GM: 032 Xylophone
+Program Cat=GM Msb=121 Lsb=0 Prg=14 # GM: 033 Tubular-bell
+Program Cat=GM Msb=121 Lsb=1 Prg=14 # GM: 034 Church Bell
+Program Cat=GM Msb=121 Lsb=2 Prg=14 # GM: 035 Carillon
+Program Cat=GM Msb=121 Lsb=0 Prg=15 # GM: 036 Santur
+Program Cat=GM Msb=121 Lsb=0 Prg=16 # GM: 037 Organ 1
+Program Cat=GM Msb=121 Lsb=1 Prg=16 # GM: 038 Trem. Organ
+Program Cat=GM Msb=121 Lsb=2 Prg=16 # GM: 039 60's Organ 1
+Program Cat=GM Msb=121 Lsb=3 Prg=16 # GM: 040 70's E.Organ
+Program Cat=GM Msb=121 Lsb=0 Prg=17 # GM: 041 Organ 2
+Program Cat=GM Msb=121 Lsb=1 Prg=17 # GM: 042 Chorus Or.2
+Program Cat=GM Msb=121 Lsb=2 Prg=17 # GM: 043 Perc. Organ
+Program Cat=GM Msb=121 Lsb=0 Prg=18 # GM: 044 Organ 3
+Program Cat=GM Msb=121 Lsb=0 Prg=19 # GM: 045 Church Org.1
+Program Cat=GM Msb=121 Lsb=1 Prg=19 # GM: 046 Church Org.2
+Program Cat=GM Msb=121 Lsb=2 Prg=19 # GM: 047 Church Org.3
+Program Cat=GM Msb=121 Lsb=0 Prg=20 # GM: 048 Reed Organ
+Program Cat=GM Msb=121 Lsb=1 Prg=20 # GM: 049 Puff Organ
+Program Cat=GM Msb=121 Lsb=0 Prg=21 # GM: 050 Accordion Fr
+Program Cat=GM Msb=121 Lsb=1 Prg=21 # GM: 051 Accordion It
+Program Cat=GM Msb=121 Lsb=0 Prg=22 # GM: 052 Harmonica
+Program Cat=GM Msb=121 Lsb=0 Prg=23 # GM: 053 Bandoneon
+Program Cat=GM Msb=121 Lsb=0 Prg=24 # GM: 054 Nylon-str.Gt
+Program Cat=GM Msb=121 Lsb=1 Prg=24 # GM: 055 Ukulele
+Program Cat=GM Msb=121 Lsb=2 Prg=24 # GM: 056 Nylon Gt.o
+Program Cat=GM Msb=121 Lsb=3 Prg=24 # GM: 057 Nylon Gt.2
+Program Cat=GM Msb=121 Lsb=0 Prg=25 # GM: 058 Steel-str.Gt
+Program Cat=GM Msb=121 Lsb=1 Prg=25 # GM: 059 12-str.Gt
+Program Cat=GM Msb=121 Lsb=2 Prg=25 # GM: 060 Mandolin
+Program Cat=GM Msb=121 Lsb=3 Prg=25 # GM: 061 Steel + Body
+Program Cat=GM Msb=121 Lsb=0 Prg=26 # GM: 062 Jazz Gt.
+Program Cat=GM Msb=121 Lsb=1 Prg=26 # GM: 063 Pedal Steel
+Program Cat=GM Msb=121 Lsb=0 Prg=27 # GM: 064 Clean Gt.
+Program Cat=GM Msb=121 Lsb=1 Prg=27 # GM: 065 Chorus Gt.
+Program Cat=GM Msb=121 Lsb=2 Prg=27 # GM: 066 Mid Tone GTR
+Program Cat=GM Msb=121 Lsb=0 Prg=28 # GM: 067 Muted Gt.
+Program Cat=GM Msb=121 Lsb=1 Prg=28 # GM: 068 Funk Pop
+Program Cat=GM Msb=121 Lsb=2 Prg=28 # GM: 069 Funk Gt.2
+Program Cat=GM Msb=121 Lsb=3 Prg=28 # GM: 070 Jazz Man
+Program Cat=GM Msb=121 Lsb=0 Prg=29 # GM: 071 Overdrive Gt
+Program Cat=GM Msb=121 Lsb=1 Prg=29 # GM: 072 Guitar Pinch
+Program Cat=GM Msb=121 Lsb=0 Prg=30 # GM: 073 DistortionGt
+Program Cat=GM Msb=121 Lsb=1 Prg=30 # GM: 074 Feedback Gt.
+Program Cat=GM Msb=121 Lsb=2 Prg=30 # GM: 075 Dist Rtm GTR
+Program Cat=GM Msb=121 Lsb=0 Prg=31 # GM: 076 Gt.Harmonics
+Program Cat=GM Msb=121 Lsb=1 Prg=31 # GM: 077 Gt. Feedback
+Program Cat=GM Msb=121 Lsb=0 Prg=32 # GM: 078 Acoustic Bs.
+Program Cat=GM Msb=121 Lsb=0 Prg=33 # GM: 079 Fingered Bs.
+Program Cat=GM Msb=121 Lsb=1 Prg=33 # GM: 080 Finger Slap
+Program Cat=GM Msb=121 Lsb=0 Prg=34 # GM: 081 Picked Bass
+Program Cat=GM Msb=121 Lsb=0 Prg=35 # GM: 082 Fretless Bs.
+Program Cat=GM Msb=121 Lsb=0 Prg=36 # GM: 083 Slap Bass 1
+Program Cat=GM Msb=121 Lsb=0 Prg=37 # GM: 084 Slap Bass 2
+Program Cat=GM Msb=121 Lsb=0 Prg=38 # GM: 085 Synth Bass 1
+Program Cat=GM Msb=121 Lsb=1 Prg=38 # GM: 086 SynthBass101
+Program Cat=GM Msb=121 Lsb=2 Prg=38 # GM: 087 Acid Bass
+Program Cat=GM Msb=121 Lsb=3 Prg=38 # GM: 088 Clavi Bass
+Program Cat=GM Msb=121 Lsb=4 Prg=38 # GM: 089 Hammer
+Program Cat=GM Msb=121 Lsb=0 Prg=39 # GM: 090 Synth Bass 2
+Program Cat=GM Msb=121 Lsb=1 Prg=39 # GM: 091 Beef FM Bass
+Program Cat=GM Msb=121 Lsb=2 Prg=39 # GM: 092 RubberBass 2
+Program Cat=GM Msb=121 Lsb=3 Prg=39 # GM: 093 Attack Pulse
+Program Cat=GM Msb=121 Lsb=0 Prg=40 # GM: 094 Violin
+Program Cat=GM Msb=121 Lsb=1 Prg=40 # GM: 095 Slow Violin
+Program Cat=GM Msb=121 Lsb=0 Prg=41 # GM: 096 Viola
+Program Cat=GM Msb=121 Lsb=0 Prg=42 # GM: 097 Cello
+Program Cat=GM Msb=121 Lsb=0 Prg=43 # GM: 098 Contrabass
+Program Cat=GM Msb=121 Lsb=0 Prg=44 # GM: 099 Tremolo Str
+Program Cat=GM Msb=121 Lsb=0 Prg=45 # GM: 100 PizzicatoStr
+Program Cat=GM Msb=121 Lsb=0 Prg=46 # GM: 101 Harp
+Program Cat=GM Msb=121 Lsb=1 Prg=46 # GM: 102 Yang Qin
+Program Cat=GM Msb=121 Lsb=0 Prg=47 # GM: 103 Timpani
+Program Cat=GM Msb=121 Lsb=0 Prg=48 # GM: 104 Strings
+Program Cat=GM Msb=121 Lsb=1 Prg=48 # GM: 105 Orchestra
+Program Cat=GM Msb=121 Lsb=2 Prg=48 # GM: 106 60s Strings
+Program Cat=GM Msb=121 Lsb=0 Prg=49 # GM: 107 Slow Strings
+Program Cat=GM Msb=121 Lsb=0 Prg=50 # GM: 108 Syn.Strings1
+Program Cat=GM Msb=121 Lsb=1 Prg=50 # GM: 109 Syn.Strings3
+Program Cat=GM Msb=121 Lsb=0 Prg=51 # GM: 110 Syn.Strings2
+Program Cat=GM Msb=121 Lsb=0 Prg=52 # GM: 111 Choir Aahs
+Program Cat=GM Msb=121 Lsb=1 Prg=52 # GM: 112 Chorus Aahs
+Program Cat=GM Msb=121 Lsb=0 Prg=53 # GM: 113 Voice Oohs
+Program Cat=GM Msb=121 Lsb=1 Prg=53 # GM: 114 Humming
+Program Cat=GM Msb=121 Lsb=0 Prg=54 # GM: 115 SynVox
+Program Cat=GM Msb=121 Lsb=1 Prg=54 # GM: 116 Analog Voice
+Program Cat=GM Msb=121 Lsb=0 Prg=55 # GM: 117 OrchestraHit
+Program Cat=GM Msb=121 Lsb=1 Prg=55 # GM: 118 Bass Hit
+Program Cat=GM Msb=121 Lsb=2 Prg=55 # GM: 119 6th Hit
+Program Cat=GM Msb=121 Lsb=3 Prg=55 # GM: 120 Euro Hit
+Program Cat=GM Msb=121 Lsb=0 Prg=56 # GM: 121 Trumpet
+Program Cat=GM Msb=121 Lsb=1 Prg=56 # GM: 122 Dark Trumpet
+Program Cat=GM Msb=121 Lsb=0 Prg=57 # GM: 123 Trombone
+Program Cat=GM Msb=121 Lsb=1 Prg=57 # GM: 124 Trombone 2
+Program Cat=GM Msb=121 Lsb=2 Prg=57 # GM: 125 Bright Tb
+Program Cat=GM Msb=121 Lsb=0 Prg=58 # GM: 126 Tuba
+Program Cat=GM Msb=121 Lsb=0 Prg=59 # GM: 127 MutedTrumpet
+Program Cat=GM Msb=121 Lsb=1 Prg=59 # GM: 128 MuteTrumpet2
+Program Cat=GM Msb=121 Lsb=0 Prg=60 # GM: 129 French Horns
+Program Cat=GM Msb=121 Lsb=1 Prg=60 # GM: 130 Fr.Horn 2
+Program Cat=GM Msb=121 Lsb=0 Prg=61 # GM: 131 Brass 1
+Program Cat=GM Msb=121 Lsb=1 Prg=61 # GM: 132 Brass 2
+Program Cat=GM Msb=121 Lsb=0 Prg=62 # GM: 133 Synth Brass1
+Program Cat=GM Msb=121 Lsb=1 Prg=62 # GM: 134 Pro Brass
+Program Cat=GM Msb=121 Lsb=2 Prg=62 # GM: 135 Oct SynBrass
+Program Cat=GM Msb=121 Lsb=3 Prg=62 # GM: 136 Jump Brass
+Program Cat=GM Msb=121 Lsb=0 Prg=63 # GM: 137 Synth Brass2
+Program Cat=GM Msb=121 Lsb=1 Prg=63 # GM: 138 SynBrass sfz
+Program Cat=GM Msb=121 Lsb=2 Prg=63 # GM: 139 Velo Brass 1
+Program Cat=GM Msb=121 Lsb=0 Prg=64 # GM: 140 Soprano Sax
+Program Cat=GM Msb=121 Lsb=0 Prg=65 # GM: 141 Alto Sax
+Program Cat=GM Msb=121 Lsb=0 Prg=66 # GM: 142 Tenor Sax
+Program Cat=GM Msb=121 Lsb=0 Prg=67 # GM: 143 Baritone Sax
+Program Cat=GM Msb=121 Lsb=0 Prg=68 # GM: 144 Oboe
+Program Cat=GM Msb=121 Lsb=0 Prg=69 # GM: 145 English Horn
+Program Cat=GM Msb=121 Lsb=0 Prg=70 # GM: 146 Bassoon
+Program Cat=GM Msb=121 Lsb=0 Prg=71 # GM: 147 Clarinet
+Program Cat=GM Msb=121 Lsb=0 Prg=72 # GM: 148 Piccolo
+Program Cat=GM Msb=121 Lsb=0 Prg=73 # GM: 149 Flute
+Program Cat=GM Msb=121 Lsb=0 Prg=74 # GM: 150 Recorder
+Program Cat=GM Msb=121 Lsb=0 Prg=75 # GM: 151 Pan Flute
+Program Cat=GM Msb=121 Lsb=0 Prg=76 # GM: 152 Bottle Blow
+Program Cat=GM Msb=121 Lsb=0 Prg=77 # GM: 153 Shakuhachi
+Program Cat=GM Msb=121 Lsb=0 Prg=78 # GM: 154 Whistle
+Program Cat=GM Msb=121 Lsb=0 Prg=79 # GM: 155 Ocarina
+Program Cat=GM Msb=121 Lsb=0 Prg=80 # GM: 156 Square Wave
+Program Cat=GM Msb=121 Lsb=1 Prg=80 # GM: 157 MG Square
+Program Cat=GM Msb=121 Lsb=2 Prg=80 # GM: 158 2600 Sine
+Program Cat=GM Msb=121 Lsb=0 Prg=81 # GM: 159 Saw Wave
+Program Cat=GM Msb=121 Lsb=1 Prg=81 # GM: 160 OB2 Saw
+Program Cat=GM Msb=121 Lsb=2 Prg=81 # GM: 161 Doctor Solo
+Program Cat=GM Msb=121 Lsb=3 Prg=81 # GM: 162 Natural Lead
+Program Cat=GM Msb=121 Lsb=4 Prg=81 # GM: 163 SequencedSaw
+Program Cat=GM Msb=121 Lsb=0 Prg=82 # GM: 164 Syn.Calliope
+Program Cat=GM Msb=121 Lsb=0 Prg=83 # GM: 165 Chiffer Lead
+Program Cat=GM Msb=121 Lsb=0 Prg=84 # GM: 166 Charang
+Program Cat=GM Msb=121 Lsb=1 Prg=84 # GM: 167 Wire Lead
+Program Cat=GM Msb=121 Lsb=0 Prg=85 # GM: 168 Solo Vox
+Program Cat=GM Msb=121 Lsb=0 Prg=86 # GM: 169 5th Saw Wave
+Program Cat=GM Msb=121 Lsb=0 Prg=87 # GM: 170 Bass & Lead
+Program Cat=GM Msb=121 Lsb=1 Prg=87 # GM: 171 Delayed Lead
+Program Cat=GM Msb=121 Lsb=0 Prg=88 # GM: 172 Fantasia
+Program Cat=GM Msb=121 Lsb=0 Prg=89 # GM: 173 Warm Pad
+Program Cat=GM Msb=121 Lsb=1 Prg=89 # GM: 174 Sine Pad
+Program Cat=GM Msb=121 Lsb=0 Prg=90 # GM: 175 Polysynth
+Program Cat=GM Msb=121 Lsb=0 Prg=91 # GM: 176 Space Voice
+Program Cat=GM Msb=121 Lsb=1 Prg=91 # GM: 177 Itopia
+Program Cat=GM Msb=121 Lsb=0 Prg=92 # GM: 178 Bowed Glass
+Program Cat=GM Msb=121 Lsb=0 Prg=93 # GM: 179 Metal Pad
+Program Cat=GM Msb=121 Lsb=0 Prg=94 # GM: 180 Halo Pad
+Program Cat=GM Msb=121 Lsb=0 Prg=95 # GM: 181 Sweep Pad
+Program Cat=GM Msb=121 Lsb=0 Prg=96 # GM: 182 Ice Rain
+Program Cat=GM Msb=121 Lsb=0 Prg=97 # GM: 183 Soundtrack
+Program Cat=GM Msb=121 Lsb=0 Prg=98 # GM: 184 Crystal
+Program Cat=GM Msb=121 Lsb=1 Prg=98 # GM: 185 Syn Mallet
+Program Cat=GM Msb=121 Lsb=0 Prg=99 # GM: 186 Atmosphere
+Program Cat=GM Msb=121 Lsb=0 Prg=100 # GM: 187 Brightness
+Program Cat=GM Msb=121 Lsb=0 Prg=101 # GM: 188 Goblin
+Program Cat=GM Msb=121 Lsb=0 Prg=102 # GM: 189 Echo Drops
+Program Cat=GM Msb=121 Lsb=1 Prg=102 # GM: 190 Echo Bell
+Program Cat=GM Msb=121 Lsb=2 Prg=102 # GM: 191 Echo Pan
+Program Cat=GM Msb=121 Lsb=0 Prg=103 # GM: 192 Star Theme
+Program Cat=GM Msb=121 Lsb=0 Prg=104 # GM: 193 Sitar
+Program Cat=GM Msb=121 Lsb=1 Prg=104 # GM: 194 Sitar 2
+Program Cat=GM Msb=121 Lsb=0 Prg=105 # GM: 195 Banjo
+Program Cat=GM Msb=121 Lsb=0 Prg=106 # GM: 196 Shamisen
+Program Cat=GM Msb=121 Lsb=0 Prg=107 # GM: 197 Koto
+Program Cat=GM Msb=121 Lsb=1 Prg=107 # GM: 198 Taisho Koto
+Program Cat=GM Msb=121 Lsb=0 Prg=108 # GM: 199 Kalimba
+Program Cat=GM Msb=121 Lsb=0 Prg=109 # GM: 200 Bagpipe
+Program Cat=GM Msb=121 Lsb=0 Prg=110 # GM: 201 Fiddle
+Program Cat=GM Msb=121 Lsb=0 Prg=111 # GM: 202 Shanai
+Program Cat=GM Msb=121 Lsb=0 Prg=112 # GM: 203 Tinkle Bell
+Program Cat=GM Msb=121 Lsb=0 Prg=113 # GM: 204 Agogo
+Program Cat=GM Msb=121 Lsb=0 Prg=114 # GM: 205 Steel Drums
+Program Cat=GM Msb=121 Lsb=0 Prg=115 # GM: 206 Woodblock
+Program Cat=GM Msb=121 Lsb=1 Prg=115 # GM: 207 Castanets
+Program Cat=GM Msb=121 Lsb=0 Prg=116 # GM: 208 Taiko
+Program Cat=GM Msb=121 Lsb=1 Prg=116 # GM: 209 Concert BD
+Program Cat=GM Msb=121 Lsb=0 Prg=117 # GM: 210 Melo. Tom 1
+Program Cat=GM Msb=121 Lsb=1 Prg=117 # GM: 211 Melo. Tom 2
+Program Cat=GM Msb=121 Lsb=0 Prg=118 # GM: 212 Synth Drum
+Program Cat=GM Msb=121 Lsb=1 Prg=118 # GM: 213 808 Tom
+Program Cat=GM Msb=121 Lsb=2 Prg=118 # GM: 214 Elec Perc
+Program Cat=GM Msb=121 Lsb=0 Prg=119 # GM: 215 Reverse Cym.
+Program Cat=GM Msb=121 Lsb=0 Prg=120 # GM: 216 Gt.FretNoise
+Program Cat=GM Msb=121 Lsb=1 Prg=120 # GM: 217 Gt.Cut Noise
+Program Cat=GM Msb=121 Lsb=2 Prg=120 # GM: 218 String Slap
+Program Cat=GM Msb=121 Lsb=0 Prg=121 # GM: 219 Breath Noise
+Program Cat=GM Msb=121 Lsb=1 Prg=121 # GM: 220 Fl.Key Click
+Program Cat=GM Msb=121 Lsb=0 Prg=122 # GM: 221 Seashore
+Program Cat=GM Msb=121 Lsb=1 Prg=122 # GM: 222 Rain
+Program Cat=GM Msb=121 Lsb=2 Prg=122 # GM: 223 Thunder
+Program Cat=GM Msb=121 Lsb=3 Prg=122 # GM: 224 Wind
+Program Cat=GM Msb=121 Lsb=4 Prg=122 # GM: 225 Stream
+Program Cat=GM Msb=121 Lsb=5 Prg=122 # GM: 226 Bubble
+Program Cat=GM Msb=121 Lsb=0 Prg=123 # GM: 227 Bird
+Program Cat=GM Msb=121 Lsb=1 Prg=123 # GM: 228 Dog
+Program Cat=GM Msb=121 Lsb=2 Prg=123 # GM: 229 Horse-Gallop
+Program Cat=GM Msb=121 Lsb=3 Prg=123 # GM: 230 Bird 2
+Program Cat=GM Msb=121 Lsb=0 Prg=124 # GM: 231 Telephone 1
+Program Cat=GM Msb=121 Lsb=1 Prg=124 # GM: 232 Telephone 2
+Program Cat=GM Msb=121 Lsb=2 Prg=124 # GM: 233 DoorCreaking
+Program Cat=GM Msb=121 Lsb=3 Prg=124 # GM: 234 Door
+Program Cat=GM Msb=121 Lsb=4 Prg=124 # GM: 235 Scratch
+Program Cat=GM Msb=121 Lsb=5 Prg=124 # GM: 236 Wind Chimes
+Program Cat=GM Msb=121 Lsb=0 Prg=125 # GM: 237 Helicopter
+Program Cat=GM Msb=121 Lsb=1 Prg=125 # GM: 238 Car-Engine
+Program Cat=GM Msb=121 Lsb=2 Prg=125 # GM: 239 Car-Stop
+Program Cat=GM Msb=121 Lsb=3 Prg=125 # GM: 240 Car-Pass
+Program Cat=GM Msb=121 Lsb=4 Prg=125 # GM: 241 Car-Crash
+Program Cat=GM Msb=121 Lsb=5 Prg=125 # GM: 242 Siren
+Program Cat=GM Msb=121 Lsb=6 Prg=125 # GM: 243 Train
+Program Cat=GM Msb=121 Lsb=7 Prg=125 # GM: 244 Jetplane
+Program Cat=GM Msb=121 Lsb=8 Prg=125 # GM: 245 Starship
+Program Cat=GM Msb=121 Lsb=9 Prg=125 # GM: 246 Burst Noise
+Program Cat=GM Msb=121 Lsb=0 Prg=126 # GM: 247 Applause
+Program Cat=GM Msb=121 Lsb=1 Prg=126 # GM: 248 Laughing
+Program Cat=GM Msb=121 Lsb=2 Prg=126 # GM: 249 Screaming
+Program Cat=GM Msb=121 Lsb=3 Prg=126 # GM: 250 Punch
+Program Cat=GM Msb=121 Lsb=4 Prg=126 # GM: 251 Heart Beat
+Program Cat=GM Msb=121 Lsb=5 Prg=126 # GM: 252 Footsteps
+Program Cat=GM Msb=121 Lsb=0 Prg=127 # GM: 253 Gun Shot
+Program Cat=GM Msb=121 Lsb=1 Prg=127 # GM: 254 Machine Gun
+Program Cat=GM Msb=121 Lsb=2 Prg=127 # GM: 255 Lasergun
+Program Cat=GM Msb=121 Lsb=3 Prg=127 # GM: 256 Explosion
+
+Program Cat=Rhythm Msb=86 Lsb=0 Prg=0 # R&B Kit 1
+Program Cat=Rhythm Msb=86 Lsb=0 Prg=1 # House Kit
+Program Cat=Rhythm Msb=86 Lsb=0 Prg=2 # XV WayHipKit
+Program Cat=Rhythm Msb=86 Lsb=0 Prg=3 # XV Jazz Kit
+Program Cat=Rhythm Msb=86 Lsb=64 Prg=0 # PopDrumSet 1
+Program Cat=Rhythm Msb=86 Lsb=64 Prg=1 # PopDrumSet 2
+Program Cat=Rhythm Msb=86 Lsb=65 Prg=0 # PowerDrumSet
+Program Cat=Rhythm Msb=86 Lsb=65 Prg=1 # RaveDrumSet
+Program Cat=Rhythm Msb=86 Lsb=66 Prg=0 # JazzDrumSet2
+Program Cat=Rhythm Msb=86 Lsb=66 Prg=1 # OrchDrumSet
+Program Cat=Rhythm Msb=86 Lsb=67 Prg=0 # PowerDrmSet2
+Program Cat=Rhythm Msb=86 Lsb=67 Prg=1 # PowerRaveSet
+Program Cat=Rhythm Msb=86 Lsb=68 Prg=0 # XV Pop Kit
+Program Cat=Rhythm Msb=86 Lsb=68 Prg=1 # XV Rock Kit
+Program Cat=Rhythm Msb=86 Lsb=69 Prg=0 # XV Jazz Kit
+Program Cat=Rhythm Msb=86 Lsb=69 Prg=1 # XV Rust Kit
+Program Cat=Rhythm Msb=86 Lsb=70 Prg=0 # XV WayHipKit
+Program Cat=Rhythm Msb=86 Lsb=70 Prg=1 # XV Bully Kit
+Program Cat=Rhythm Msb=86 Lsb=71 Prg=0 # R&B Kit 1
+Program Cat=Rhythm Msb=86 Lsb=71 Prg=1 # House Kit
+
+Program Cat=Rhythm_GM Msb=120 Lsb=0 Prg=0 # GM2 STANDARD
+Program Cat=Rhythm_GM Msb=120 Lsb=0 Prg=8 # GM2 ROOM
+Program Cat=Rhythm_GM Msb=120 Lsb=0 Prg=16 # GM2 POWER
+Program Cat=Rhythm_GM Msb=120 Lsb=0 Prg=24 # GM2 ELECTRIC
+Program Cat=Rhythm_GM Msb=120 Lsb=0 Prg=25 # GM2 ANALOG
+Program Cat=Rhythm_GM Msb=120 Lsb=0 Prg=32 # GM2 JAZZ
+Program Cat=Rhythm_GM Msb=120 Lsb=0 Prg=40 # GM2 BRUSH
+Program Cat=Rhythm_GM Msb=120 Lsb=0 Prg=48 # GM2 ORCHSTRA
+Program Cat=Rhythm_GM Msb=120 Lsb=0 Prg=56 # GM2 SFX
+
+
+Program Cat=ACD Msb=121 Lsb=0 Prg=21 # GM: 050 Accordion Fr
+Program Cat=ACD Msb=121 Lsb=1 Prg=21 # GM: 051 Accordion It
+Program Cat=ACD Msb=121 Lsb=0 Prg=23 # GM: 053 Bandoneon
+
+Program Cat=AGT Msb=87 Lsb=0 Prg=4 # US: 005 Thick Steel
+Program Cat=AGT Msb=87 Lsb=0 Prg=31 # US: 032 Two+Ensemble
+Program Cat=AGT Msb=87 Lsb=0 Prg=63 # US: 064 Double Steel
+Program Cat=AGT Msb=87 Lsb=0 Prg=92 # US: 093 Soft Nylon
+Program Cat=AGT Msb=87 Lsb=64 Prg=107 # PA: 108 Nylon Gtr
+Program Cat=AGT Msb=87 Lsb=64 Prg=108 # PA: 109 Gtr Strings
+Program Cat=AGT Msb=87 Lsb=64 Prg=109 # PA: 110 Steel Away
+Program Cat=AGT Msb=87 Lsb=64 Prg=110 # PA: 111 Heavenly Gtr
+Program Cat=AGT Msb=87 Lsb=64 Prg=111 # PA: 112 12str Gtr 1
+Program Cat=AGT Msb=87 Lsb=64 Prg=112 # PA: 113 12str Gtr 2
+Program Cat=AGT Msb=87 Lsb=67 Prg=29 # PD: 030 Solo Steel
+Program Cat=AGT Msb=87 Lsb=67 Prg=30 # PD: 031 DesertCrystl
+Program Cat=AGT Msb=87 Lsb=69 Prg=28 # PF: 029 Soft Nylon
+Program Cat=AGT Msb=87 Lsb=69 Prg=29 # PF: 030 Nylozzicato
+Program Cat=AGT Msb=87 Lsb=69 Prg=30 # PF: 031 Mutezzicato
+Program Cat=AGT Msb=87 Lsb=69 Prg=31 # PF: 032 Hybrid Nylon
+Program Cat=AGT Msb=87 Lsb=69 Prg=32 # PF: 033 XV SteelGt 1
+Program Cat=AGT Msb=87 Lsb=69 Prg=33 # PF: 034 XV SteelGt 2
+Program Cat=AGT Msb=87 Lsb=69 Prg=34 # PF: 035 Comp'Steel
+Program Cat=AGT Msb=87 Lsb=69 Prg=35 # PF: 036 Double Steel
+Program Cat=AGT Msb=87 Lsb=69 Prg=36 # PF: 037 Folk Guitar
+Program Cat=AGT Msb=87 Lsb=69 Prg=37 # PF: 038 SpanishNight
+Program Cat=AGT Msb=87 Lsb=70 Prg=82 # PG: 083 So nice!
+Program Cat=AGT Msb=87 Lsb=71 Prg=16 # PH: 017 Thick Steel
+Program Cat=AGT Msb=87 Lsb=71 Prg=17 # PH: 018 SteelRelease
+Program Cat=AGT Msb=87 Lsb=71 Prg=18 # PH: 019 Two+Ensemble
+Program Cat=AGT Msb=87 Lsb=71 Prg=19 # PH: 020 Harmless
+Program Cat=AGT Msb=121 Lsb=0 Prg=24 # GM: 054 Nylon-str.Gt
+Program Cat=AGT Msb=121 Lsb=1 Prg=24 # GM: 055 Ukulele
+Program Cat=AGT Msb=121 Lsb=2 Prg=24 # GM: 056 Nylon Gt.o
+Program Cat=AGT Msb=121 Lsb=3 Prg=24 # GM: 057 Nylon Gt.2
+Program Cat=AGT Msb=121 Lsb=0 Prg=25 # GM: 058 Steel-str.Gt
+Program Cat=AGT Msb=121 Lsb=1 Prg=25 # GM: 059 12-str.Gt
+Program Cat=AGT Msb=121 Lsb=2 Prg=25 # GM: 060 Mandolin
+Program Cat=AGT Msb=121 Lsb=3 Prg=25 # GM: 061 Steel + Body
+Program Cat=AGT Msb=121 Lsb=0 Prg=99 # GM: 186 Atmosphere
+Program Cat=AGT Msb=121 Lsb=0 Prg=120 # GM: 216 Gt.FretNoise
+Program Cat=AGT Msb=121 Lsb=1 Prg=120 # GM: 217 Gt.Cut Noise
+Program Cat=AGT Msb=121 Lsb=2 Prg=120 # GM: 218 String Slap
+
+Program Cat=BEL Msb=87 Lsb=0 Prg=40 # US: 041 Digibell Pad
+Program Cat=BEL Msb=87 Lsb=0 Prg=60 # US: 061 Chime Bells
+Program Cat=BEL Msb=87 Lsb=64 Prg=70 # PA: 071 D-50 Stack
+Program Cat=BEL Msb=87 Lsb=64 Prg=71 # PA: 072 Fantasia JV
+Program Cat=BEL Msb=87 Lsb=64 Prg=72 # PA: 073 Jimmee Dee
+Program Cat=BEL Msb=87 Lsb=64 Prg=73 # PA: 074 Heavenals
+Program Cat=BEL Msb=87 Lsb=64 Prg=74 # PA: 075 Mallet Pad
+Program Cat=BEL Msb=87 Lsb=64 Prg=75 # PA: 076 Huff N Stuff
+Program Cat=BEL Msb=87 Lsb=64 Prg=77 # PA: 078 BellVox 1080
+Program Cat=BEL Msb=87 Lsb=64 Prg=78 # PA: 079 Fantasy Vox
+Program Cat=BEL Msb=87 Lsb=64 Prg=79 # PA: 080 Square Keys
+Program Cat=BEL Msb=87 Lsb=64 Prg=80 # PA: 081 Childlike
+Program Cat=BEL Msb=87 Lsb=64 Prg=81 # PA: 082 Music Box
+Program Cat=BEL Msb=87 Lsb=64 Prg=82 # PA: 083 Toy Box
+Program Cat=BEL Msb=87 Lsb=64 Prg=83 # PA: 084 Wave Bells
+Program Cat=BEL Msb=87 Lsb=64 Prg=84 # PA: 085 Tria Bells
+Program Cat=BEL Msb=87 Lsb=64 Prg=85 # PA: 086 Beauty Bells
+Program Cat=BEL Msb=87 Lsb=64 Prg=86 # PA: 087 Music Bells
+Program Cat=BEL Msb=87 Lsb=64 Prg=87 # PA: 088 Pretty Bells
+Program Cat=BEL Msb=87 Lsb=64 Prg=89 # PA: 090 Wide Tubular
+Program Cat=BEL Msb=87 Lsb=64 Prg=95 # PA: 096 Ethno Metals
+Program Cat=BEL Msb=87 Lsb=65 Prg=60 # PB: 061 Hammer Bell
+Program Cat=BEL Msb=87 Lsb=67 Prg=18 # PD: 019 HolidayCheer
+Program Cat=BEL Msb=87 Lsb=67 Prg=19 # PD: 020 Morning Lite
+Program Cat=BEL Msb=87 Lsb=67 Prg=20 # PD: 021 Prefab Chime
+Program Cat=BEL Msb=87 Lsb=67 Prg=21 # PD: 022 Belfry Chime
+Program Cat=BEL Msb=87 Lsb=67 Prg=22 # PD: 023 Stacc.Heaven
+Program Cat=BEL Msb=87 Lsb=67 Prg=23 # PD: 024 2.2 Bell Pad
+Program Cat=BEL Msb=87 Lsb=69 Prg=69 # PF: 070 Chime Bells
+Program Cat=BEL Msb=87 Lsb=69 Prg=70 # PF: 071 Celestabox
+Program Cat=BEL Msb=87 Lsb=70 Prg=85 # PG: 086 Stream Bell
+Program Cat=BEL Msb=87 Lsb=70 Prg=86 # PG: 087 Shuffle Bell
+Program Cat=BEL Msb=87 Lsb=71 Prg=9 # PH: 010 Digibell Pad
+Program Cat=BEL Msb=121 Lsb=0 Prg=9 # GM: 026 Glockenspiel
+Program Cat=BEL Msb=121 Lsb=0 Prg=10 # GM: 027 Music Box
+Program Cat=BEL Msb=121 Lsb=0 Prg=14 # GM: 033 Tubular-bell
+Program Cat=BEL Msb=121 Lsb=1 Prg=14 # GM: 034 Church Bell
+Program Cat=BEL Msb=121 Lsb=2 Prg=14 # GM: 035 Carillon
+Program Cat=BEL Msb=121 Lsb=0 Prg=98 # GM: 184 Crystal
+Program Cat=BEL Msb=121 Lsb=1 Prg=98 # GM: 185 Syn Mallet
+Program Cat=BEL Msb=121 Lsb=0 Prg=112 # GM: 203 Tinkle Bell
+
+Program Cat=BPD Msb=87 Lsb=0 Prg=13 # US: 014 Soaring Hrns
+Program Cat=BPD Msb=87 Lsb=0 Prg=16 # US: 017 Lunar Strngs
+Program Cat=BPD Msb=87 Lsb=0 Prg=71 # US: 072 MetaXV
+Program Cat=BPD Msb=87 Lsb=0 Prg=75 # US: 076 Spectre
+Program Cat=BPD Msb=87 Lsb=0 Prg=104 # US: 105 Silk Road
+Program Cat=BPD Msb=87 Lsb=0 Prg=118 # US: 119 Dream 2002
+Program Cat=BPD Msb=87 Lsb=66 Prg=54 # PC: 055 Vintage Orch
+Program Cat=BPD Msb=87 Lsb=66 Prg=55 # PC: 056 JUNO Strings
+Program Cat=BPD Msb=87 Lsb=66 Prg=56 # PC: 057 Gigantalog
+Program Cat=BPD Msb=87 Lsb=66 Prg=57 # PC: 058 PWM Strings
+Program Cat=BPD Msb=87 Lsb=66 Prg=63 # PC: 064 Greek Power
+Program Cat=BPD Msb=87 Lsb=66 Prg=64 # PC: 065 Harmonicum
+Program Cat=BPD Msb=87 Lsb=66 Prg=65 # PC: 066 D-50 Heaven
+Program Cat=BPD Msb=87 Lsb=66 Prg=72 # PC: 073 Heirborne
+Program Cat=BPD Msb=87 Lsb=66 Prg=73 # PC: 074 Hush Pad
+Program Cat=BPD Msb=87 Lsb=66 Prg=79 # PC: 080 Pivotal Pad
+Program Cat=BPD Msb=87 Lsb=66 Prg=81 # PC: 082 Fantawine
+Program Cat=BPD Msb=87 Lsb=66 Prg=100 # PC: 101 5th Sweep
+Program Cat=BPD Msb=87 Lsb=66 Prg=103 # PC: 104 MG Sweep
+Program Cat=BPD Msb=87 Lsb=67 Prg=107 # PD: 108 JUNO Power!
+Program Cat=BPD Msb=87 Lsb=67 Prg=108 # PD: 109 Spectrum Mod
+Program Cat=BPD Msb=87 Lsb=67 Prg=109 # PD: 110 Stringsheen
+Program Cat=BPD Msb=87 Lsb=67 Prg=110 # PD: 111 GR500 TmpDly
+Program Cat=BPD Msb=87 Lsb=67 Prg=111 # PD: 112 Mod DirtyWav
+Program Cat=BPD Msb=87 Lsb=67 Prg=112 # PD: 113 Silicon Str
+Program Cat=BPD Msb=87 Lsb=67 Prg=113 # PD: 114 D50FantaPerc
+Program Cat=BPD Msb=87 Lsb=67 Prg=114 # PD: 115 Rotodreams
+Program Cat=BPD Msb=87 Lsb=68 Prg=112 # PE: 113 Soaring Hrns
+Program Cat=BPD Msb=87 Lsb=68 Prg=113 # PE: 114 Glass Orbit
+Program Cat=BPD Msb=87 Lsb=68 Prg=114 # PE: 115 5th Atm /Aft
+Program Cat=BPD Msb=87 Lsb=68 Prg=115 # PE: 116 Lo-fi Sweep
+Program Cat=BPD Msb=87 Lsb=68 Prg=116 # PE: 117 Modular Life
+Program Cat=BPD Msb=87 Lsb=68 Prg=117 # PE: 118 Oscillations
+Program Cat=BPD Msb=87 Lsb=68 Prg=118 # PE: 119 Combing
+Program Cat=BPD Msb=87 Lsb=68 Prg=119 # PE: 120 Rolling 5ths
+Program Cat=BPD Msb=87 Lsb=68 Prg=120 # PE: 121 Analogue Str
+Program Cat=BPD Msb=87 Lsb=68 Prg=121 # PE: 122 Lunar Strngs
+Program Cat=BPD Msb=87 Lsb=70 Prg=36 # PG: 037 5080 Random
+Program Cat=BPD Msb=87 Lsb=70 Prg=37 # PG: 038 XV Stepping
+Program Cat=BPD Msb=87 Lsb=70 Prg=38 # PG: 039 India Garden
+Program Cat=BPD Msb=87 Lsb=70 Prg=39 # PG: 040 Belly Pad
+Program Cat=BPD Msb=87 Lsb=70 Prg=40 # PG: 041 Spectre
+Program Cat=BPD Msb=87 Lsb=70 Prg=41 # PG: 042 SoaringHrns2
+Program Cat=BPD Msb=87 Lsb=71 Prg=89 # PH: 090 Skinny
+Program Cat=BPD Msb=87 Lsb=71 Prg=90 # PH: 091 Dream 2002
+Program Cat=BPD Msb=87 Lsb=71 Prg=91 # PH: 092 DrawbarHeavn
+Program Cat=BPD Msb=87 Lsb=71 Prg=92 # PH: 093 Lo-fiBellPad
+Program Cat=BPD Msb=87 Lsb=71 Prg=93 # PH: 094 GemniStrings
+Program Cat=BPD Msb=87 Lsb=71 Prg=94 # PH: 095 Down2Earth
+Program Cat=BPD Msb=87 Lsb=71 Prg=95 # PH: 096 Silk Road
+Program Cat=BPD Msb=87 Lsb=71 Prg=96 # PH: 097 Mr.Swirly
+Program Cat=BPD Msb=87 Lsb=71 Prg=97 # PH: 098 MetaXV
+Program Cat=BPD Msb=87 Lsb=71 Prg=98 # PH: 099 FloatingVox
+Program Cat=BPD Msb=121 Lsb=0 Prg=93 # GM: 179 Metal Pad
+Program Cat=BPD Msb=121 Lsb=0 Prg=94 # GM: 180 Halo Pad
+Program Cat=BPD Msb=121 Lsb=0 Prg=102 # GM: 189 Echo Drops
+Program Cat=BPD Msb=121 Lsb=1 Prg=102 # GM: 190 Echo Bell
+Program Cat=BPD Msb=121 Lsb=2 Prg=102 # GM: 191 Echo Pan
+Program Cat=BPD Msb=121 Lsb=0 Prg=103 # GM: 192 Star Theme
+
+Program Cat=BRS Msb=87 Lsb=0 Prg=52 # US: 053 NewR&RBrass
+Program Cat=BRS Msb=87 Lsb=0 Prg=68 # US: 069 BiggieBrass2
+Program Cat=BRS Msb=87 Lsb=0 Prg=88 # US: 089 Valve Job
+Program Cat=BRS Msb=87 Lsb=0 Prg=96 # US: 097 VoyagerBrass
+Program Cat=BRS Msb=87 Lsb=65 Prg=123 # PB: 124 Majestic Tpt
+Program Cat=BRS Msb=87 Lsb=65 Prg=124 # PB: 125 Voluntare
+Program Cat=BRS Msb=87 Lsb=65 Prg=125 # PB: 126 2Trumpets
+Program Cat=BRS Msb=87 Lsb=65 Prg=126 # PB: 127 Tpt Sect
+Program Cat=BRS Msb=87 Lsb=65 Prg=127 # PB: 128 Mute TP mod
+Program Cat=BRS Msb=87 Lsb=66 Prg=0 # PC: 001 Harmon Mute
+Program Cat=BRS Msb=87 Lsb=66 Prg=1 # PC: 002 Tp&Sax Sect
+Program Cat=BRS Msb=87 Lsb=66 Prg=2 # PC: 003 Sax+Tp+Tb
+Program Cat=BRS Msb=87 Lsb=66 Prg=3 # PC: 004 Brass Sect
+Program Cat=BRS Msb=87 Lsb=66 Prg=4 # PC: 005 Trombone
+Program Cat=BRS Msb=87 Lsb=66 Prg=5 # PC: 006 Hybrid Bones
+Program Cat=BRS Msb=87 Lsb=66 Prg=6 # PC: 007 Noble Horns
+Program Cat=BRS Msb=87 Lsb=66 Prg=7 # PC: 008 Massed Horns
+Program Cat=BRS Msb=87 Lsb=66 Prg=8 # PC: 009 Horn Swell
+Program Cat=BRS Msb=87 Lsb=67 Prg=54 # PD: 055 Ballad Trump
+Program Cat=BRS Msb=87 Lsb=67 Prg=55 # PD: 056 Sm.Brass Grp
+Program Cat=BRS Msb=87 Lsb=67 Prg=56 # PD: 057 Royale
+Program Cat=BRS Msb=87 Lsb=67 Prg=57 # PD: 058 Brass Mutes
+Program Cat=BRS Msb=87 Lsb=68 Prg=94 # PE: 095 Simply Brass
+Program Cat=BRS Msb=87 Lsb=68 Prg=95 # PE: 096 FullSt Brass
+Program Cat=BRS Msb=87 Lsb=68 Prg=96 # PE: 097 Dragnet
+Program Cat=BRS Msb=87 Lsb=68 Prg=97 # PE: 098 NewR&RBrass
+Program Cat=BRS Msb=87 Lsb=68 Prg=98 # PE: 099 Tower Trumps
+Program Cat=BRS Msb=87 Lsb=68 Prg=99 # PE: 100 BigBrassBand
+Program Cat=BRS Msb=87 Lsb=68 Prg=100 # PE: 101 Lil'BigHornz
+Program Cat=BRS Msb=87 Lsb=68 Prg=101 # PE: 102 VoyagerBrass
+Program Cat=BRS Msb=87 Lsb=68 Prg=102 # PE: 103 Symph Horns
+Program Cat=BRS Msb=87 Lsb=68 Prg=103 # PE: 104 Trombone Atm
+Program Cat=BRS Msb=87 Lsb=68 Prg=104 # PE: 105 XV Trombone
+Program Cat=BRS Msb=87 Lsb=68 Prg=105 # PE: 106 XV Trumpet
+Program Cat=BRS Msb=87 Lsb=70 Prg=55 # PG: 056 Biggie Brass
+Program Cat=BRS Msb=87 Lsb=70 Prg=56 # PG: 057 BiggieBrass2
+Program Cat=BRS Msb=87 Lsb=71 Prg=35 # PH: 036 Valve Job
+Program Cat=BRS Msb=121 Lsb=0 Prg=56 # GM: 121 Trumpet
+Program Cat=BRS Msb=121 Lsb=1 Prg=56 # GM: 122 Dark Trumpet
+Program Cat=BRS Msb=121 Lsb=0 Prg=57 # GM: 123 Trombone
+Program Cat=BRS Msb=121 Lsb=1 Prg=57 # GM: 124 Trombone 2
+Program Cat=BRS Msb=121 Lsb=2 Prg=57 # GM: 125 Bright Tb
+Program Cat=BRS Msb=121 Lsb=0 Prg=58 # GM: 126 Tuba
+Program Cat=BRS Msb=121 Lsb=0 Prg=59 # GM: 127 MutedTrumpet
+Program Cat=BRS Msb=121 Lsb=1 Prg=59 # GM: 128 MuteTrumpet2
+Program Cat=BRS Msb=121 Lsb=0 Prg=60 # GM: 129 French Horns
+Program Cat=BRS Msb=121 Lsb=1 Prg=60 # GM: 130 Fr.Horn 2
+Program Cat=BRS Msb=121 Lsb=0 Prg=61 # GM: 131 Brass 1
+Program Cat=BRS Msb=121 Lsb=1 Prg=61 # GM: 132 Brass 2
+
+Program Cat=BS Msb=87 Lsb=0 Prg=46 # US: 047 LookMaNoFret
+Program Cat=BS Msb=87 Lsb=0 Prg=65 # US: 066 XV Upright
+Program Cat=BS Msb=87 Lsb=0 Prg=94 # US: 095 Tap Bass
+Program Cat=BS Msb=87 Lsb=65 Prg=8 # PB: 009 Pick Bass
+Program Cat=BS Msb=87 Lsb=65 Prg=9 # PB: 010 Hip Bass
+Program Cat=BS Msb=87 Lsb=65 Prg=10 # PB: 011 Perc.Bass
+Program Cat=BS Msb=87 Lsb=65 Prg=11 # PB: 012 Homey Bass
+Program Cat=BS Msb=87 Lsb=65 Prg=12 # PB: 013 Finger Bass
+Program Cat=BS Msb=87 Lsb=65 Prg=13 # PB: 014 Nylon Bass
+Program Cat=BS Msb=87 Lsb=65 Prg=14 # PB: 015 Ac.Upright
+Program Cat=BS Msb=87 Lsb=65 Prg=15 # PB: 016 Wet Fretls
+Program Cat=BS Msb=87 Lsb=65 Prg=16 # PB: 017 Fretls Dry
+Program Cat=BS Msb=87 Lsb=65 Prg=17 # PB: 018 Slap Bass 1
+Program Cat=BS Msb=87 Lsb=65 Prg=18 # PB: 019 Slap Bass 2
+Program Cat=BS Msb=87 Lsb=65 Prg=19 # PB: 020 Slap Bass 3
+Program Cat=BS Msb=87 Lsb=65 Prg=20 # PB: 021 Slap Bass 4
+Program Cat=BS Msb=87 Lsb=69 Prg=43 # PF: 044 XV Upright
+Program Cat=BS Msb=87 Lsb=69 Prg=44 # PF: 045 XV Ac.Bass
+Program Cat=BS Msb=87 Lsb=69 Prg=45 # PF: 046 LookMaNoFret
+Program Cat=BS Msb=87 Lsb=69 Prg=46 # PF: 047 XV Fretless
+Program Cat=BS Msb=87 Lsb=69 Prg=47 # PF: 048 Basic F'less
+Program Cat=BS Msb=87 Lsb=69 Prg=48 # PF: 049 8-str F'less
+Program Cat=BS Msb=87 Lsb=69 Prg=49 # PF: 050 Tap Bass
+Program Cat=BS Msb=87 Lsb=69 Prg=50 # PF: 051 Pop Bass
+Program Cat=BS Msb=87 Lsb=69 Prg=51 # PF: 052 P.Bs Chorus
+Program Cat=BS Msb=87 Lsb=69 Prg=52 # PF: 053 TremCho Bs
+Program Cat=BS Msb=87 Lsb=70 Prg=83 # PG: 084 Punch Bass
+Program Cat=BS Msb=87 Lsb=70 Prg=84 # PG: 085 COSM Bass
+Program Cat=BS Msb=87 Lsb=71 Prg=24 # PH: 025 Stringless
+Program Cat=BS Msb=87 Lsb=71 Prg=25 # PH: 026 Stick Chopz
+Program Cat=BS Msb=121 Lsb=0 Prg=32 # GM: 078 Acoustic Bs.
+Program Cat=BS Msb=121 Lsb=0 Prg=33 # GM: 079 Fingered Bs.
+Program Cat=BS Msb=121 Lsb=1 Prg=33 # GM: 080 Finger Slap
+Program Cat=BS Msb=121 Lsb=0 Prg=34 # GM: 081 Picked Bass
+Program Cat=BS Msb=121 Lsb=0 Prg=35 # GM: 082 Fretless Bs.
+Program Cat=BS Msb=121 Lsb=0 Prg=36 # GM: 083 Slap Bass 1
+Program Cat=BS Msb=121 Lsb=0 Prg=37 # GM: 084 Slap Bass 2
+
+Program Cat=BTS Msb=87 Lsb=0 Prg=123 # US: 124 TempoMadness
+Program Cat=BTS Msb=87 Lsb=71 Prg=125 # PH: 126 TempoMadness
+
+Program Cat=CMB Msb=87 Lsb=0 Prg=8 # US: 009 GenerationXV
+Program Cat=CMB Msb=87 Lsb=64 Prg=12 # PA: 013 Bs/Pno+Brs
+Program Cat=CMB Msb=87 Lsb=64 Prg=116 # PA: 117 Lounge Gig
+Program Cat=CMB Msb=87 Lsb=65 Prg=121 # PB: 122 Hillbillys
+Program Cat=CMB Msb=87 Lsb=67 Prg=115 # PD: 116 Blue Notes
+Program Cat=CMB Msb=87 Lsb=69 Prg=87 # PF: 088 Suite Combo
+Program Cat=CMB Msb=87 Lsb=71 Prg=126 # PH: 127 GenerationXV
+Program Cat=CMB Msb=87 Lsb=71 Prg=127 # PH: 128 Wedding Gig
+
+Program Cat=DGT Msb=87 Lsb=0 Prg=34 # US: 035 Blue Mutes
+Program Cat=DGT Msb=87 Lsb=0 Prg=44 # US: 045 Crying Solo
+Program Cat=DGT Msb=87 Lsb=0 Prg=64 # US: 065 COSM Searing
+Program Cat=DGT Msb=87 Lsb=0 Prg=77 # US: 078 Cutting X
+Program Cat=DGT Msb=87 Lsb=64 Prg=124 # PA: 125 Power Trip
+Program Cat=DGT Msb=87 Lsb=64 Prg=125 # PA: 126 Crunch Split
+Program Cat=DGT Msb=87 Lsb=64 Prg=126 # PA: 127 Rezodrive
+Program Cat=DGT Msb=87 Lsb=64 Prg=127 # PA: 128 RockYurSocks
+Program Cat=DGT Msb=87 Lsb=65 Prg=0 # PB: 001 Dist Gtr 1
+Program Cat=DGT Msb=87 Lsb=65 Prg=1 # PB: 002 Dist Gtr 2
+Program Cat=DGT Msb=87 Lsb=65 Prg=2 # PB: 003 R&R Chunk
+Program Cat=DGT Msb=87 Lsb=65 Prg=3 # PB: 004 Phripphuzz
+Program Cat=DGT Msb=87 Lsb=65 Prg=4 # PB: 005 Grungeroni
+Program Cat=DGT Msb=87 Lsb=65 Prg=5 # PB: 006 Black Widow
+Program Cat=DGT Msb=87 Lsb=65 Prg=7 # PB: 008 Mod-Wah Gtr
+Program Cat=DGT Msb=87 Lsb=67 Prg=33 # PD: 034 Feed Me!
+Program Cat=DGT Msb=87 Lsb=67 Prg=34 # PD: 035 Tube Smoke
+Program Cat=DGT Msb=87 Lsb=67 Prg=35 # PD: 036 Creamy
+Program Cat=DGT Msb=87 Lsb=67 Prg=36 # PD: 037 Blusey OD
+Program Cat=DGT Msb=87 Lsb=67 Prg=37 # PD: 038 Grindstone
+Program Cat=DGT Msb=87 Lsb=67 Prg=38 # PD: 039 OD 5ths
+Program Cat=DGT Msb=87 Lsb=69 Prg=40 # PF: 041 Searing Lead
+Program Cat=DGT Msb=87 Lsb=69 Prg=41 # PF: 042 Punker
+Program Cat=DGT Msb=87 Lsb=69 Prg=42 # PF: 043 LouderPlease
+Program Cat=DGT Msb=87 Lsb=70 Prg=70 # PG: 071 Crying Solo
+Program Cat=DGT Msb=87 Lsb=70 Prg=71 # PG: 072 Southern Fry
+Program Cat=DGT Msb=87 Lsb=70 Prg=72 # PG: 073 Strum Distrt
+Program Cat=DGT Msb=87 Lsb=70 Prg=73 # PG: 074 Match Drive
+Program Cat=DGT Msb=87 Lsb=70 Prg=74 # PG: 075 Stacked
+Program Cat=DGT Msb=87 Lsb=70 Prg=75 # PG: 076 2-Stack Over
+Program Cat=DGT Msb=87 Lsb=70 Prg=76 # PG: 077 COSM Searing
+Program Cat=DGT Msb=87 Lsb=70 Prg=77 # PG: 078 COSM Loud Gt
+Program Cat=DGT Msb=87 Lsb=70 Prg=78 # PG: 079 Blue Mutes
+Program Cat=DGT Msb=87 Lsb=70 Prg=79 # PG: 080 Metal 5150
+Program Cat=DGT Msb=87 Lsb=70 Prg=80 # PG: 081 Crunch Phase
+Program Cat=DGT Msb=87 Lsb=70 Prg=81 # PG: 082 Alt Dist Gtr
+Program Cat=DGT Msb=87 Lsb=71 Prg=22 # PH: 023 Cutting X
+Program Cat=DGT Msb=87 Lsb=71 Prg=23 # PH: 024 Hurtin'Tubes
+Program Cat=DGT Msb=121 Lsb=0 Prg=29 # GM: 071 Overdrive Gt
+Program Cat=DGT Msb=121 Lsb=1 Prg=29 # GM: 072 Guitar Pinch
+Program Cat=DGT Msb=121 Lsb=0 Prg=30 # GM: 073 DistortionGt
+Program Cat=DGT Msb=121 Lsb=1 Prg=30 # GM: 074 Feedback Gt.
+Program Cat=DGT Msb=121 Lsb=2 Prg=30 # GM: 075 Dist Rtm GTR
+
+Program Cat=DRM Msb=87 Lsb=71 Prg=124 # PH: 125 Thor's Drums
+
+Program Cat=EGT Msb=87 Lsb=0 Prg=43 # US: 044 Plug n' Play
+Program Cat=EGT Msb=87 Lsb=0 Prg=93 # US: 094 Swell Strat
+Program Cat=EGT Msb=87 Lsb=64 Prg=113 # PA: 114 Jz Gtr Hall
+Program Cat=EGT Msb=87 Lsb=64 Prg=114 # PA: 115 LetterFrmPat
+Program Cat=EGT Msb=87 Lsb=64 Prg=115 # PA: 116 Jazz Scat
+Program Cat=EGT Msb=87 Lsb=64 Prg=117 # PA: 118 JC Strat
+Program Cat=EGT Msb=87 Lsb=64 Prg=118 # PA: 119 Twin Strats
+Program Cat=EGT Msb=87 Lsb=64 Prg=119 # PA: 120 JV Strat
+Program Cat=EGT Msb=87 Lsb=64 Prg=120 # PA: 121 Syn Strat
+Program Cat=EGT Msb=87 Lsb=64 Prg=121 # PA: 122 Rotary Gtr
+Program Cat=EGT Msb=87 Lsb=64 Prg=122 # PA: 123 Muted Gtr
+Program Cat=EGT Msb=87 Lsb=64 Prg=123 # PA: 124 SwitchOnMute
+Program Cat=EGT Msb=87 Lsb=65 Prg=6 # PB: 007 Velo-Wah Gtr
+Program Cat=EGT Msb=87 Lsb=67 Prg=31 # PD: 032 Clear Guitar
+Program Cat=EGT Msb=87 Lsb=67 Prg=32 # PD: 033 Solo Strat
+Program Cat=EGT Msb=87 Lsb=69 Prg=38 # PF: 039 Plug n' Play
+Program Cat=EGT Msb=87 Lsb=69 Prg=39 # PF: 040 Fab 4 Guitar
+Program Cat=EGT Msb=87 Lsb=71 Prg=20 # PH: 021 Swell Strat
+Program Cat=EGT Msb=87 Lsb=71 Prg=21 # PH: 022 StratSeq'nce
+Program Cat=EGT Msb=121 Lsb=0 Prg=26 # GM: 062 Jazz Gt.
+Program Cat=EGT Msb=121 Lsb=1 Prg=26 # GM: 063 Pedal Steel
+Program Cat=EGT Msb=121 Lsb=0 Prg=27 # GM: 064 Clean Gt.
+Program Cat=EGT Msb=121 Lsb=1 Prg=27 # GM: 065 Chorus Gt.
+Program Cat=EGT Msb=121 Lsb=2 Prg=27 # GM: 066 Mid Tone GTR
+Program Cat=EGT Msb=121 Lsb=0 Prg=28 # GM: 067 Muted Gt.
+Program Cat=EGT Msb=121 Lsb=1 Prg=28 # GM: 068 Funk Pop
+Program Cat=EGT Msb=121 Lsb=2 Prg=28 # GM: 069 Funk Gt.2
+Program Cat=EGT Msb=121 Lsb=3 Prg=28 # GM: 070 Jazz Man
+Program Cat=EGT Msb=121 Lsb=0 Prg=31 # GM: 076 Gt.Harmonics
+Program Cat=EGT Msb=121 Lsb=1 Prg=31 # GM: 077 Gt. Feedback
+
+Program Cat=EP Msb=87 Lsb=0 Prg=0 # US: 001 Rhodes Trem
+Program Cat=EP Msb=87 Lsb=0 Prg=11 # US: 012 Wurly Gum
+Program Cat=EP Msb=87 Lsb=0 Prg=51 # US: 052 Amped Wurlie
+Program Cat=EP Msb=87 Lsb=0 Prg=59 # US: 060 Rholitzer
+Program Cat=EP Msb=87 Lsb=0 Prg=109 # US: 110 Fat Rhodes
+Program Cat=EP Msb=87 Lsb=0 Prg=124 # US: 125 Phaser Dyno
+Program Cat=EP Msb=87 Lsb=0 Prg=127 # US: 128 Cold Roadz
+Program Cat=EP Msb=87 Lsb=64 Prg=10 # PA: 011 West Coast
+Program Cat=EP Msb=87 Lsb=64 Prg=13 # PA: 014 Waterhodes
+Program Cat=EP Msb=87 Lsb=64 Prg=14 # PA: 015 S.A.E.P.
+Program Cat=EP Msb=87 Lsb=64 Prg=15 # PA: 016 SA Rhodes 1
+Program Cat=EP Msb=87 Lsb=64 Prg=16 # PA: 017 SA Rhodes 2
+Program Cat=EP Msb=87 Lsb=64 Prg=17 # PA: 018 Stiky Rhodes
+Program Cat=EP Msb=87 Lsb=64 Prg=18 # PA: 019 Dig Rhodes
+Program Cat=EP Msb=87 Lsb=64 Prg=19 # PA: 020 Nylon EPiano
+Program Cat=EP Msb=87 Lsb=64 Prg=20 # PA: 021 Nylon Rhodes
+Program Cat=EP Msb=87 Lsb=64 Prg=21 # PA: 022 Rhodes Mix
+Program Cat=EP Msb=87 Lsb=64 Prg=22 # PA: 023 PsychoRhodes
+Program Cat=EP Msb=87 Lsb=64 Prg=23 # PA: 024 Tremo Rhodes
+Program Cat=EP Msb=87 Lsb=64 Prg=24 # PA: 025 MK-80 Rhodes
+Program Cat=EP Msb=87 Lsb=64 Prg=25 # PA: 026 MK-80 Phaser
+Program Cat=EP Msb=87 Lsb=64 Prg=26 # PA: 027 Delicate EP
+Program Cat=EP Msb=87 Lsb=64 Prg=27 # PA: 028 Octa Rhodes1
+Program Cat=EP Msb=87 Lsb=64 Prg=28 # PA: 029 Octa Rhodes2
+Program Cat=EP Msb=87 Lsb=64 Prg=29 # PA: 030 JV Rhodes+
+Program Cat=EP Msb=87 Lsb=64 Prg=30 # PA: 031 EP+Mod Pad
+Program Cat=EP Msb=87 Lsb=64 Prg=31 # PA: 032 Mr.Mellow
+Program Cat=EP Msb=87 Lsb=67 Prg=3 # PD: 004 Player's EP
+Program Cat=EP Msb=87 Lsb=67 Prg=4 # PD: 005 D-50 Rhodes
+Program Cat=EP Msb=87 Lsb=67 Prg=5 # PD: 006 Innocent EP
+Program Cat=EP Msb=87 Lsb=67 Prg=6 # PD: 007 Echo Rhodes
+Program Cat=EP Msb=87 Lsb=67 Prg=7 # PD: 008 See-Thru EP
+Program Cat=EP Msb=87 Lsb=67 Prg=8 # PD: 009 FM BellPiano
+Program Cat=EP Msb=87 Lsb=67 Prg=9 # PD: 010 Ring E.Piano
+Program Cat=EP Msb=87 Lsb=68 Prg=11 # PE: 012 Retro Rhodes
+Program Cat=EP Msb=87 Lsb=68 Prg=12 # PE: 013 Fat Rhodes
+Program Cat=EP Msb=87 Lsb=68 Prg=13 # PE: 014 Rhodes Trem
+Program Cat=EP Msb=87 Lsb=68 Prg=14 # PE: 015 Phaser Dyno
+Program Cat=EP Msb=87 Lsb=68 Prg=15 # PE: 016 Hit Rhodes
+Program Cat=EP Msb=87 Lsb=68 Prg=16 # PE: 017 Sweet Tynes
+Program Cat=EP Msb=87 Lsb=68 Prg=17 # PE: 018 Pluk Rhodes
+Program Cat=EP Msb=87 Lsb=68 Prg=18 # PE: 019 Rhodes Trip
+Program Cat=EP Msb=87 Lsb=68 Prg=19 # PE: 020 AmbiRhodes
+Program Cat=EP Msb=87 Lsb=68 Prg=20 # PE: 021 Rholitzer
+Program Cat=EP Msb=87 Lsb=68 Prg=21 # PE: 022 Wurlie
+Program Cat=EP Msb=87 Lsb=68 Prg=22 # PE: 023 FM Delight
+Program Cat=EP Msb=87 Lsb=70 Prg=1 # PG: 002 WaterPiano2
+Program Cat=EP Msb=87 Lsb=70 Prg=2 # PG: 003 Swimming EP
+Program Cat=EP Msb=87 Lsb=70 Prg=3 # PG: 004 XV Crystal
+Program Cat=EP Msb=87 Lsb=70 Prg=4 # PG: 005 Cold Roadz
+Program Cat=EP Msb=87 Lsb=70 Prg=5 # PG: 006 Backrhodes
+Program Cat=EP Msb=87 Lsb=70 Prg=6 # PG: 007 Amped Wurlie
+Program Cat=EP Msb=87 Lsb=70 Prg=7 # PG: 008 Dirty Wurlie
+Program Cat=EP Msb=87 Lsb=71 Prg=3 # PH: 004 PingE Piano
+Program Cat=EP Msb=87 Lsb=71 Prg=4 # PH: 005 Hybrid EP
+Program Cat=EP Msb=87 Lsb=71 Prg=5 # PH: 006 Wurly Gum
+Program Cat=EP Msb=87 Lsb=71 Prg=6 # PH: 007 Wurli World
+Program Cat=EP Msb=121 Lsb=0 Prg=4 # GM: 010 E.Piano 1
+Program Cat=EP Msb=121 Lsb=1 Prg=4 # GM: 011 St.Soft EP
+Program Cat=EP Msb=121 Lsb=2 Prg=4 # GM: 012 FM+SA EP
+Program Cat=EP Msb=121 Lsb=3 Prg=4 # GM: 013 Wurly
+Program Cat=EP Msb=121 Lsb=0 Prg=5 # GM: 014 E.Piano 2
+Program Cat=EP Msb=121 Lsb=1 Prg=5 # GM: 015 Detuned EP 2
+Program Cat=EP Msb=121 Lsb=2 Prg=5 # GM: 016 St.FM EP
+Program Cat=EP Msb=121 Lsb=3 Prg=5 # GM: 017 EP Legend
+Program Cat=EP Msb=121 Lsb=4 Prg=5 # GM: 018 EP Phase
+
+Program Cat=ETH Msb=87 Lsb=64 Prg=105 # PA: 106 East Melody
+Program Cat=ETH Msb=87 Lsb=65 Prg=100 # PB: 101 Taj Mahal
+Program Cat=ETH Msb=87 Lsb=65 Prg=101 # PB: 102 Raya Shaku
+Program Cat=ETH Msb=87 Lsb=65 Prg=122 # PB: 123 French Bags
+Program Cat=ETH Msb=87 Lsb=67 Prg=24 # PD: 025 Far East
+Program Cat=ETH Msb=87 Lsb=69 Prg=71 # PF: 072 Brass Tubes
+Program Cat=ETH Msb=87 Lsb=69 Prg=72 # PF: 073 Dreams East
+Program Cat=ETH Msb=87 Lsb=69 Prg=73 # PF: 074 Synergistic
+Program Cat=ETH Msb=87 Lsb=71 Prg=109 # PH: 110 Pipe Dream
+Program Cat=ETH Msb=87 Lsb=71 Prg=110 # PH: 111 Cairo lead
+Program Cat=ETH Msb=87 Lsb=71 Prg=111 # PH: 112 Lochscapes
+Program Cat=ETH Msb=87 Lsb=71 Prg=112 # PH: 113 Celtic Song
+Program Cat=ETH Msb=87 Lsb=71 Prg=113 # PH: 114 Blown Str.
+Program Cat=ETH Msb=121 Lsb=0 Prg=77 # GM: 153 Shakuhachi
+Program Cat=ETH Msb=121 Lsb=0 Prg=109 # GM: 200 Bagpipe
+Program Cat=ETH Msb=121 Lsb=0 Prg=111 # GM: 202 Shanai
+
+Program Cat=FLT Msb=87 Lsb=65 Prg=94 # PB: 095 Flute
+Program Cat=FLT Msb=87 Lsb=65 Prg=95 # PB: 096 Piccolo
+Program Cat=FLT Msb=87 Lsb=65 Prg=96 # PB: 097 VOX Flute
+Program Cat=FLT Msb=87 Lsb=65 Prg=97 # PB: 098 Air Lead
+Program Cat=FLT Msb=87 Lsb=65 Prg=98 # PB: 099 Pan Pipes
+Program Cat=FLT Msb=87 Lsb=67 Prg=51 # PD: 052 Flute 2080
+Program Cat=FLT Msb=87 Lsb=67 Prg=52 # PD: 053 Scat Flute
+Program Cat=FLT Msb=87 Lsb=68 Prg=88 # PE: 089 Dual Flutes
+Program Cat=FLT Msb=87 Lsb=68 Prg=89 # PE: 090 Jazzer Flute
+Program Cat=FLT Msb=87 Lsb=68 Prg=90 # PE: 091 LegatoBamboo
+Program Cat=FLT Msb=87 Lsb=68 Prg=91 # PE: 092 Ambience Flt
+Program Cat=FLT Msb=87 Lsb=68 Prg=92 # PE: 093 The Andes
+Program Cat=FLT Msb=87 Lsb=68 Prg=93 # PE: 094 Deja Vlute
+Program Cat=FLT Msb=87 Lsb=70 Prg=61 # PG: 062 Tooters Lead
+Program Cat=FLT Msb=121 Lsb=0 Prg=72 # GM: 148 Piccolo
+Program Cat=FLT Msb=121 Lsb=0 Prg=73 # GM: 149 Flute
+Program Cat=FLT Msb=121 Lsb=0 Prg=74 # GM: 150 Recorder
+Program Cat=FLT Msb=121 Lsb=0 Prg=75 # GM: 151 Pan Flute
+Program Cat=FLT Msb=121 Lsb=0 Prg=76 # GM: 152 Bottle Blow
+Program Cat=FLT Msb=121 Lsb=0 Prg=78 # GM: 154 Whistle
+Program Cat=FLT Msb=121 Lsb=0 Prg=79 # GM: 155 Ocarina
+
+Program Cat=FRT Msb=87 Lsb=64 Prg=106 # PA: 107 MandolinTrem
+Program Cat=FRT Msb=121 Lsb=0 Prg=105 # GM: 195 Banjo
+
+Program Cat=FX Msb=87 Lsb=0 Prg=3 # US: 004 Miasma
+Program Cat=FX Msb=87 Lsb=0 Prg=103 # US: 104 BadJuju
+Program Cat=FX Msb=87 Lsb=66 Prg=99 # PC: 100 Vanishing
+Program Cat=FX Msb=87 Lsb=66 Prg=106 # PC: 107 Sands ofTime
+Program Cat=FX Msb=87 Lsb=66 Prg=107 # PC: 108 Inertia
+Program Cat=FX Msb=87 Lsb=66 Prg=108 # PC: 109 Vektogram
+Program Cat=FX Msb=87 Lsb=66 Prg=109 # PC: 110 Crash Pad
+Program Cat=FX Msb=87 Lsb=66 Prg=110 # PC: 111 Feedback VOX
+Program Cat=FX Msb=87 Lsb=66 Prg=111 # PC: 112 Cascade
+Program Cat=FX Msb=87 Lsb=66 Prg=112 # PC: 113 Shattered
+Program Cat=FX Msb=87 Lsb=66 Prg=113 # PC: 114 NextFrontier
+Program Cat=FX Msb=87 Lsb=66 Prg=114 # PC: 115 Pure Tibet
+Program Cat=FX Msb=87 Lsb=66 Prg=115 # PC: 116 Chime Wash
+Program Cat=FX Msb=87 Lsb=66 Prg=116 # PC: 117 Night Shade
+Program Cat=FX Msb=87 Lsb=66 Prg=117 # PC: 118 Tortured
+Program Cat=FX Msb=87 Lsb=66 Prg=118 # PC: 119 Dissimilate
+Program Cat=FX Msb=87 Lsb=66 Prg=119 # PC: 120 Dunes
+Program Cat=FX Msb=87 Lsb=66 Prg=120 # PC: 121 Ocean Floor
+Program Cat=FX Msb=87 Lsb=66 Prg=121 # PC: 122 Cyber Space
+Program Cat=FX Msb=87 Lsb=66 Prg=122 # PC: 123 Biosphere
+Program Cat=FX Msb=87 Lsb=66 Prg=123 # PC: 124 Variable Run
+Program Cat=FX Msb=87 Lsb=66 Prg=124 # PC: 125 Ice Hall
+Program Cat=FX Msb=87 Lsb=66 Prg=125 # PC: 126 ComputerRoom
+Program Cat=FX Msb=87 Lsb=66 Prg=126 # PC: 127 Inverted
+Program Cat=FX Msb=87 Lsb=66 Prg=127 # PC: 128 Terminate
+Program Cat=FX Msb=87 Lsb=67 Prg=116 # PD: 117 RiversOfTime
+Program Cat=FX Msb=87 Lsb=67 Prg=117 # PD: 118 Phobos
+Program Cat=FX Msb=87 Lsb=67 Prg=118 # PD: 119 2 0 8 0
+Program Cat=FX Msb=87 Lsb=67 Prg=119 # PD: 120 Unearthly
+Program Cat=FX Msb=87 Lsb=67 Prg=120 # PD: 121 Glistening
+Program Cat=FX Msb=87 Lsb=67 Prg=121 # PD: 122 Sci-Fi Str
+Program Cat=FX Msb=87 Lsb=67 Prg=122 # PD: 123 Shadows
+Program Cat=FX Msb=87 Lsb=67 Prg=123 # PD: 124 Helium Queen
+Program Cat=FX Msb=87 Lsb=67 Prg=124 # PD: 125 Sci-Fi FX x4
+Program Cat=FX Msb=87 Lsb=69 Prg=113 # PF: 114 Shapeshifter
+Program Cat=FX Msb=87 Lsb=69 Prg=114 # PF: 115 ForestMoon
+Program Cat=FX Msb=87 Lsb=69 Prg=115 # PF: 116 Predator 2
+Program Cat=FX Msb=87 Lsb=69 Prg=116 # PF: 117 Dark Side
+Program Cat=FX Msb=87 Lsb=69 Prg=117 # PF: 118 The Beast
+Program Cat=FX Msb=87 Lsb=69 Prg=118 # PF: 119 X-mod Reso
+Program Cat=FX Msb=87 Lsb=69 Prg=119 # PF: 120 Planet Meta
+Program Cat=FX Msb=87 Lsb=69 Prg=120 # PF: 121 Nexus
+Program Cat=FX Msb=87 Lsb=69 Prg=121 # PF: 122 Halographix
+Program Cat=FX Msb=87 Lsb=69 Prg=122 # PF: 123 Moon Rise
+Program Cat=FX Msb=87 Lsb=69 Prg=123 # PF: 124 Gruvacious
+Program Cat=FX Msb=87 Lsb=69 Prg=124 # PF: 125 Windy Dunes
+Program Cat=FX Msb=87 Lsb=69 Prg=125 # PF: 126 Ice Blasts
+Program Cat=FX Msb=87 Lsb=69 Prg=126 # PF: 127 Ringy Thingy
+Program Cat=FX Msb=87 Lsb=69 Prg=127 # PF: 128 Atmospherics
+Program Cat=FX Msb=87 Lsb=70 Prg=114 # PG: 115 Runaway Rez
+Program Cat=FX Msb=87 Lsb=70 Prg=115 # PG: 116 Dropplets
+Program Cat=FX Msb=87 Lsb=70 Prg=116 # PG: 117 Indian Guru
+Program Cat=FX Msb=87 Lsb=70 Prg=117 # PG: 118 Cosmic Rain
+Program Cat=FX Msb=87 Lsb=70 Prg=118 # PG: 119 Trying Winds
+Program Cat=FX Msb=87 Lsb=70 Prg=119 # PG: 120 Space Whiz
+Program Cat=FX Msb=87 Lsb=70 Prg=120 # PG: 121 DigitalDrone
+Program Cat=FX Msb=87 Lsb=70 Prg=121 # PG: 122 Space Race
+Program Cat=FX Msb=87 Lsb=70 Prg=122 # PG: 123 Bowed Bell
+Program Cat=FX Msb=87 Lsb=70 Prg=123 # PG: 124 X-Tension
+Program Cat=FX Msb=87 Lsb=70 Prg=124 # PG: 125 DUB!!!
+Program Cat=FX Msb=87 Lsb=70 Prg=125 # PG: 126 Dream Diver
+Program Cat=FX Msb=87 Lsb=70 Prg=126 # PG: 127 Flashback
+Program Cat=FX Msb=87 Lsb=70 Prg=127 # PG: 128 St.LoFiNoise
+Program Cat=FX Msb=87 Lsb=71 Prg=114 # PH: 115 Mind Games
+Program Cat=FX Msb=87 Lsb=71 Prg=115 # PH: 116 BadJuju
+Program Cat=FX Msb=87 Lsb=71 Prg=116 # PH: 117 Eleanor
+Program Cat=FX Msb=87 Lsb=71 Prg=117 # PH: 118 RadioHymn
+Program Cat=FX Msb=87 Lsb=71 Prg=118 # PH: 119 Miasma
+Program Cat=FX Msb=87 Lsb=71 Prg=119 # PH: 120 SubmarinBand
+Program Cat=FX Msb=87 Lsb=71 Prg=120 # PH: 121 I Will Lead
+Program Cat=FX Msb=87 Lsb=71 Prg=121 # PH: 122 LatheOfHeavn
+Program Cat=FX Msb=87 Lsb=71 Prg=122 # PH: 123 CrystalGlass
+Program Cat=FX Msb=121 Lsb=0 Prg=121 # GM: 219 Breath Noise
+Program Cat=FX Msb=121 Lsb=1 Prg=121 # GM: 220 Fl.Key Click
+
+Program Cat=HIT Msb=87 Lsb=0 Prg=49 # US: 050 Reel Slam
+Program Cat=HIT Msb=87 Lsb=0 Prg=98 # US: 099 Bend a Chord
+Program Cat=HIT Msb=87 Lsb=65 Prg=59 # PB: 060 Blow Hit
+Program Cat=HIT Msb=87 Lsb=65 Prg=69 # PB: 070 4 Hits 4 You
+Program Cat=HIT Msb=87 Lsb=65 Prg=70 # PB: 071 Impact
+Program Cat=HIT Msb=87 Lsb=65 Prg=71 # PB: 072 Phase Hit
+Program Cat=HIT Msb=87 Lsb=65 Prg=72 # PB: 073 Tekno Hit 1
+Program Cat=HIT Msb=87 Lsb=65 Prg=73 # PB: 074 Tekno Hit 2
+Program Cat=HIT Msb=87 Lsb=65 Prg=74 # PB: 075 Tekno Hit 3
+Program Cat=HIT Msb=87 Lsb=65 Prg=75 # PB: 076 Reverse Hit
+Program Cat=HIT Msb=87 Lsb=69 Prg=88 # PF: 089 Jet Voxs
+Program Cat=HIT Msb=87 Lsb=69 Prg=89 # PF: 090 Dirty Hit
+Program Cat=HIT Msb=87 Lsb=69 Prg=90 # PF: 091 MOVE!
+Program Cat=HIT Msb=87 Lsb=69 Prg=91 # PF: 092 Reel Slam
+Program Cat=HIT Msb=87 Lsb=69 Prg=92 # PF: 093 OffTheRecord
+Program Cat=HIT Msb=87 Lsb=70 Prg=91 # PG: 092 Hit Bitz
+Program Cat=HIT Msb=87 Lsb=70 Prg=92 # PG: 093 80s LoFi Hit
+Program Cat=HIT Msb=87 Lsb=70 Prg=93 # PG: 094 Auto Chord
+Program Cat=HIT Msb=87 Lsb=70 Prg=94 # PG: 095 3rdTeenChord
+Program Cat=HIT Msb=87 Lsb=70 Prg=95 # PG: 096 Bend a Chord
+Program Cat=HIT Msb=87 Lsb=70 Prg=96 # PG: 097 DiscreteChrd
+Program Cat=HIT Msb=87 Lsb=71 Prg=52 # PH: 053 LF Comb Hit
+Program Cat=HIT Msb=87 Lsb=71 Prg=53 # PH: 054 Backspinner
+Program Cat=HIT Msb=121 Lsb=0 Prg=55 # GM: 117 OrchestraHit
+Program Cat=HIT Msb=121 Lsb=1 Prg=55 # GM: 118 Bass Hit
+Program Cat=HIT Msb=121 Lsb=2 Prg=55 # GM: 119 6th Hit
+Program Cat=HIT Msb=121 Lsb=3 Prg=55 # GM: 120 Euro Hit
+
+Program Cat=HLD Msb=87 Lsb=0 Prg=7 # US: 008 Talking Box
+Program Cat=HLD Msb=87 Lsb=0 Prg=32 # US: 033 Enchanted XV
+Program Cat=HLD Msb=87 Lsb=0 Prg=56 # US: 057 Over the top
+Program Cat=HLD Msb=87 Lsb=0 Prg=80 # US: 081 Saw Grits
+Program Cat=HLD Msb=87 Lsb=0 Prg=100 # US: 101 Try this!
+Program Cat=HLD Msb=87 Lsb=0 Prg=112 # US: 113 BoutiqueSine
+Program Cat=HLD Msb=87 Lsb=65 Prg=81 # PB: 082 Edye Boost
+Program Cat=HLD Msb=87 Lsb=65 Prg=82 # PB: 083 MG Solo
+Program Cat=HLD Msb=87 Lsb=65 Prg=83 # PB: 084 FXM Saw Lead
+Program Cat=HLD Msb=87 Lsb=65 Prg=84 # PB: 085 Sawteeth
+Program Cat=HLD Msb=87 Lsb=65 Prg=87 # PB: 088 MG Interval
+Program Cat=HLD Msb=87 Lsb=65 Prg=88 # PB: 089 Pulse Lead 1
+Program Cat=HLD Msb=87 Lsb=65 Prg=90 # PB: 091 Little Devil
+Program Cat=HLD Msb=87 Lsb=65 Prg=91 # PB: 092 Loud SynLead
+Program Cat=HLD Msb=87 Lsb=65 Prg=92 # PB: 093 Analog Lead
+Program Cat=HLD Msb=87 Lsb=65 Prg=93 # PB: 094 5th Lead
+Program Cat=HLD Msb=87 Lsb=67 Prg=88 # PD: 089 Progresso Ld
+Program Cat=HLD Msb=87 Lsb=67 Prg=89 # PD: 090 Adrenaline
+Program Cat=HLD Msb=87 Lsb=69 Prg=9 # PF: 010 Soaring Saws
+Program Cat=HLD Msb=87 Lsb=69 Prg=10 # PF: 011 Square Roots
+Program Cat=HLD Msb=87 Lsb=69 Prg=11 # PF: 012 BOG
+Program Cat=HLD Msb=87 Lsb=69 Prg=12 # PF: 013 Talking Box
+Program Cat=HLD Msb=87 Lsb=69 Prg=13 # PF: 014 Retro Lead
+Program Cat=HLD Msb=87 Lsb=69 Prg=14 # PF: 015 LivingInSync
+Program Cat=HLD Msb=87 Lsb=69 Prg=15 # PF: 016 Leads United
+Program Cat=HLD Msb=87 Lsb=69 Prg=16 # PF: 017 Dirty Sync
+Program Cat=HLD Msb=87 Lsb=69 Prg=17 # PF: 018 DistortaSync
+Program Cat=HLD Msb=87 Lsb=69 Prg=18 # PF: 019 Blistering
+Program Cat=HLD Msb=87 Lsb=69 Prg=19 # PF: 020 Guttural
+Program Cat=HLD Msb=87 Lsb=70 Prg=67 # PG: 068 Powersoaker
+Program Cat=HLD Msb=87 Lsb=70 Prg=68 # PG: 069 Mean Thing
+Program Cat=HLD Msb=87 Lsb=70 Prg=69 # PG: 070 Jet Sync
+Program Cat=HLD Msb=87 Lsb=71 Prg=40 # PH: 041 Saw Grits
+Program Cat=HLD Msb=87 Lsb=71 Prg=41 # PH: 042 JD Multi Ld
+Program Cat=HLD Msb=87 Lsb=71 Prg=42 # PH: 043 Over the top
+Program Cat=HLD Msb=87 Lsb=71 Prg=43 # PH: 044 Try this!
+Program Cat=HLD Msb=87 Lsb=71 Prg=44 # PH: 045 BoutiqueSine
+Program Cat=HLD Msb=87 Lsb=71 Prg=45 # PH: 046 Drifter
+Program Cat=HLD Msb=87 Lsb=71 Prg=46 # PH: 047 Enchanted XV
+Program Cat=HLD Msb=121 Lsb=0 Prg=80 # GM: 156 Square Wave
+Program Cat=HLD Msb=121 Lsb=1 Prg=80 # GM: 157 MG Square
+Program Cat=HLD Msb=121 Lsb=2 Prg=80 # GM: 158 2600 Sine
+Program Cat=HLD Msb=121 Lsb=0 Prg=81 # GM: 159 Saw Wave
+Program Cat=HLD Msb=121 Lsb=1 Prg=81 # GM: 160 OB2 Saw
+Program Cat=HLD Msb=121 Lsb=2 Prg=81 # GM: 161 Doctor Solo
+Program Cat=HLD Msb=121 Lsb=3 Prg=81 # GM: 162 Natural Lead
+Program Cat=HLD Msb=121 Lsb=4 Prg=81 # GM: 163 SequencedSaw
+Program Cat=HLD Msb=121 Lsb=0 Prg=84 # GM: 166 Charang
+Program Cat=HLD Msb=121 Lsb=1 Prg=84 # GM: 167 Wire Lead
+Program Cat=HLD Msb=121 Lsb=0 Prg=86 # GM: 169 5th Saw Wave
+Program Cat=HLD Msb=121 Lsb=0 Prg=87 # GM: 170 Bass & Lead
+Program Cat=HLD Msb=121 Lsb=1 Prg=87 # GM: 171 Delayed Lead
+
+Program Cat=HRM Msb=87 Lsb=0 Prg=78 # US: 079 Blues Harp
+Program Cat=HRM Msb=87 Lsb=65 Prg=118 # PB: 119 Harmonica
+Program Cat=HRM Msb=87 Lsb=65 Prg=119 # PB: 120 Harmo Blues
+Program Cat=HRM Msb=87 Lsb=65 Prg=120 # PB: 121 BluesHarp
+Program Cat=HRM Msb=87 Lsb=71 Prg=15 # PH: 016 Blues Harp
+Program Cat=HRM Msb=121 Lsb=0 Prg=22 # GM: 052 Harmonica
+
+Program Cat=KEY Msb=87 Lsb=0 Prg=12 # US: 013 Voxfuzz Klav
+Program Cat=KEY Msb=87 Lsb=0 Prg=39 # US: 040 PhazeWahClav
+Program Cat=KEY Msb=87 Lsb=64 Prg=32 # PA: 033 Comp Clav
+Program Cat=KEY Msb=87 Lsb=64 Prg=33 # PA: 034 Klavinet
+Program Cat=KEY Msb=87 Lsb=64 Prg=34 # PA: 035 Winger Clav
+Program Cat=KEY Msb=87 Lsb=64 Prg=35 # PA: 036 Phaze Clav 1
+Program Cat=KEY Msb=87 Lsb=64 Prg=36 # PA: 037 Phaze Clav 2
+Program Cat=KEY Msb=87 Lsb=64 Prg=37 # PA: 038 Phuzz Clav
+Program Cat=KEY Msb=87 Lsb=64 Prg=38 # PA: 039 Chorus Clav
+Program Cat=KEY Msb=87 Lsb=64 Prg=39 # PA: 040 Claviduck
+Program Cat=KEY Msb=87 Lsb=64 Prg=40 # PA: 041 Velo-Rez Clv
+Program Cat=KEY Msb=87 Lsb=64 Prg=41 # PA: 042 Clavicembalo
+Program Cat=KEY Msb=87 Lsb=64 Prg=42 # PA: 043 Analog Clav1
+Program Cat=KEY Msb=87 Lsb=64 Prg=43 # PA: 044 Analog Clav2
+Program Cat=KEY Msb=87 Lsb=64 Prg=44 # PA: 045 Metal Clav
+Program Cat=KEY Msb=87 Lsb=67 Prg=15 # PD: 016 PieceOfCheez
+Program Cat=KEY Msb=87 Lsb=67 Prg=16 # PD: 017 Harpsy Clav
+Program Cat=KEY Msb=87 Lsb=68 Prg=23 # PE: 024 Cutter Clav
+Program Cat=KEY Msb=87 Lsb=68 Prg=24 # PE: 025 Mute Clav D6
+Program Cat=KEY Msb=87 Lsb=68 Prg=25 # PE: 026 PhazeWahClav
+Program Cat=KEY Msb=87 Lsb=68 Prg=26 # PE: 027 St.Harpsichd
+Program Cat=KEY Msb=87 Lsb=68 Prg=27 # PE: 028 3PartInventn
+Program Cat=KEY Msb=87 Lsb=70 Prg=8 # PG: 009 Musicbox XV
+Program Cat=KEY Msb=87 Lsb=71 Prg=7 # PH: 008 Voxfuzz Klav
+Program Cat=KEY Msb=87 Lsb=71 Prg=8 # PH: 009 Light Keys
+Program Cat=KEY Msb=121 Lsb=0 Prg=6 # GM: 019 Harpsichord
+Program Cat=KEY Msb=121 Lsb=1 Prg=6 # GM: 020 Coupled Hps.
+Program Cat=KEY Msb=121 Lsb=2 Prg=6 # GM: 021 Harpsi.w
+Program Cat=KEY Msb=121 Lsb=3 Prg=6 # GM: 022 Harpsi.o
+Program Cat=KEY Msb=121 Lsb=0 Prg=7 # GM: 023 Clav.
+Program Cat=KEY Msb=121 Lsb=1 Prg=7 # GM: 024 Pulse Clav
+Program Cat=KEY Msb=121 Lsb=0 Prg=8 # GM: 025 Celesta
+
+Program Cat=MLT Msb=87 Lsb=0 Prg=61 # US: 062 IslandSpirit
+Program Cat=MLT Msb=87 Lsb=64 Prg=90 # PA: 091 AmbienceVibe
+Program Cat=MLT Msb=87 Lsb=64 Prg=91 # PA: 092 Warm Vibes
+Program Cat=MLT Msb=87 Lsb=64 Prg=92 # PA: 093 Dyna Marimba
+Program Cat=MLT Msb=87 Lsb=64 Prg=93 # PA: 094 Bass Marimba
+Program Cat=MLT Msb=87 Lsb=64 Prg=94 # PA: 095 Nomad Perc
+Program Cat=MLT Msb=87 Lsb=64 Prg=96 # PA: 097 Islands Mlt
+Program Cat=MLT Msb=87 Lsb=64 Prg=97 # PA: 098 Steelin Keys
+Program Cat=MLT Msb=87 Lsb=64 Prg=98 # PA: 099 Steel Drums
+Program Cat=MLT Msb=87 Lsb=67 Prg=17 # PD: 018 Exotic Velo
+Program Cat=MLT Msb=87 Lsb=70 Prg=87 # PG: 088 Echo Vibe
+Program Cat=MLT Msb=87 Lsb=70 Prg=88 # PG: 089 Tremolo Vibe
+Program Cat=MLT Msb=87 Lsb=70 Prg=89 # PG: 090 True Vibe
+Program Cat=MLT Msb=87 Lsb=70 Prg=90 # PG: 091 Marimbula
+Program Cat=MLT Msb=87 Lsb=71 Prg=10 # PH: 011 IslandSpirit
+Program Cat=MLT Msb=87 Lsb=71 Prg=11 # PH: 012 Ambient Wood
+Program Cat=MLT Msb=121 Lsb=0 Prg=11 # GM: 028 Vibraphone
+Program Cat=MLT Msb=121 Lsb=1 Prg=11 # GM: 029 Vibraphone w
+Program Cat=MLT Msb=121 Lsb=0 Prg=12 # GM: 030 Marimba
+Program Cat=MLT Msb=121 Lsb=1 Prg=12 # GM: 031 Marimba w
+Program Cat=MLT Msb=121 Lsb=0 Prg=13 # GM: 032 Xylophone
+Program Cat=MLT Msb=121 Lsb=0 Prg=114 # GM: 205 Steel Drums
+
+Program Cat=ORC Msb=87 Lsb=0 Prg=48 # US: 049 Henry VIII
+Program Cat=ORC Msb=87 Lsb=0 Prg=67 # US: 068 Brassy Symph
+Program Cat=ORC Msb=87 Lsb=0 Prg=111 # US: 112 Prelude
+Program Cat=ORC Msb=87 Lsb=65 Prg=109 # PB: 110 Film Orch
+Program Cat=ORC Msb=87 Lsb=66 Prg=43 # PC: 044 Symphonique
+Program Cat=ORC Msb=87 Lsb=66 Prg=45 # PC: 046 Film Layers
+Program Cat=ORC Msb=87 Lsb=67 Prg=49 # PD: 050 Full Orchest
+Program Cat=ORC Msb=87 Lsb=67 Prg=50 # PD: 051 Str + Winds
+Program Cat=ORC Msb=87 Lsb=68 Prg=80 # PE: 081 Henry VIII
+Program Cat=ORC Msb=87 Lsb=68 Prg=81 # PE: 082 Prelude
+Program Cat=ORC Msb=87 Lsb=68 Prg=82 # PE: 083 Str&Brs Orch
+Program Cat=ORC Msb=87 Lsb=68 Prg=83 # PE: 084 Hornz
+Program Cat=ORC Msb=87 Lsb=68 Prg=84 # PE: 085 TudorFanfare
+Program Cat=ORC Msb=87 Lsb=68 Prg=85 # PE: 086 ChamberPlyrs
+Program Cat=ORC Msb=87 Lsb=70 Prg=51 # PG: 052 Soft Symphny
+Program Cat=ORC Msb=87 Lsb=70 Prg=52 # PG: 053 Wood Symphny
+Program Cat=ORC Msb=87 Lsb=70 Prg=53 # PG: 054 HybOrchestra
+Program Cat=ORC Msb=87 Lsb=70 Prg=54 # PG: 055 Brassy Symph
+Program Cat=ORC Msb=87 Lsb=71 Prg=33 # PH: 034 My Orchestra
+
+Program Cat=ORG Msb=87 Lsb=0 Prg=35 # US: 036 Wedding Mass
+Program Cat=ORG Msb=87 Lsb=0 Prg=41 # US: 042 Rocker Org
+Program Cat=ORG Msb=87 Lsb=0 Prg=62 # US: 063 Distorted B
+Program Cat=ORG Msb=87 Lsb=0 Prg=91 # US: 092 VeloClikOrgn
+Program Cat=ORG Msb=87 Lsb=0 Prg=110 # US: 111 Verby Organ
+Program Cat=ORG Msb=87 Lsb=64 Prg=45 # PA: 046 Full Stops
+Program Cat=ORG Msb=87 Lsb=64 Prg=46 # PA: 047 Ballad B
+Program Cat=ORG Msb=87 Lsb=64 Prg=47 # PA: 048 Mellow Bars
+Program Cat=ORG Msb=87 Lsb=64 Prg=48 # PA: 049 AugerMentive
+Program Cat=ORG Msb=87 Lsb=64 Prg=49 # PA: 050 Perky B
+Program Cat=ORG Msb=87 Lsb=64 Prg=50 # PA: 051 The Big Spin
+Program Cat=ORG Msb=87 Lsb=64 Prg=51 # PA: 052 Gospel Spin
+Program Cat=ORG Msb=87 Lsb=64 Prg=52 # PA: 053 Roller Spin
+Program Cat=ORG Msb=87 Lsb=64 Prg=53 # PA: 054 Rocker Spin
+Program Cat=ORG Msb=87 Lsb=64 Prg=54 # PA: 055 Tone Wh.Solo
+Program Cat=ORG Msb=87 Lsb=64 Prg=55 # PA: 056 Purple Spin
+Program Cat=ORG Msb=87 Lsb=64 Prg=56 # PA: 057 60's LeadORG
+Program Cat=ORG Msb=87 Lsb=64 Prg=57 # PA: 058 Assalt Organ
+Program Cat=ORG Msb=87 Lsb=64 Prg=58 # PA: 059 D-50 Organ
+Program Cat=ORG Msb=87 Lsb=64 Prg=59 # PA: 060 Cathedral
+Program Cat=ORG Msb=87 Lsb=64 Prg=60 # PA: 061 Church Pipes
+Program Cat=ORG Msb=87 Lsb=67 Prg=10 # PD: 011 Soap Opera
+Program Cat=ORG Msb=87 Lsb=67 Prg=11 # PD: 012 Dirty Organ
+Program Cat=ORG Msb=87 Lsb=67 Prg=12 # PD: 013 Surf's Up!
+Program Cat=ORG Msb=87 Lsb=67 Prg=13 # PD: 014 Organesque
+Program Cat=ORG Msb=87 Lsb=67 Prg=14 # PD: 015 pp Harmonium
+Program Cat=ORG Msb=87 Lsb=68 Prg=28 # PE: 029 Soft Perky
+Program Cat=ORG Msb=87 Lsb=68 Prg=29 # PE: 030 Fullness
+Program Cat=ORG Msb=87 Lsb=68 Prg=30 # PE: 031 Paleface 1
+Program Cat=ORG Msb=87 Lsb=68 Prg=31 # PE: 032 Paleface 2
+Program Cat=ORG Msb=87 Lsb=68 Prg=32 # PE: 033 Soft B
+Program Cat=ORG Msb=87 Lsb=68 Prg=33 # PE: 034 British B
+Program Cat=ORG Msb=87 Lsb=68 Prg=34 # PE: 035 Rocker Org
+Program Cat=ORG Msb=87 Lsb=68 Prg=35 # PE: 036 Split B
+Program Cat=ORG Msb=87 Lsb=68 Prg=36 # PE: 037 PercInterval
+Program Cat=ORG Msb=87 Lsb=68 Prg=37 # PE: 038 Happy 60s
+Program Cat=ORG Msb=87 Lsb=68 Prg=38 # PE: 039 96 Years
+Program Cat=ORG Msb=87 Lsb=68 Prg=39 # PE: 040 Glory Us Rok
+Program Cat=ORG Msb=87 Lsb=68 Prg=40 # PE: 041 Church Harmn
+Program Cat=ORG Msb=87 Lsb=68 Prg=41 # PE: 042 Cathdr Harmn
+Program Cat=ORG Msb=87 Lsb=70 Prg=9 # PG: 010 Klubb Organ
+Program Cat=ORG Msb=87 Lsb=70 Prg=10 # PG: 011 Drew's Bee
+Program Cat=ORG Msb=87 Lsb=70 Prg=11 # PG: 012 Velvet Organ
+Program Cat=ORG Msb=87 Lsb=70 Prg=12 # PG: 013 Distorted B
+Program Cat=ORG Msb=87 Lsb=70 Prg=13 # PG: 014 Radikal B
+Program Cat=ORG Msb=87 Lsb=70 Prg=14 # PG: 015 Boogie Organ
+Program Cat=ORG Msb=87 Lsb=71 Prg=12 # PH: 013 VeloClikOrgn
+Program Cat=ORG Msb=87 Lsb=71 Prg=13 # PH: 014 Verby Organ
+Program Cat=ORG Msb=87 Lsb=71 Prg=14 # PH: 015 Wedding Mass
+Program Cat=ORG Msb=121 Lsb=0 Prg=16 # GM: 037 Organ 1
+Program Cat=ORG Msb=121 Lsb=1 Prg=16 # GM: 038 Trem. Organ
+Program Cat=ORG Msb=121 Lsb=2 Prg=16 # GM: 039 60's Organ 1
+Program Cat=ORG Msb=121 Lsb=3 Prg=16 # GM: 040 70's E.Organ
+Program Cat=ORG Msb=121 Lsb=0 Prg=17 # GM: 041 Organ 2
+Program Cat=ORG Msb=121 Lsb=1 Prg=17 # GM: 042 Chorus Or.2
+Program Cat=ORG Msb=121 Lsb=2 Prg=17 # GM: 043 Perc. Organ
+Program Cat=ORG Msb=121 Lsb=0 Prg=18 # GM: 044 Organ 3
+Program Cat=ORG Msb=121 Lsb=0 Prg=19 # GM: 045 Church Org.1
+Program Cat=ORG Msb=121 Lsb=1 Prg=19 # GM: 046 Church Org.2
+Program Cat=ORG Msb=121 Lsb=2 Prg=19 # GM: 047 Church Org.3
+Program Cat=ORG Msb=121 Lsb=0 Prg=20 # GM: 048 Reed Organ
+Program Cat=ORG Msb=121 Lsb=1 Prg=20 # GM: 049 Puff Organ
+
+Program Cat=PLK Msb=87 Lsb=0 Prg=122 # US: 123 EastrnEurope
+Program Cat=PLK Msb=87 Lsb=64 Prg=100 # PA: 101 Sitar
+Program Cat=PLK Msb=87 Lsb=64 Prg=101 # PA: 102 Drone Split
+Program Cat=PLK Msb=87 Lsb=64 Prg=102 # PA: 103 Ethnopluck
+Program Cat=PLK Msb=87 Lsb=64 Prg=103 # PA: 104 Jamisen
+Program Cat=PLK Msb=87 Lsb=64 Prg=104 # PA: 105 Dulcimer
+Program Cat=PLK Msb=87 Lsb=66 Prg=48 # PC: 049 Harp On It
+Program Cat=PLK Msb=87 Lsb=66 Prg=49 # PC: 050 Harp
+Program Cat=PLK Msb=87 Lsb=67 Prg=39 # PD: 040 East Europe
+Program Cat=PLK Msb=87 Lsb=67 Prg=40 # PD: 041 Dulcitar
+Program Cat=PLK Msb=87 Lsb=67 Prg=41 # PD: 042 Atmos Harp
+Program Cat=PLK Msb=87 Lsb=67 Prg=42 # PD: 043 Pilgrimage
+Program Cat=PLK Msb=87 Lsb=69 Prg=74 # PF: 075 Andreas Cave
+Program Cat=PLK Msb=87 Lsb=69 Prg=75 # PF: 076 AmbiPizza
+Program Cat=PLK Msb=87 Lsb=69 Prg=76 # PF: 077 Voxy Nylon
+Program Cat=PLK Msb=87 Lsb=69 Prg=77 # PF: 078 EastrnEurope
+Program Cat=PLK Msb=87 Lsb=69 Prg=78 # PF: 079 Celtic Harp
+Program Cat=PLK Msb=87 Lsb=69 Prg=79 # PF: 080 Reso Sitar
+Program Cat=PLK Msb=87 Lsb=69 Prg=80 # PF: 081 The Ganges
+Program Cat=PLK Msb=87 Lsb=69 Prg=81 # PF: 082 MountainFolk
+Program Cat=PLK Msb=87 Lsb=69 Prg=82 # PF: 083 Byzantine
+Program Cat=PLK Msb=87 Lsb=69 Prg=83 # PF: 084 AsiaPlectrum
+Program Cat=PLK Msb=87 Lsb=69 Prg=84 # PF: 085 VelHarp)Harm
+Program Cat=PLK Msb=87 Lsb=69 Prg=85 # PF: 086 Pluckaphone
+Program Cat=PLK Msb=121 Lsb=0 Prg=15 # GM: 036 Santur
+Program Cat=PLK Msb=121 Lsb=0 Prg=46 # GM: 101 Harp
+Program Cat=PLK Msb=121 Lsb=1 Prg=46 # GM: 102 Yang Qin
+Program Cat=PLK Msb=121 Lsb=0 Prg=104 # GM: 193 Sitar
+Program Cat=PLK Msb=121 Lsb=1 Prg=104 # GM: 194 Sitar 2
+Program Cat=PLK Msb=121 Lsb=0 Prg=106 # GM: 196 Shamisen
+Program Cat=PLK Msb=121 Lsb=0 Prg=107 # GM: 197 Koto
+Program Cat=PLK Msb=121 Lsb=1 Prg=107 # GM: 198 Taisho Koto
+Program Cat=PLK Msb=121 Lsb=0 Prg=108 # GM: 199 Kalimba
+
+Program Cat=PLS Msb=87 Lsb=0 Prg=2 # US: 003 Groovedigger
+Program Cat=PLS Msb=87 Lsb=0 Prg=6 # US: 007 Aftertouchin
+Program Cat=PLS Msb=87 Lsb=0 Prg=9 # US: 010 Ionizer
+Program Cat=PLS Msb=87 Lsb=0 Prg=17 # US: 018 BrushingSaw1
+Program Cat=PLS Msb=87 Lsb=0 Prg=21 # US: 022 Throbulax
+Program Cat=PLS Msb=87 Lsb=0 Prg=23 # US: 024 Vortex
+Program Cat=PLS Msb=87 Lsb=0 Prg=25 # US: 026 Rhythm Sync
+Program Cat=PLS Msb=87 Lsb=0 Prg=27 # US: 028 20.000 miles
+Program Cat=PLS Msb=87 Lsb=0 Prg=33 # US: 034 Double Helix
+Program Cat=PLS Msb=87 Lsb=0 Prg=74 # US: 075 Trance Fair
+Program Cat=PLS Msb=87 Lsb=0 Prg=102 # US: 103 Complex Echo
+Program Cat=PLS Msb=87 Lsb=0 Prg=114 # US: 115 Digisquelch
+Program Cat=PLS Msb=87 Lsb=0 Prg=126 # US: 127 TechnoSurf 1
+Program Cat=PLS Msb=87 Lsb=65 Prg=45 # PB: 046 Alternative
+Program Cat=PLS Msb=87 Lsb=65 Prg=46 # PB: 047 Acid Line
+Program Cat=PLS Msb=87 Lsb=65 Prg=50 # PB: 051 Raggatronic
+Program Cat=PLS Msb=87 Lsb=65 Prg=51 # PB: 052 Blade Racer
+Program Cat=PLS Msb=87 Lsb=65 Prg=52 # PB: 053 S&H Pad
+Program Cat=PLS Msb=87 Lsb=65 Prg=53 # PB: 054 Syncrosonix
+Program Cat=PLS Msb=87 Lsb=65 Prg=54 # PB: 055 Fooled Again
+Program Cat=PLS Msb=87 Lsb=65 Prg=55 # PB: 056 Alive
+Program Cat=PLS Msb=87 Lsb=65 Prg=67 # PB: 068 X-Mod Man
+Program Cat=PLS Msb=87 Lsb=65 Prg=68 # PB: 069 Paz <==> Zap
+Program Cat=PLS Msb=87 Lsb=66 Prg=33 # PC: 034 LFO Vox
+Program Cat=PLS Msb=87 Lsb=66 Prg=92 # PC: 093 Strobe Mode
+Program Cat=PLS Msb=87 Lsb=66 Prg=93 # PC: 094 Albion
+Program Cat=PLS Msb=87 Lsb=66 Prg=94 # PC: 095 Running Pad
+Program Cat=PLS Msb=87 Lsb=66 Prg=95 # PC: 096 Stepped Pad
+Program Cat=PLS Msb=87 Lsb=66 Prg=96 # PC: 097 Random Pad
+Program Cat=PLS Msb=87 Lsb=66 Prg=97 # PC: 098 SoundtrkDANC
+Program Cat=PLS Msb=87 Lsb=66 Prg=98 # PC: 099 Flying Waltz
+Program Cat=PLS Msb=87 Lsb=66 Prg=101 # PC: 102 Phazweep
+Program Cat=PLS Msb=87 Lsb=67 Prg=77 # PD: 078 Temple of JV
+Program Cat=PLS Msb=87 Lsb=67 Prg=78 # PD: 079 Planet Asia
+Program Cat=PLS Msb=87 Lsb=67 Prg=79 # PD: 080 Afterlife
+Program Cat=PLS Msb=87 Lsb=67 Prg=80 # PD: 081 Trancing Pad
+Program Cat=PLS Msb=87 Lsb=67 Prg=81 # PD: 082 Pulsatronic
+Program Cat=PLS Msb=87 Lsb=67 Prg=82 # PD: 083 Cyber Dreams
+Program Cat=PLS Msb=87 Lsb=69 Prg=105 # PF: 106 Rippling
+Program Cat=PLS Msb=87 Lsb=69 Prg=106 # PF: 107 SteppingPhsr
+Program Cat=PLS Msb=87 Lsb=69 Prg=107 # PF: 108 Trance Fair
+Program Cat=PLS Msb=87 Lsb=69 Prg=108 # PF: 109 GermanBounce
+Program Cat=PLS Msb=87 Lsb=69 Prg=109 # PF: 110 Acid JaZZ
+Program Cat=PLS Msb=87 Lsb=69 Prg=110 # PF: 111 Cutter>ModWh
+Program Cat=PLS Msb=87 Lsb=69 Prg=111 # PF: 112 Blades
+Program Cat=PLS Msb=87 Lsb=69 Prg=112 # PF: 113 Mad Bender
+Program Cat=PLS Msb=87 Lsb=70 Prg=15 # PG: 016 Mood Ringz
+Program Cat=PLS Msb=87 Lsb=70 Prg=16 # PG: 017 Wedo-Wodo
+Program Cat=PLS Msb=87 Lsb=70 Prg=17 # PG: 018 S.O.S.trings
+Program Cat=PLS Msb=87 Lsb=70 Prg=18 # PG: 019 Syncronicity
+Program Cat=PLS Msb=87 Lsb=70 Prg=19 # PG: 020 DanceMachina
+Program Cat=PLS Msb=87 Lsb=70 Prg=20 # PG: 021 Vox Chopper
+Program Cat=PLS Msb=87 Lsb=70 Prg=21 # PG: 022 SlicingSyVox
+Program Cat=PLS Msb=87 Lsb=70 Prg=22 # PG: 023 PressureDome
+Program Cat=PLS Msb=87 Lsb=70 Prg=23 # PG: 024 Quasar /Aft
+Program Cat=PLS Msb=87 Lsb=70 Prg=24 # PG: 025 Ionizer
+Program Cat=PLS Msb=87 Lsb=70 Prg=25 # PG: 026 MilleniumStr
+Program Cat=PLS Msb=87 Lsb=70 Prg=26 # PG: 027 Bounce Baby!
+Program Cat=PLS Msb=87 Lsb=70 Prg=27 # PG: 028 Bounce Daddy
+Program Cat=PLS Msb=87 Lsb=70 Prg=28 # PG: 029 Bounce Mama!
+Program Cat=PLS Msb=87 Lsb=70 Prg=29 # PG: 030 Bounce Noize
+Program Cat=PLS Msb=87 Lsb=70 Prg=30 # PG: 031 What a Gate!
+Program Cat=PLS Msb=87 Lsb=70 Prg=31 # PG: 032 Mini Sequenz
+Program Cat=PLS Msb=87 Lsb=70 Prg=32 # PG: 033 Slice & Dice
+Program Cat=PLS Msb=87 Lsb=70 Prg=33 # PG: 034 BrushingSaw1
+Program Cat=PLS Msb=87 Lsb=70 Prg=34 # PG: 035 BrushingSaw2
+Program Cat=PLS Msb=87 Lsb=70 Prg=35 # PG: 036 Cultivate
+Program Cat=PLS Msb=87 Lsb=71 Prg=67 # PH: 068 TechnoSurf 1
+Program Cat=PLS Msb=87 Lsb=71 Prg=68 # PH: 069 TechnoSurf 2
+Program Cat=PLS Msb=87 Lsb=71 Prg=69 # PH: 070 Double Helix
+Program Cat=PLS Msb=87 Lsb=71 Prg=70 # PH: 071 Rhythm Sync
+Program Cat=PLS Msb=87 Lsb=71 Prg=71 # PH: 072 TMT Scanner
+Program Cat=PLS Msb=87 Lsb=71 Prg=72 # PH: 073 Complex Echo
+Program Cat=PLS Msb=87 Lsb=71 Prg=73 # PH: 074 Groovedigger
+Program Cat=PLS Msb=87 Lsb=71 Prg=74 # PH: 075 20.000 miles
+Program Cat=PLS Msb=87 Lsb=71 Prg=75 # PH: 076 Vortex
+Program Cat=PLS Msb=87 Lsb=71 Prg=76 # PH: 077 man@work
+Program Cat=PLS Msb=87 Lsb=71 Prg=77 # PH: 078 XVoCode
+Program Cat=PLS Msb=87 Lsb=71 Prg=78 # PH: 079 Auto Riff
+Program Cat=PLS Msb=87 Lsb=71 Prg=79 # PH: 080 Digisquelch
+Program Cat=PLS Msb=87 Lsb=71 Prg=80 # PH: 081 TripTheAlarm
+Program Cat=PLS Msb=87 Lsb=71 Prg=81 # PH: 082 Aftertouchin
+Program Cat=PLS Msb=87 Lsb=71 Prg=82 # PH: 083 Throbulax
+Program Cat=PLS Msb=121 Lsb=0 Prg=101 # GM: 188 Goblin
+
+Program Cat=PNO Msb=87 Lsb=0 Prg=10 # US: 011 Piano+AirPad
+Program Cat=PNO Msb=87 Lsb=0 Prg=18 # US: 019 R&Ballad Mix
+Program Cat=PNO Msb=87 Lsb=0 Prg=42 # US: 043 Pianomonics
+Program Cat=PNO Msb=87 Lsb=0 Prg=45 # US: 046 Grand XV
+Program Cat=PNO Msb=87 Lsb=0 Prg=58 # US: 059 Contemplate
+Program Cat=PNO Msb=87 Lsb=0 Prg=108 # US: 109 SparklePiano
+Program Cat=PNO Msb=87 Lsb=64 Prg=0 # PA: 001 64voicePiano
+Program Cat=PNO Msb=87 Lsb=64 Prg=1 # PA: 002 Bright Piano
+Program Cat=PNO Msb=87 Lsb=64 Prg=2 # PA: 003 Classique
+Program Cat=PNO Msb=87 Lsb=64 Prg=3 # PA: 004 Nice Piano
+Program Cat=PNO Msb=87 Lsb=64 Prg=4 # PA: 005 Piano Thang
+Program Cat=PNO Msb=87 Lsb=64 Prg=5 # PA: 006 Power Grand
+Program Cat=PNO Msb=87 Lsb=64 Prg=7 # PA: 008 E.Grand
+Program Cat=PNO Msb=87 Lsb=64 Prg=8 # PA: 009 MIDIed Grand
+Program Cat=PNO Msb=87 Lsb=64 Prg=9 # PA: 010 Piano Blend
+Program Cat=PNO Msb=87 Lsb=64 Prg=11 # PA: 012 PianoStrings
+Program Cat=PNO Msb=87 Lsb=67 Prg=0 # PD: 001 Echo Piano
+Program Cat=PNO Msb=87 Lsb=67 Prg=1 # PD: 002 Upright Pno
+Program Cat=PNO Msb=87 Lsb=67 Prg=2 # PD: 003 RD-1000
+Program Cat=PNO Msb=87 Lsb=68 Prg=0 # PE: 001 Grand XV
+Program Cat=PNO Msb=87 Lsb=68 Prg=1 # PE: 002 Contemplate
+Program Cat=PNO Msb=87 Lsb=68 Prg=2 # PE: 003 Rock Piano
+Program Cat=PNO Msb=87 Lsb=68 Prg=3 # PE: 004 RockPiano Ch
+Program Cat=PNO Msb=87 Lsb=68 Prg=4 # PE: 005 Pianomonics
+Program Cat=PNO Msb=87 Lsb=68 Prg=5 # PE: 006 Piano+SftPad
+Program Cat=PNO Msb=87 Lsb=68 Prg=6 # PE: 007 WarmVoxPiano
+Program Cat=PNO Msb=87 Lsb=68 Prg=7 # PE: 008 Y2K Concerto
+Program Cat=PNO Msb=87 Lsb=68 Prg=8 # PE: 009 Piano+AirPad
+Program Cat=PNO Msb=87 Lsb=68 Prg=9 # PE: 010 ChoraLeader
+Program Cat=PNO Msb=87 Lsb=68 Prg=10 # PE: 011 SparklePiano
+Program Cat=PNO Msb=87 Lsb=70 Prg=0 # PG: 001 Power Octs
+Program Cat=PNO Msb=87 Lsb=71 Prg=0 # PH: 001 Hall Grand
+Program Cat=PNO Msb=87 Lsb=71 Prg=1 # PH: 002 Warm pF Mix
+Program Cat=PNO Msb=87 Lsb=71 Prg=2 # PH: 003 R&Ballad Mix
+Program Cat=PNO Msb=121 Lsb=0 Prg=0 # GM: 001 Piano 1
+Program Cat=PNO Msb=121 Lsb=1 Prg=0 # GM: 002 Piano 1w
+Program Cat=PNO Msb=121 Lsb=2 Prg=0 # GM: 003 European Pf
+Program Cat=PNO Msb=121 Lsb=0 Prg=1 # GM: 004 Piano 2
+Program Cat=PNO Msb=121 Lsb=1 Prg=1 # GM: 005 Piano 2w
+Program Cat=PNO Msb=121 Lsb=0 Prg=2 # GM: 006 Piano 3
+Program Cat=PNO Msb=121 Lsb=1 Prg=2 # GM: 007 Piano 3w
+Program Cat=PNO Msb=121 Lsb=0 Prg=3 # GM: 008 Honky-tonk
+Program Cat=PNO Msb=121 Lsb=1 Prg=3 # GM: 009 Honky-tonk 2
+
+Program Cat=PRC Msb=87 Lsb=66 Prg=104 # PC: 105 CeremonyTimp
+Program Cat=PRC Msb=87 Lsb=66 Prg=105 # PC: 106 Dyno Toms
+Program Cat=PRC Msb=87 Lsb=67 Prg=125 # PD: 126 Perky Noize
+Program Cat=PRC Msb=87 Lsb=69 Prg=86 # PF: 087 Slap Timps
+Program Cat=PRC Msb=121 Lsb=0 Prg=47 # GM: 103 Timpani
+Program Cat=PRC Msb=121 Lsb=0 Prg=113 # GM: 204 Agogo
+Program Cat=PRC Msb=121 Lsb=0 Prg=115 # GM: 206 Woodblock
+Program Cat=PRC Msb=121 Lsb=1 Prg=115 # GM: 207 Castanets
+Program Cat=PRC Msb=121 Lsb=0 Prg=116 # GM: 208 Taiko
+Program Cat=PRC Msb=121 Lsb=1 Prg=116 # GM: 209 Concert BD
+Program Cat=PRC Msb=121 Lsb=0 Prg=117 # GM: 210 Melo. Tom 1
+Program Cat=PRC Msb=121 Lsb=1 Prg=117 # GM: 211 Melo. Tom 2
+Program Cat=PRC Msb=121 Lsb=0 Prg=118 # GM: 212 Synth Drum
+Program Cat=PRC Msb=121 Lsb=1 Prg=118 # GM: 213 808 Tom
+Program Cat=PRC Msb=121 Lsb=2 Prg=118 # GM: 214 Elec Perc
+Program Cat=PRC Msb=121 Lsb=0 Prg=119 # GM: 215 Reverse Cym.
+
+Program Cat=SAX Msb=87 Lsb=0 Prg=15 # US: 016 Solo SoprSax
+Program Cat=SAX Msb=87 Lsb=0 Prg=97 # US: 098 Swingin'Bari
+Program Cat=SAX Msb=87 Lsb=65 Prg=110 # PB: 111 Sop.Sax mf
+Program Cat=SAX Msb=87 Lsb=65 Prg=111 # PB: 112 Alto Sax
+Program Cat=SAX Msb=87 Lsb=65 Prg=112 # PB: 113 AltoLead Sax
+Program Cat=SAX Msb=87 Lsb=65 Prg=113 # PB: 114 Tenor Sax
+Program Cat=SAX Msb=87 Lsb=65 Prg=114 # PB: 115 Baritone Sax
+Program Cat=SAX Msb=87 Lsb=65 Prg=115 # PB: 116 Take A Tenor
+Program Cat=SAX Msb=87 Lsb=65 Prg=116 # PB: 117 Sax Section
+Program Cat=SAX Msb=87 Lsb=65 Prg=117 # PB: 118 Bigband Sax
+Program Cat=SAX Msb=87 Lsb=67 Prg=53 # PD: 054 Sax Choir
+Program Cat=SAX Msb=87 Lsb=68 Prg=107 # PE: 108 Solo SoprSax
+Program Cat=SAX Msb=87 Lsb=68 Prg=108 # PE: 109 Solo AltoSax
+Program Cat=SAX Msb=87 Lsb=68 Prg=109 # PE: 110 XV DynoTenor
+Program Cat=SAX Msb=87 Lsb=68 Prg=110 # PE: 111 Honker Bari
+Program Cat=SAX Msb=87 Lsb=68 Prg=111 # PE: 112 Full Saxz
+Program Cat=SAX Msb=87 Lsb=70 Prg=57 # PG: 058 LA Sax's
+Program Cat=SAX Msb=87 Lsb=71 Prg=38 # PH: 039 Ambient Sax
+Program Cat=SAX Msb=87 Lsb=71 Prg=39 # PH: 040 Swingin'Bari
+Program Cat=SAX Msb=121 Lsb=0 Prg=64 # GM: 140 Soprano Sax
+Program Cat=SAX Msb=121 Lsb=0 Prg=65 # GM: 141 Alto Sax
+Program Cat=SAX Msb=121 Lsb=0 Prg=66 # GM: 142 Tenor Sax
+Program Cat=SAX Msb=121 Lsb=0 Prg=67 # GM: 143 Baritone Sax
+
+Program Cat=SBR Msb=87 Lsb=0 Prg=53 # US: 054 Triumph Brs
+Program Cat=SBR Msb=87 Lsb=0 Prg=83 # US: 084 FatSynBrass
+Program Cat=SBR Msb=87 Lsb=64 Prg=67 # PA: 068 Poly Brass
+Program Cat=SBR Msb=87 Lsb=66 Prg=9 # PC: 010 Brass It!
+Program Cat=SBR Msb=87 Lsb=66 Prg=10 # PC: 011 Brass Attack
+Program Cat=SBR Msb=87 Lsb=66 Prg=11 # PC: 012 Archimede
+Program Cat=SBR Msb=87 Lsb=66 Prg=12 # PC: 013 Rugby Horn
+Program Cat=SBR Msb=87 Lsb=66 Prg=13 # PC: 014 MKS-80 Brass
+Program Cat=SBR Msb=87 Lsb=66 Prg=14 # PC: 015 True ANALOG
+Program Cat=SBR Msb=87 Lsb=66 Prg=66 # PC: 067 Afro Horns
+Program Cat=SBR Msb=87 Lsb=67 Prg=58 # PD: 059 Breathy Brs
+Program Cat=SBR Msb=87 Lsb=67 Prg=59 # PD: 060 3 Osc Brass
+Program Cat=SBR Msb=87 Lsb=67 Prg=60 # PD: 061 P5 Polymod
+Program Cat=SBR Msb=87 Lsb=67 Prg=61 # PD: 062 Triumph Brs
+Program Cat=SBR Msb=87 Lsb=68 Prg=106 # PE: 107 JupiterHorns
+Program Cat=SBR Msb=87 Lsb=71 Prg=36 # PH: 037 T8 Brass
+Program Cat=SBR Msb=87 Lsb=71 Prg=37 # PH: 038 FatSynBrass
+Program Cat=SBR Msb=121 Lsb=0 Prg=62 # GM: 133 Synth Brass1
+Program Cat=SBR Msb=121 Lsb=1 Prg=62 # GM: 134 Pro Brass
+Program Cat=SBR Msb=121 Lsb=2 Prg=62 # GM: 135 Oct SynBrass
+Program Cat=SBR Msb=121 Lsb=3 Prg=62 # GM: 136 Jump Brass
+Program Cat=SBR Msb=121 Lsb=0 Prg=63 # GM: 137 Synth Brass2
+Program Cat=SBR Msb=121 Lsb=1 Prg=63 # GM: 138 SynBrass sfz
+Program Cat=SBR Msb=121 Lsb=2 Prg=63 # GM: 139 Velo Brass 1
+
+Program Cat=SBS Msb=87 Lsb=0 Prg=24 # US: 025 Sub Zero
+Program Cat=SBS Msb=87 Lsb=0 Prg=30 # US: 031 Buster Bass
+Program Cat=SBS Msb=87 Lsb=0 Prg=36 # US: 037 Grounded Bs
+Program Cat=SBS Msb=87 Lsb=0 Prg=47 # US: 048 TB Squelch
+Program Cat=SBS Msb=87 Lsb=0 Prg=66 # US: 067 Muscle Bass
+Program Cat=SBS Msb=87 Lsb=0 Prg=79 # US: 080 Brash Bass
+Program Cat=SBS Msb=87 Lsb=0 Prg=86 # US: 087 West End Bs
+Program Cat=SBS Msb=87 Lsb=0 Prg=95 # US: 096 Ticker Bass
+Program Cat=SBS Msb=87 Lsb=0 Prg=125 # US: 126 8VCO MonoSyn
+Program Cat=SBS Msb=87 Lsb=65 Prg=21 # PB: 022 4 Pole Bass
+Program Cat=SBS Msb=87 Lsb=65 Prg=22 # PB: 023 Tick Bass
+Program Cat=SBS Msb=87 Lsb=65 Prg=23 # PB: 024 House Bass
+Program Cat=SBS Msb=87 Lsb=65 Prg=24 # PB: 025 Mondo Bass
+Program Cat=SBS Msb=87 Lsb=65 Prg=25 # PB: 026 Clk AnalogBs
+Program Cat=SBS Msb=87 Lsb=65 Prg=26 # PB: 027 Bass In Face
+Program Cat=SBS Msb=87 Lsb=65 Prg=27 # PB: 028 101 Bass
+Program Cat=SBS Msb=87 Lsb=65 Prg=28 # PB: 029 Noiz Bass
+Program Cat=SBS Msb=87 Lsb=65 Prg=29 # PB: 030 Super Jup Bs
+Program Cat=SBS Msb=87 Lsb=65 Prg=30 # PB: 031 Occitan Bass
+Program Cat=SBS Msb=87 Lsb=65 Prg=31 # PB: 032 Hugo Bass
+Program Cat=SBS Msb=87 Lsb=65 Prg=32 # PB: 033 Multi Bass
+Program Cat=SBS Msb=87 Lsb=65 Prg=33 # PB: 034 Moist Bass
+Program Cat=SBS Msb=87 Lsb=65 Prg=34 # PB: 035 BritelowBass
+Program Cat=SBS Msb=87 Lsb=65 Prg=35 # PB: 036 Untamed Bass
+Program Cat=SBS Msb=87 Lsb=65 Prg=36 # PB: 037 Rubber Bass
+Program Cat=SBS Msb=87 Lsb=65 Prg=37 # PB: 038 Stereoww Bs
+Program Cat=SBS Msb=87 Lsb=65 Prg=38 # PB: 039 Wonder Bass
+Program Cat=SBS Msb=87 Lsb=65 Prg=39 # PB: 040 Deep Bass
+Program Cat=SBS Msb=87 Lsb=65 Prg=40 # PB: 041 Super JX Bs
+Program Cat=SBS Msb=87 Lsb=65 Prg=41 # PB: 042 W<RED>-Bass
+Program Cat=SBS Msb=87 Lsb=65 Prg=42 # PB: 043 HI-Ring Bass
+Program Cat=SBS Msb=87 Lsb=65 Prg=43 # PB: 044 Euro Bass
+Program Cat=SBS Msb=87 Lsb=65 Prg=44 # PB: 045 SinusoidRave
+Program Cat=SBS Msb=87 Lsb=67 Prg=43 # PD: 044 202 Rude Bs
+Program Cat=SBS Msb=87 Lsb=67 Prg=44 # PD: 045 2pole Bass
+Program Cat=SBS Msb=87 Lsb=67 Prg=45 # PD: 046 4pole Bass
+Program Cat=SBS Msb=87 Lsb=67 Prg=46 # PD: 047 Phaser MC
+Program Cat=SBS Msb=87 Lsb=67 Prg=47 # PD: 048 Miniphaser
+Program Cat=SBS Msb=87 Lsb=67 Prg=48 # PD: 049 Acid TB
+Program Cat=SBS Msb=87 Lsb=69 Prg=53 # PF: 054 Creamy Bass
+Program Cat=SBS Msb=87 Lsb=69 Prg=54 # PF: 055 Buster Bass
+Program Cat=SBS Msb=87 Lsb=69 Prg=55 # PF: 056 TB Squelch
+Program Cat=SBS Msb=87 Lsb=69 Prg=56 # PF: 057 Ticker Bass
+Program Cat=SBS Msb=87 Lsb=69 Prg=57 # PF: 058 Muscle Bass
+Program Cat=SBS Msb=87 Lsb=69 Prg=58 # PF: 059 Grounded Bs
+Program Cat=SBS Msb=87 Lsb=69 Prg=59 # PF: 060 West End Bs
+Program Cat=SBS Msb=87 Lsb=69 Prg=60 # PF: 061 Snap Bass
+Program Cat=SBS Msb=87 Lsb=69 Prg=61 # PF: 062 700 Bassboy
+Program Cat=SBS Msb=87 Lsb=69 Prg=62 # PF: 063 8VCO MonoSyn
+Program Cat=SBS Msb=87 Lsb=69 Prg=63 # PF: 064 ResoMoist Bs
+Program Cat=SBS Msb=87 Lsb=69 Prg=64 # PF: 065 Kickin' Bass
+Program Cat=SBS Msb=87 Lsb=69 Prg=65 # PF: 066 Sub Zero
+Program Cat=SBS Msb=87 Lsb=69 Prg=66 # PF: 067 Liquid Bass
+Program Cat=SBS Msb=87 Lsb=69 Prg=67 # PF: 068 Hefty Bass
+Program Cat=SBS Msb=87 Lsb=69 Prg=68 # PF: 069 Severe Ow Bs
+Program Cat=SBS Msb=87 Lsb=71 Prg=26 # PH: 027 Fundamental
+Program Cat=SBS Msb=87 Lsb=71 Prg=27 # PH: 028 Brash Bass
+Program Cat=SBS Msb=121 Lsb=0 Prg=38 # GM: 085 Synth Bass 1
+Program Cat=SBS Msb=121 Lsb=1 Prg=38 # GM: 086 SynthBass101
+Program Cat=SBS Msb=121 Lsb=2 Prg=38 # GM: 087 Acid Bass
+Program Cat=SBS Msb=121 Lsb=3 Prg=38 # GM: 088 Clavi Bass
+Program Cat=SBS Msb=121 Lsb=4 Prg=38 # GM: 089 Hammer
+Program Cat=SBS Msb=121 Lsb=0 Prg=39 # GM: 090 Synth Bass 2
+Program Cat=SBS Msb=121 Lsb=1 Prg=39 # GM: 091 Beef FM Bass
+Program Cat=SBS Msb=121 Lsb=2 Prg=39 # GM: 092 RubberBass 2
+Program Cat=SBS Msb=121 Lsb=3 Prg=39 # GM: 093 Attack Pulse
+
+Program Cat=SFX Msb=87 Lsb=0 Prg=121 # US: 122 Tape Q
+Program Cat=SFX Msb=87 Lsb=67 Prg=126 # PD: 127 Droplet
+Program Cat=SFX Msb=87 Lsb=67 Prg=127 # PD: 128 Rain Forest
+Program Cat=SFX Msb=87 Lsb=71 Prg=54 # PH: 055 Tape Q
+Program Cat=SFX Msb=87 Lsb=71 Prg=123 # PH: 124 Upwind Glata
+Program Cat=SFX Msb=121 Lsb=0 Prg=122 # GM: 221 Seashore
+Program Cat=SFX Msb=121 Lsb=1 Prg=122 # GM: 222 Rain
+Program Cat=SFX Msb=121 Lsb=2 Prg=122 # GM: 223 Thunder
+Program Cat=SFX Msb=121 Lsb=3 Prg=122 # GM: 224 Wind
+Program Cat=SFX Msb=121 Lsb=4 Prg=122 # GM: 225 Stream
+Program Cat=SFX Msb=121 Lsb=5 Prg=122 # GM: 226 Bubble
+Program Cat=SFX Msb=121 Lsb=0 Prg=123 # GM: 227 Bird
+Program Cat=SFX Msb=121 Lsb=1 Prg=123 # GM: 228 Dog
+Program Cat=SFX Msb=121 Lsb=2 Prg=123 # GM: 229 Horse-Gallop
+Program Cat=SFX Msb=121 Lsb=3 Prg=123 # GM: 230 Bird 2
+Program Cat=SFX Msb=121 Lsb=0 Prg=124 # GM: 231 Telephone 1
+Program Cat=SFX Msb=121 Lsb=1 Prg=124 # GM: 232 Telephone 2
+Program Cat=SFX Msb=121 Lsb=2 Prg=124 # GM: 233 DoorCreaking
+Program Cat=SFX Msb=121 Lsb=3 Prg=124 # GM: 234 Door
+Program Cat=SFX Msb=121 Lsb=4 Prg=124 # GM: 235 Scratch
+Program Cat=SFX Msb=121 Lsb=5 Prg=124 # GM: 236 Wind Chimes
+Program Cat=SFX Msb=121 Lsb=0 Prg=125 # GM: 237 Helicopter
+Program Cat=SFX Msb=121 Lsb=1 Prg=125 # GM: 238 Car-Engine
+Program Cat=SFX Msb=121 Lsb=2 Prg=125 # GM: 239 Car-Stop
+Program Cat=SFX Msb=121 Lsb=3 Prg=125 # GM: 240 Car-Pass
+Program Cat=SFX Msb=121 Lsb=4 Prg=125 # GM: 241 Car-Crash
+Program Cat=SFX Msb=121 Lsb=5 Prg=125 # GM: 242 Siren
+Program Cat=SFX Msb=121 Lsb=6 Prg=125 # GM: 243 Train
+Program Cat=SFX Msb=121 Lsb=7 Prg=125 # GM: 244 Jetplane
+Program Cat=SFX Msb=121 Lsb=8 Prg=125 # GM: 245 Starship
+Program Cat=SFX Msb=121 Lsb=9 Prg=125 # GM: 246 Burst Noise
+Program Cat=SFX Msb=121 Lsb=0 Prg=126 # GM: 247 Applause
+Program Cat=SFX Msb=121 Lsb=1 Prg=126 # GM: 248 Laughing
+Program Cat=SFX Msb=121 Lsb=2 Prg=126 # GM: 249 Screaming
+Program Cat=SFX Msb=121 Lsb=3 Prg=126 # GM: 250 Punch
+Program Cat=SFX Msb=121 Lsb=4 Prg=126 # GM: 251 Heart Beat
+Program Cat=SFX Msb=121 Lsb=5 Prg=126 # GM: 252 Footsteps
+Program Cat=SFX Msb=121 Lsb=0 Prg=127 # GM: 253 Gun Shot
+Program Cat=SFX Msb=121 Lsb=1 Prg=127 # GM: 254 Machine Gun
+Program Cat=SFX Msb=121 Lsb=2 Prg=127 # GM: 255 Lasergun
+Program Cat=SFX Msb=121 Lsb=3 Prg=127 # GM: 256 Explosion
+
+Program Cat=SLD Msb=87 Lsb=0 Prg=29 # US: 030 Atlantis
+Program Cat=SLD Msb=87 Lsb=0 Prg=55 # US: 056 Soaring Sqr
+Program Cat=SLD Msb=87 Lsb=0 Prg=69 # US: 070 Peking Opera
+Program Cat=SLD Msb=87 Lsb=0 Prg=81 # US: 082 LegatoJupitr
+Program Cat=SLD Msb=87 Lsb=0 Prg=99 # US: 100 Flyin' High
+Program Cat=SLD Msb=87 Lsb=65 Prg=76 # PB: 077 SquareLead 1
+Program Cat=SLD Msb=87 Lsb=65 Prg=77 # PB: 078 SquareLead 2
+Program Cat=SLD Msb=87 Lsb=65 Prg=78 # PB: 079 You and Luck
+Program Cat=SLD Msb=87 Lsb=65 Prg=79 # PB: 080 Belly Lead
+Program Cat=SLD Msb=87 Lsb=65 Prg=80 # PB: 081 WhistlinAtom
+Program Cat=SLD Msb=87 Lsb=65 Prg=85 # PB: 086 Smoothe
+Program Cat=SLD Msb=87 Lsb=65 Prg=86 # PB: 087 MG Lead
+Program Cat=SLD Msb=87 Lsb=65 Prg=89 # PB: 090 Pulse Lead 2
+Program Cat=SLD Msb=87 Lsb=67 Prg=83 # PD: 084 Warm Pipe
+Program Cat=SLD Msb=87 Lsb=67 Prg=84 # PD: 085 Pure Pipe
+Program Cat=SLD Msb=87 Lsb=67 Prg=85 # PD: 086 SH-2000
+Program Cat=SLD Msb=87 Lsb=67 Prg=86 # PD: 087 X..? Whistle
+Program Cat=SLD Msb=87 Lsb=67 Prg=87 # PD: 088 Jay Vee Solo
+Program Cat=SLD Msb=87 Lsb=69 Prg=20 # PF: 021 Flyin' High
+Program Cat=SLD Msb=87 Lsb=69 Prg=21 # PF: 022 Soft Tooth
+Program Cat=SLD Msb=87 Lsb=69 Prg=22 # PF: 023 Soaring Sqr
+Program Cat=SLD Msb=87 Lsb=69 Prg=23 # PF: 024 Soaring Sync
+Program Cat=SLD Msb=87 Lsb=69 Prg=24 # PF: 025 Nasal Spray
+Program Cat=SLD Msb=87 Lsb=69 Prg=25 # PF: 026 Lamb Lead
+Program Cat=SLD Msb=87 Lsb=69 Prg=26 # PF: 027 Creamer
+Program Cat=SLD Msb=87 Lsb=69 Prg=27 # PF: 028 Sine System
+Program Cat=SLD Msb=87 Lsb=71 Prg=47 # PH: 048 Water Tubes
+Program Cat=SLD Msb=87 Lsb=71 Prg=48 # PH: 049 Waterfront
+Program Cat=SLD Msb=87 Lsb=71 Prg=49 # PH: 050 Peking Opera
+Program Cat=SLD Msb=87 Lsb=71 Prg=50 # PH: 051 LegatoJupitr
+Program Cat=SLD Msb=87 Lsb=71 Prg=51 # PH: 052 Atlantis
+Program Cat=SLD Msb=121 Lsb=0 Prg=82 # GM: 164 Syn.Calliope
+Program Cat=SLD Msb=121 Lsb=0 Prg=83 # GM: 165 Chiffer Lead
+Program Cat=SLD Msb=121 Lsb=0 Prg=85 # GM: 168 Solo Vox
+
+Program Cat=SPD Msb=87 Lsb=0 Prg=22 # US: 023 GlobalWarmup
+Program Cat=SPD Msb=87 Lsb=0 Prg=26 # US: 027 OvertoneScan
+Program Cat=SPD Msb=87 Lsb=0 Prg=72 # US: 073 Traffic Pad
+Program Cat=SPD Msb=87 Lsb=0 Prg=76 # US: 077 Borealis
+Program Cat=SPD Msb=87 Lsb=0 Prg=85 # US: 086 Spread Pad
+Program Cat=SPD Msb=87 Lsb=0 Prg=90 # US: 091 ClassicJPpad
+Program Cat=SPD Msb=87 Lsb=0 Prg=105 # US: 106 2.2 Strings
+Program Cat=SPD Msb=87 Lsb=0 Prg=119 # US: 120 11th Space
+Program Cat=SPD Msb=87 Lsb=66 Prg=52 # PC: 053 E-Motion Pad
+Program Cat=SPD Msb=87 Lsb=66 Prg=58 # PC: 059 Warmth
+Program Cat=SPD Msb=87 Lsb=66 Prg=59 # PC: 060 ORBit Pad
+Program Cat=SPD Msb=87 Lsb=66 Prg=61 # PC: 062 Pulsify
+Program Cat=SPD Msb=87 Lsb=66 Prg=62 # PC: 063 Pulse Pad
+Program Cat=SPD Msb=87 Lsb=66 Prg=67 # PC: 068 Pop Pad
+Program Cat=SPD Msb=87 Lsb=66 Prg=68 # PC: 069 Dreamesque
+Program Cat=SPD Msb=87 Lsb=66 Prg=69 # PC: 070 Square Pad
+Program Cat=SPD Msb=87 Lsb=66 Prg=70 # PC: 071 JP-8 Hollow
+Program Cat=SPD Msb=87 Lsb=66 Prg=71 # PC: 072 JP-8Haunting
+Program Cat=SPD Msb=87 Lsb=66 Prg=74 # PC: 075 Jet Pad 1
+Program Cat=SPD Msb=87 Lsb=66 Prg=75 # PC: 076 Jet Pad 2
+Program Cat=SPD Msb=87 Lsb=66 Prg=76 # PC: 077 Phaze Pad
+Program Cat=SPD Msb=87 Lsb=66 Prg=77 # PC: 078 Phaze Str
+Program Cat=SPD Msb=87 Lsb=66 Prg=78 # PC: 079 Jet Str Ens
+Program Cat=SPD Msb=87 Lsb=66 Prg=80 # PC: 081 3D Flanged
+Program Cat=SPD Msb=87 Lsb=66 Prg=82 # PC: 083 Glassy Pad
+Program Cat=SPD Msb=87 Lsb=66 Prg=83 # PC: 084 Moving Glass
+Program Cat=SPD Msb=87 Lsb=66 Prg=84 # PC: 085 Glasswaves
+Program Cat=SPD Msb=87 Lsb=66 Prg=85 # PC: 086 Shiny Pad
+Program Cat=SPD Msb=87 Lsb=66 Prg=86 # PC: 087 ShiftedGlass
+Program Cat=SPD Msb=87 Lsb=66 Prg=87 # PC: 088 Chime Pad
+Program Cat=SPD Msb=87 Lsb=66 Prg=88 # PC: 089 Spin Pad
+Program Cat=SPD Msb=87 Lsb=66 Prg=89 # PC: 090 Rotary Pad
+Program Cat=SPD Msb=87 Lsb=66 Prg=90 # PC: 091 Dawn 2 Dusk
+Program Cat=SPD Msb=87 Lsb=66 Prg=91 # PC: 092 Aurora
+Program Cat=SPD Msb=87 Lsb=67 Prg=91 # PD: 092 Glass Blower
+Program Cat=SPD Msb=87 Lsb=67 Prg=92 # PD: 093 Earth Blow
+Program Cat=SPD Msb=87 Lsb=67 Prg=93 # PD: 094 JX SqrCarpet
+Program Cat=SPD Msb=87 Lsb=67 Prg=94 # PD: 095 Dimensional
+Program Cat=SPD Msb=87 Lsb=67 Prg=95 # PD: 096 Jupiterings
+Program Cat=SPD Msb=87 Lsb=67 Prg=96 # PD: 097 Analog Drama
+Program Cat=SPD Msb=87 Lsb=67 Prg=97 # PD: 098 Rich Dynapad
+Program Cat=SPD Msb=87 Lsb=67 Prg=98 # PD: 099 Silky Way
+Program Cat=SPD Msb=87 Lsb=67 Prg=99 # PD: 100 Gluey Pad
+Program Cat=SPD Msb=87 Lsb=67 Prg=100 # PD: 101 BandPass Mod
+Program Cat=SPD Msb=87 Lsb=67 Prg=101 # PD: 102 Soundtraque
+Program Cat=SPD Msb=87 Lsb=67 Prg=102 # PD: 103 Translucence
+Program Cat=SPD Msb=87 Lsb=67 Prg=103 # PD: 104 Darkshine
+Program Cat=SPD Msb=87 Lsb=67 Prg=104 # PD: 105 D'light
+Program Cat=SPD Msb=87 Lsb=67 Prg=105 # PD: 106 December Sky
+Program Cat=SPD Msb=87 Lsb=67 Prg=106 # PD: 107 Octapad
+Program Cat=SPD Msb=87 Lsb=68 Prg=42 # PE: 043 Morph Pad
+Program Cat=SPD Msb=87 Lsb=68 Prg=43 # PE: 044 Air Pad
+Program Cat=SPD Msb=87 Lsb=68 Prg=44 # PE: 045 Soft Padding
+Program Cat=SPD Msb=87 Lsb=68 Prg=45 # PE: 046 Warmth Pad
+Program Cat=SPD Msb=87 Lsb=68 Prg=46 # PE: 047 ClassicJPpad
+Program Cat=SPD Msb=87 Lsb=68 Prg=47 # PE: 048 Jupiter Str
+Program Cat=SPD Msb=87 Lsb=68 Prg=48 # PE: 049 Fat Pad
+Program Cat=SPD Msb=87 Lsb=68 Prg=49 # PE: 050 GR700 Pad
+Program Cat=SPD Msb=87 Lsb=68 Prg=50 # PE: 051 Paradise
+Program Cat=SPD Msb=87 Lsb=68 Prg=51 # PE: 052 Moonchimes
+Program Cat=SPD Msb=87 Lsb=68 Prg=52 # PE: 053 SusPed Swap
+Program Cat=SPD Msb=87 Lsb=68 Prg=53 # PE: 054 PhasingPad
+Program Cat=SPD Msb=87 Lsb=68 Prg=54 # PE: 055 Ethereal Str
+Program Cat=SPD Msb=87 Lsb=68 Prg=55 # PE: 056 Velcropad
+Program Cat=SPD Msb=87 Lsb=68 Prg=56 # PE: 057 NothrnLights
+Program Cat=SPD Msb=87 Lsb=68 Prg=57 # PE: 058 Sun Dive
+Program Cat=SPD Msb=87 Lsb=70 Prg=42 # PG: 043 Sabbath Day
+Program Cat=SPD Msb=87 Lsb=70 Prg=43 # PG: 044 XV BlowPad
+Program Cat=SPD Msb=87 Lsb=70 Prg=44 # PG: 045 White Arcade
+Program Cat=SPD Msb=87 Lsb=70 Prg=45 # PG: 046 Borealis
+Program Cat=SPD Msb=87 Lsb=70 Prg=46 # PG: 047 OvertoneScan
+Program Cat=SPD Msb=87 Lsb=71 Prg=99 # PH: 100 Spread Pad
+Program Cat=SPD Msb=87 Lsb=71 Prg=100 # PH: 101 Aliastrings
+Program Cat=SPD Msb=87 Lsb=71 Prg=101 # PH: 102 GlobalWarmup
+Program Cat=SPD Msb=87 Lsb=71 Prg=102 # PH: 103 2.2 Strings
+Program Cat=SPD Msb=87 Lsb=71 Prg=103 # PH: 104 Aftermath
+Program Cat=SPD Msb=87 Lsb=71 Prg=104 # PH: 105 11th Space
+Program Cat=SPD Msb=87 Lsb=71 Prg=105 # PH: 106 Cloud 9
+Program Cat=SPD Msb=87 Lsb=71 Prg=106 # PH: 107 Traffic Pad
+Program Cat=SPD Msb=87 Lsb=71 Prg=107 # PH: 108 Nanolog Pad
+Program Cat=SPD Msb=121 Lsb=0 Prg=51 # GM: 110 Syn.Strings2
+Program Cat=SPD Msb=121 Lsb=0 Prg=89 # GM: 173 Warm Pad
+Program Cat=SPD Msb=121 Lsb=1 Prg=89 # GM: 174 Sine Pad
+Program Cat=SPD Msb=121 Lsb=0 Prg=92 # GM: 178 Bowed Glass
+Program Cat=SPD Msb=121 Lsb=0 Prg=95 # GM: 181 Sweep Pad
+Program Cat=SPD Msb=121 Lsb=0 Prg=97 # GM: 183 Soundtrack
+
+Program Cat=STR Msb=87 Lsb=0 Prg=5 # US: 006 Hold A Chord
+Program Cat=STR Msb=87 Lsb=0 Prg=20 # US: 021 Fat Strings
+Program Cat=STR Msb=87 Lsb=0 Prg=38 # US: 039 Lead 4x Vlns
+Program Cat=STR Msb=87 Lsb=0 Prg=84 # US: 085 UltraSmooth
+Program Cat=STR Msb=87 Lsb=0 Prg=89 # US: 090 BatonStrings
+Program Cat=STR Msb=87 Lsb=64 Prg=99 # PA: 100 Voicey Pizz
+Program Cat=STR Msb=87 Lsb=66 Prg=34 # PC: 035 St.Strings
+Program Cat=STR Msb=87 Lsb=66 Prg=35 # PC: 036 Warm Strings
+Program Cat=STR Msb=87 Lsb=66 Prg=36 # PC: 037 Somber Str
+Program Cat=STR Msb=87 Lsb=66 Prg=37 # PC: 038 Marcato
+Program Cat=STR Msb=87 Lsb=66 Prg=38 # PC: 039 Bright Str
+Program Cat=STR Msb=87 Lsb=66 Prg=39 # PC: 040 String Ens
+Program Cat=STR Msb=87 Lsb=66 Prg=40 # PC: 041 TremoloStrng
+Program Cat=STR Msb=87 Lsb=66 Prg=41 # PC: 042 Chambers
+Program Cat=STR Msb=87 Lsb=66 Prg=42 # PC: 043 ViolinCello
+Program Cat=STR Msb=87 Lsb=66 Prg=44 # PC: 045 Film Octaves
+Program Cat=STR Msb=87 Lsb=66 Prg=46 # PC: 047 Bass Pizz
+Program Cat=STR Msb=87 Lsb=66 Prg=47 # PC: 048 Real Pizz
+Program Cat=STR Msb=87 Lsb=66 Prg=50 # PC: 051 JP-8 Str 1
+Program Cat=STR Msb=87 Lsb=66 Prg=51 # PC: 052 JP-8 Str 2
+Program Cat=STR Msb=87 Lsb=66 Prg=53 # PC: 054 JP-8 Str 3
+Program Cat=STR Msb=87 Lsb=66 Prg=60 # PC: 061 Deep Strings
+Program Cat=STR Msb=87 Lsb=68 Prg=68 # PE: 069 XV Strings
+Program Cat=STR Msb=87 Lsb=68 Prg=69 # PE: 070 Fat Strings
+Program Cat=STR Msb=87 Lsb=68 Prg=70 # PE: 071 Dolce p/m/f
+Program Cat=STR Msb=87 Lsb=68 Prg=71 # PE: 072 Sad Strings
+Program Cat=STR Msb=87 Lsb=68 Prg=72 # PE: 073 Lush Strings
+Program Cat=STR Msb=87 Lsb=68 Prg=73 # PE: 074 Strings4Film
+Program Cat=STR Msb=87 Lsb=68 Prg=74 # PE: 075 Marcato Str
+Program Cat=STR Msb=87 Lsb=68 Prg=75 # PE: 076 End Titles
+Program Cat=STR Msb=87 Lsb=68 Prg=76 # PE: 077 ChmbrQuartet
+Program Cat=STR Msb=87 Lsb=68 Prg=77 # PE: 078 ChamberSect.
+Program Cat=STR Msb=87 Lsb=68 Prg=78 # PE: 079 FullChmbrStr
+Program Cat=STR Msb=87 Lsb=68 Prg=79 # PE: 080 Tape Strings
+Program Cat=STR Msb=87 Lsb=70 Prg=48 # PG: 049 Jupiter 21
+Program Cat=STR Msb=87 Lsb=70 Prg=49 # PG: 050 Filt Strings
+Program Cat=STR Msb=87 Lsb=70 Prg=50 # PG: 051 HybStringsXV
+Program Cat=STR Msb=87 Lsb=71 Prg=28 # PH: 029 ChamberQrt.1
+Program Cat=STR Msb=87 Lsb=71 Prg=29 # PH: 030 Lead 4x Vlns
+Program Cat=STR Msb=87 Lsb=71 Prg=30 # PH: 031 BatonStrings
+Program Cat=STR Msb=87 Lsb=71 Prg=31 # PH: 032 UltraSmooth
+Program Cat=STR Msb=87 Lsb=71 Prg=32 # PH: 033 Hold A Chord
+Program Cat=STR Msb=121 Lsb=0 Prg=40 # GM: 094 Violin
+Program Cat=STR Msb=121 Lsb=1 Prg=40 # GM: 095 Slow Violin
+Program Cat=STR Msb=121 Lsb=0 Prg=41 # GM: 096 Viola
+Program Cat=STR Msb=121 Lsb=0 Prg=42 # GM: 097 Cello
+Program Cat=STR Msb=121 Lsb=0 Prg=43 # GM: 098 Contrabass
+Program Cat=STR Msb=121 Lsb=0 Prg=44 # GM: 099 Tremolo Str
+Program Cat=STR Msb=121 Lsb=0 Prg=45 # GM: 100 PizzicatoStr
+Program Cat=STR Msb=121 Lsb=0 Prg=48 # GM: 104 Strings
+Program Cat=STR Msb=121 Lsb=1 Prg=48 # GM: 105 Orchestra
+Program Cat=STR Msb=121 Lsb=2 Prg=48 # GM: 106 60s Strings
+Program Cat=STR Msb=121 Lsb=0 Prg=49 # GM: 107 Slow Strings
+Program Cat=STR Msb=121 Lsb=0 Prg=50 # GM: 108 Syn.Strings1
+Program Cat=STR Msb=121 Lsb=1 Prg=50 # GM: 109 Syn.Strings3
+Program Cat=STR Msb=121 Lsb=0 Prg=110 # GM: 201 Fiddle
+
+Program Cat=SYN Msb=87 Lsb=0 Prg=1 # US: 002 Hydrogen
+Program Cat=SYN Msb=87 Lsb=0 Prg=57 # US: 058 Power Stack
+Program Cat=SYN Msb=87 Lsb=0 Prg=115 # US: 116 Galactic
+Program Cat=SYN Msb=87 Lsb=0 Prg=117 # US: 118 Funky Tube
+Program Cat=SYN Msb=87 Lsb=64 Prg=61 # PA: 062 Poly Key
+Program Cat=SYN Msb=87 Lsb=64 Prg=62 # PA: 063 Poly Saws
+Program Cat=SYN Msb=87 Lsb=64 Prg=63 # PA: 064 Poly Pulse
+Program Cat=SYN Msb=87 Lsb=64 Prg=64 # PA: 065 Dual Profs
+Program Cat=SYN Msb=87 Lsb=64 Prg=65 # PA: 066 Saw Mass
+Program Cat=SYN Msb=87 Lsb=64 Prg=66 # PA: 067 Poly Split
+Program Cat=SYN Msb=87 Lsb=64 Prg=68 # PA: 069 Stackoid
+Program Cat=SYN Msb=87 Lsb=64 Prg=69 # PA: 070 Poly Rock
+Program Cat=SYN Msb=87 Lsb=64 Prg=76 # PA: 077 Puff 1080
+Program Cat=SYN Msb=87 Lsb=64 Prg=88 # PA: 089 Pulse Key
+Program Cat=SYN Msb=87 Lsb=67 Prg=25 # PD: 026 Wire Pad
+Program Cat=SYN Msb=87 Lsb=67 Prg=26 # PD: 027 PhaseBlipper
+Program Cat=SYN Msb=87 Lsb=67 Prg=27 # PD: 028 Sweep Clav
+Program Cat=SYN Msb=87 Lsb=67 Prg=28 # PD: 029 Glider
+Program Cat=SYN Msb=87 Lsb=68 Prg=122 # PE: 123 BPFsweep Mod
+Program Cat=SYN Msb=87 Lsb=68 Prg=123 # PE: 124 Queen V
+Program Cat=SYN Msb=87 Lsb=68 Prg=124 # PE: 125 SkinnyBounce
+Program Cat=SYN Msb=87 Lsb=68 Prg=125 # PE: 126 SquareBounce
+Program Cat=SYN Msb=87 Lsb=68 Prg=126 # PE: 127 Galactic
+Program Cat=SYN Msb=87 Lsb=68 Prg=127 # PE: 128 Powerwiggle
+Program Cat=SYN Msb=87 Lsb=69 Prg=0 # PF: 001 80s Retrosyn
+Program Cat=SYN Msb=87 Lsb=69 Prg=1 # PF: 002 Power Stack
+Program Cat=SYN Msb=87 Lsb=69 Prg=2 # PF: 003 Don't Jump
+Program Cat=SYN Msb=87 Lsb=69 Prg=3 # PF: 004 Big Bubbles
+Program Cat=SYN Msb=87 Lsb=69 Prg=4 # PF: 005 X-mod Sweep
+Program Cat=SYN Msb=87 Lsb=69 Prg=5 # PF: 006 Bag O' Bones
+Program Cat=SYN Msb=87 Lsb=69 Prg=6 # PF: 007 AirSoThin
+Program Cat=SYN Msb=87 Lsb=69 Prg=7 # PF: 008 Analogical
+Program Cat=SYN Msb=87 Lsb=69 Prg=8 # PF: 009 Waspy Pulse
+Program Cat=SYN Msb=87 Lsb=70 Prg=62 # PG: 063 Digi Phased
+Program Cat=SYN Msb=87 Lsb=70 Prg=63 # PG: 064 Synth Ethics
+Program Cat=SYN Msb=87 Lsb=70 Prg=64 # PG: 065 Harm is Fine
+Program Cat=SYN Msb=87 Lsb=70 Prg=65 # PG: 066 D-2000
+Program Cat=SYN Msb=87 Lsb=70 Prg=66 # PG: 067 Ackward East
+Program Cat=SYN Msb=87 Lsb=71 Prg=83 # PH: 084 KeysEnsemble
+Program Cat=SYN Msb=87 Lsb=71 Prg=84 # PH: 085 Cheepy Synth
+Program Cat=SYN Msb=87 Lsb=71 Prg=85 # PH: 086 Funky Tube
+Program Cat=SYN Msb=87 Lsb=71 Prg=86 # PH: 087 Hydrogen
+Program Cat=SYN Msb=87 Lsb=71 Prg=87 # PH: 088 Promenade
+Program Cat=SYN Msb=87 Lsb=71 Prg=88 # PH: 089 Ray Tracer
+Program Cat=SYN Msb=121 Lsb=0 Prg=88 # GM: 172 Fantasia
+Program Cat=SYN Msb=121 Lsb=0 Prg=90 # GM: 175 Polysynth
+Program Cat=SYN Msb=121 Lsb=0 Prg=96 # GM: 182 Ice Rain
+Program Cat=SYN Msb=121 Lsb=0 Prg=100 # GM: 187 Brightness
+
+Program Cat=TEK Msb=87 Lsb=0 Prg=14 # US: 015 Ambi Voices
+Program Cat=TEK Msb=87 Lsb=0 Prg=19 # US: 020 Xtremities
+Program Cat=TEK Msb=87 Lsb=0 Prg=28 # US: 029 Chordbender
+Program Cat=TEK Msb=87 Lsb=0 Prg=37 # US: 038 Vocovox Wave
+Program Cat=TEK Msb=87 Lsb=0 Prg=54 # US: 055 McThrob
+Program Cat=TEK Msb=87 Lsb=0 Prg=70 # US: 071 5th Element
+Program Cat=TEK Msb=87 Lsb=0 Prg=73 # US: 074 5ths in 4ths
+Program Cat=TEK Msb=87 Lsb=0 Prg=82 # US: 083 Tape Orch
+Program Cat=TEK Msb=87 Lsb=0 Prg=87 # US: 088 Phunky DC
+Program Cat=TEK Msb=87 Lsb=0 Prg=101 # US: 102 Tekno Pizz
+Program Cat=TEK Msb=87 Lsb=0 Prg=107 # US: 108 MinorIncidnt
+Program Cat=TEK Msb=87 Lsb=0 Prg=113 # US: 114 Froggy Bass
+Program Cat=TEK Msb=87 Lsb=0 Prg=116 # US: 117 Generator
+Program Cat=TEK Msb=87 Lsb=64 Prg=6 # PA: 007 House Piano
+Program Cat=TEK Msb=87 Lsb=65 Prg=47 # PB: 048 Auto TB-303
+Program Cat=TEK Msb=87 Lsb=65 Prg=48 # PB: 049 Hihat Tekno
+Program Cat=TEK Msb=87 Lsb=65 Prg=49 # PB: 050 Velo Tekno 1
+Program Cat=TEK Msb=87 Lsb=65 Prg=56 # PB: 057 Velo Tekno 2
+Program Cat=TEK Msb=87 Lsb=65 Prg=57 # PB: 058 Rezoid
+Program Cat=TEK Msb=87 Lsb=65 Prg=58 # PB: 059 Raverborg
+Program Cat=TEK Msb=87 Lsb=65 Prg=61 # PB: 062 Seq Mallet
+Program Cat=TEK Msb=87 Lsb=65 Prg=62 # PB: 063 Intentions
+Program Cat=TEK Msb=87 Lsb=65 Prg=63 # PB: 064 Pick It
+Program Cat=TEK Msb=87 Lsb=65 Prg=64 # PB: 065 Analog Seq
+Program Cat=TEK Msb=87 Lsb=65 Prg=65 # PB: 066 Impact Vox
+Program Cat=TEK Msb=87 Lsb=65 Prg=66 # PB: 067 TeknoSoloVox
+Program Cat=TEK Msb=87 Lsb=65 Prg=99 # PB: 100 Airplaaane
+Program Cat=TEK Msb=87 Lsb=66 Prg=102 # PC: 103 Big BPF
+Program Cat=TEK Msb=87 Lsb=67 Prg=62 # PD: 063 Techno Dream
+Program Cat=TEK Msb=87 Lsb=67 Prg=63 # PD: 064 Organizer
+Program Cat=TEK Msb=87 Lsb=67 Prg=64 # PD: 065 Civilization
+Program Cat=TEK Msb=87 Lsb=67 Prg=65 # PD: 066 Mental Chord
+Program Cat=TEK Msb=87 Lsb=67 Prg=66 # PD: 067 House Chord
+Program Cat=TEK Msb=87 Lsb=67 Prg=67 # PD: 068 Sequalog
+Program Cat=TEK Msb=87 Lsb=67 Prg=68 # PD: 069 Booster Bips
+Program Cat=TEK Msb=87 Lsb=67 Prg=69 # PD: 070 VintagePlunk
+Program Cat=TEK Msb=87 Lsb=67 Prg=70 # PD: 071 Plik-Plok
+Program Cat=TEK Msb=87 Lsb=67 Prg=71 # PD: 072 RingSequence
+Program Cat=TEK Msb=87 Lsb=67 Prg=72 # PD: 073 Cyber Swing
+Program Cat=TEK Msb=87 Lsb=67 Prg=73 # PD: 074 Keep :-)
+Program Cat=TEK Msb=87 Lsb=67 Prg=74 # PD: 075 Resojuice
+Program Cat=TEK Msb=87 Lsb=67 Prg=75 # PD: 076 B'on d'moov!
+Program Cat=TEK Msb=87 Lsb=67 Prg=76 # PD: 077 Dist TB-303
+Program Cat=TEK Msb=87 Lsb=69 Prg=93 # PF: 094 2ndRateChord
+Program Cat=TEK Msb=87 Lsb=69 Prg=94 # PF: 095 RageInYouth
+Program Cat=TEK Msb=87 Lsb=69 Prg=95 # PF: 096 MinorIncidnt
+Program Cat=TEK Msb=87 Lsb=69 Prg=96 # PF: 097 Phunky DC
+Program Cat=TEK Msb=87 Lsb=69 Prg=97 # PF: 098 Agent X
+Program Cat=TEK Msb=87 Lsb=69 Prg=98 # PF: 099 Winky
+Program Cat=TEK Msb=87 Lsb=69 Prg=99 # PF: 100 Looney 2nz
+Program Cat=TEK Msb=87 Lsb=69 Prg=100 # PF: 101 Shortrave
+Program Cat=TEK Msb=87 Lsb=69 Prg=101 # PF: 102 DeeperBeeper
+Program Cat=TEK Msb=87 Lsb=69 Prg=102 # PF: 103 Percolator
+Program Cat=TEK Msb=87 Lsb=69 Prg=103 # PF: 104 Filter Morph
+Program Cat=TEK Msb=87 Lsb=69 Prg=104 # PF: 105 Choir Bounce
+Program Cat=TEK Msb=87 Lsb=70 Prg=97 # PG: 098 Ambi Voices
+Program Cat=TEK Msb=87 Lsb=70 Prg=98 # PG: 099 Say Yeah !
+Program Cat=TEK Msb=87 Lsb=70 Prg=99 # PG: 100 Xcuse me
+Program Cat=TEK Msb=87 Lsb=70 Prg=100 # PG: 101 5ths in 4ths
+Program Cat=TEK Msb=87 Lsb=70 Prg=101 # PG: 102 Pretty Ugly
+Program Cat=TEK Msb=87 Lsb=70 Prg=102 # PG: 103 Con Sequence
+Program Cat=TEK Msb=87 Lsb=70 Prg=103 # PG: 104 BermudaShort
+Program Cat=TEK Msb=87 Lsb=70 Prg=104 # PG: 105 Saw n' 202
+Program Cat=TEK Msb=87 Lsb=70 Prg=105 # PG: 106 Technoheadz
+Program Cat=TEK Msb=87 Lsb=70 Prg=106 # PG: 107 Boss'd Synth
+Program Cat=TEK Msb=87 Lsb=70 Prg=107 # PG: 108 Cross Fire
+Program Cat=TEK Msb=87 Lsb=70 Prg=108 # PG: 109 Techno Cave
+Program Cat=TEK Msb=87 Lsb=70 Prg=109 # PG: 110 Generator
+Program Cat=TEK Msb=87 Lsb=70 Prg=110 # PG: 111 GenderBender
+Program Cat=TEK Msb=87 Lsb=70 Prg=111 # PG: 112 Xtremities
+Program Cat=TEK Msb=87 Lsb=70 Prg=112 # PG: 113 AM 05:59
+Program Cat=TEK Msb=87 Lsb=70 Prg=113 # PG: 114 Happy Brass
+Program Cat=TEK Msb=87 Lsb=71 Prg=55 # PH: 056 Technogrunge
+Program Cat=TEK Msb=87 Lsb=71 Prg=56 # PH: 057 Chordbender
+Program Cat=TEK Msb=87 Lsb=71 Prg=57 # PH: 058 Dance Zipper
+Program Cat=TEK Msb=87 Lsb=71 Prg=58 # PH: 059 5th Element
+Program Cat=TEK Msb=87 Lsb=71 Prg=59 # PH: 060 Fuzzy Logic
+Program Cat=TEK Msb=87 Lsb=71 Prg=60 # PH: 061 Sproing
+Program Cat=TEK Msb=87 Lsb=71 Prg=61 # PH: 062 McThrob
+Program Cat=TEK Msb=87 Lsb=71 Prg=62 # PH: 063 Space Bassed
+Program Cat=TEK Msb=87 Lsb=71 Prg=63 # PH: 064 Vocovox Wave
+Program Cat=TEK Msb=87 Lsb=71 Prg=64 # PH: 065 Froggy Bass
+Program Cat=TEK Msb=87 Lsb=71 Prg=65 # PH: 066 Tape Orch
+Program Cat=TEK Msb=87 Lsb=71 Prg=66 # PH: 067 Tekno Pizz
+
+Program Cat=VOX Msb=87 Lsb=0 Prg=106 # US: 107 Brite Vox 1
+Program Cat=VOX Msb=87 Lsb=0 Prg=120 # US: 121 Etheraaahl
+Program Cat=VOX Msb=87 Lsb=66 Prg=15 # PC: 016 Dark Vox
+Program Cat=VOX Msb=87 Lsb=66 Prg=16 # PC: 017 RandomVowels
+Program Cat=VOX Msb=87 Lsb=66 Prg=17 # PC: 018 Angels Sing
+Program Cat=VOX Msb=87 Lsb=66 Prg=18 # PC: 019 Pvox Oooze
+Program Cat=VOX Msb=87 Lsb=66 Prg=19 # PC: 020 Longing...
+Program Cat=VOX Msb=87 Lsb=66 Prg=20 # PC: 021 Arasian Morn
+Program Cat=VOX Msb=87 Lsb=66 Prg=21 # PC: 022 Beauty Vox
+Program Cat=VOX Msb=87 Lsb=66 Prg=22 # PC: 023 Mary-AnneVox
+Program Cat=VOX Msb=87 Lsb=66 Prg=23 # PC: 024 Belltree Vox
+Program Cat=VOX Msb=87 Lsb=66 Prg=24 # PC: 025 Vox Panner
+Program Cat=VOX Msb=87 Lsb=66 Prg=25 # PC: 026 Spaced Voxx
+Program Cat=VOX Msb=87 Lsb=66 Prg=26 # PC: 027 Glass Voices
+Program Cat=VOX Msb=87 Lsb=66 Prg=27 # PC: 028 Tubular Vox
+Program Cat=VOX Msb=87 Lsb=66 Prg=28 # PC: 029 Velo Voxx
+Program Cat=VOX Msb=87 Lsb=66 Prg=29 # PC: 030 Wavox
+Program Cat=VOX Msb=87 Lsb=66 Prg=30 # PC: 031 Doos
+Program Cat=VOX Msb=87 Lsb=66 Prg=31 # PC: 032 Synvox Comps
+Program Cat=VOX Msb=87 Lsb=66 Prg=32 # PC: 033 Vocal Oohz
+Program Cat=VOX Msb=87 Lsb=67 Prg=90 # PD: 091 Enlighten
+Program Cat=VOX Msb=87 Lsb=68 Prg=58 # PE: 059 Brite Vox 1
+Program Cat=VOX Msb=87 Lsb=68 Prg=59 # PE: 060 Brite Vox 2
+Program Cat=VOX Msb=87 Lsb=68 Prg=60 # PE: 061 Ooh)Aah Mod
+Program Cat=VOX Msb=87 Lsb=68 Prg=61 # PE: 062 Vocals: Ooh
+Program Cat=VOX Msb=87 Lsb=68 Prg=62 # PE: 063 Vocals: Scat
+Program Cat=VOX Msb=87 Lsb=68 Prg=63 # PE: 064 Vocals: Boys
+Program Cat=VOX Msb=87 Lsb=68 Prg=64 # PE: 065 St. Choir
+Program Cat=VOX Msb=87 Lsb=68 Prg=65 # PE: 066 SampleThe80s
+Program Cat=VOX Msb=87 Lsb=68 Prg=66 # PE: 067 Sacred Tree
+Program Cat=VOX Msb=87 Lsb=68 Prg=67 # PE: 068 VP330 OctEko
+Program Cat=VOX Msb=87 Lsb=70 Prg=47 # PG: 048 Whisper Vox
+Program Cat=VOX Msb=87 Lsb=71 Prg=108 # PH: 109 Etheraaahl
+Program Cat=VOX Msb=121 Lsb=0 Prg=52 # GM: 111 Choir Aahs
+Program Cat=VOX Msb=121 Lsb=1 Prg=52 # GM: 112 Chorus Aahs
+Program Cat=VOX Msb=121 Lsb=0 Prg=53 # GM: 113 Voice Oohs
+Program Cat=VOX Msb=121 Lsb=1 Prg=53 # GM: 114 Humming
+Program Cat=VOX Msb=121 Lsb=0 Prg=54 # GM: 115 SynVox
+Program Cat=VOX Msb=121 Lsb=1 Prg=54 # GM: 116 Analog Voice
+Program Cat=VOX Msb=121 Lsb=0 Prg=91 # GM: 176 Space Voice
+Program Cat=VOX Msb=121 Lsb=1 Prg=91 # GM: 177 Itopia
+
+Program Cat=WND Msb=87 Lsb=0 Prg=50 # US: 051 SwellEnsembl
+Program Cat=WND Msb=87 Lsb=65 Prg=102 # PB: 103 Oboe mf
+Program Cat=WND Msb=87 Lsb=65 Prg=103 # PB: 104 Oboe Express
+Program Cat=WND Msb=87 Lsb=65 Prg=104 # PB: 105 Clarinet mp
+Program Cat=WND Msb=87 Lsb=65 Prg=105 # PB: 106 ClariExpress
+Program Cat=WND Msb=87 Lsb=65 Prg=106 # PB: 107 Mitzva Split
+Program Cat=WND Msb=87 Lsb=65 Prg=107 # PB: 108 ChamberWinds
+Program Cat=WND Msb=87 Lsb=65 Prg=108 # PB: 109 ChamberWoods
+Program Cat=WND Msb=87 Lsb=68 Prg=86 # PE: 087 Flute/Clari
+Program Cat=WND Msb=87 Lsb=68 Prg=87 # PE: 088 Orch Reeds
+Program Cat=WND Msb=87 Lsb=70 Prg=58 # PG: 059 Wind Wood
+Program Cat=WND Msb=87 Lsb=70 Prg=59 # PG: 060 Lonely Oboe
+Program Cat=WND Msb=87 Lsb=70 Prg=60 # PG: 061 Harmonica XV
+Program Cat=WND Msb=87 Lsb=71 Prg=34 # PH: 035 SwellEnsembl
+Program Cat=WND Msb=121 Lsb=0 Prg=68 # GM: 144 Oboe
+Program Cat=WND Msb=121 Lsb=0 Prg=69 # GM: 145 English Horn
+Program Cat=WND Msb=121 Lsb=0 Prg=70 # GM: 146 Bassoon
+Program Cat=WND Msb=121 Lsb=0 Prg=71 # GM: 147 Clarinet

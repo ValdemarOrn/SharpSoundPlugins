@@ -16,13 +16,23 @@ namespace RandomDiffuser
 	{
 		public const int P_MIX = 0;
 		public const int P_COUNT = 1;
-		public const int P_2 = 2;
-		public const int P_3 = 3;
-		public const int P_4 = 4;
-		
-		public const int NUM_PARAMS = 5;
+		public const int P_PREDELAY = 2;
+		public const int P_DELAY = 3;
+		public const int P_DELAY_SCATTER = 4;
+		public const int P_PITCH_SCATTER = 5;
+		public const int P_SEED = 6;
 
-		public static string[] ParameterNames = { "Mix", "Grain Count", "Param2", "Param3", "Param4" };
+		public const int NUM_PARAMS = 7;
+
+		public static string[] ParameterNames = {
+			"Mix",
+			"Grain Count",
+			"Pre-Delay",
+			"Delay",
+			"Delay Scatter",
+			"Pitch Scatter",
+			"Seed"
+		};
 
 		// --------------- IAudioDevice Properties ---------------
 
@@ -37,22 +47,15 @@ namespace RandomDiffuser
 		// --------------- Necessary Parameters ---------------
 
 		public double Samplerate;
-		private double[][] InBuffer;
-		private int InBufferIdx;
-		private Grain[] Grains;
-
-		private double mix;
-		private int grainCount;
-
+		private GrainDelay GrainDelay;
+		
 		public RandomDiffuserPlug()
 		{
 			Samplerate = 48000;
 			DevInfo = new DeviceInfo();
 			ParameterInfo = new Parameter[NUM_PARAMS];
 			PortInfo = new Port[2];
-			InBuffer = new[] { new double[200000], new double[200000] };
-			grainCount = 1;
-			Grains = Enumerable.Range(0, 100).Select(x => new Grain()).ToArray();
+			GrainDelay = new GrainDelay();
 		}
 
 		public void InitializeDevice()
@@ -91,8 +94,6 @@ namespace RandomDiffuser
 				p.Value = 0.5;
 				ParameterInfo[i] = p;
 			}
-
-			UpdateAll();
 		}
 
 		public void DisposeDevice() { }
@@ -102,13 +103,8 @@ namespace RandomDiffuser
 		public void SetSampleRate(double samplerate)
 		{
 			Samplerate = samplerate;
-
-			UpdateAll();
-		}
-
-		private void UpdateAll()
-		{
-
+			foreach (var p in ParameterInfo)
+				SetParam((int)p.Index, p.Value);
 		}
 
 		public void SetParam(int param, double value)
@@ -117,46 +113,61 @@ namespace RandomDiffuser
 			string str = $"{value:0.00}";
 			if (param == P_MIX)
 			{
-				mix = value;
-				str = $"{mix:0.0}";
+				GrainDelay.Config.Mix = value;
+				str = $"{GrainDelay.Config.Mix*100:0.0}%";
 			}
 			else if (param == P_COUNT)
 			{
-				grainCount = 1 + (int)(value * 99.99);
-				str = $"{grainCount:0}";
+				GrainDelay.Config.ActiveGrains = 1 + (int)(value * (GrainDelay.MaxGrains - 0.01));
+				str = $"{GrainDelay.Config.ActiveGrains:0}";
+			}
+			else if (param == P_PREDELAY)
+			{
+				var seconds = ValueTables.Get(value, ValueTables.Response2Dec) * 0.2;
+				GrainDelay.Config.PreDelay = seconds * Samplerate;
+				str = $"{seconds*1000:0}ms";
+			}
+			else if (param == P_DELAY)
+			{
+				var seconds = ValueTables.Get(value, ValueTables.Response2Dec) * 0.5;
+				GrainDelay.Config.Delay = seconds * Samplerate;
+				str = $"{seconds * 1000:0}ms";
+			}
+			else if (param == P_DELAY_SCATTER)
+			{
+				var scatter = 1 + value * 9;
+				GrainDelay.Config.DelayScatter = scatter;
+				str = $"{scatter:0.00}x";
+			}
+			else if (param == P_PITCH_SCATTER)
+			{
+				var scatter = value;
+				GrainDelay.Config.PitchScatter = scatter;
+				str = $"{scatter:0.00}x";
+			}
+			else if (param == P_SEED)
+			{
+				var seed = (int)(value * 1000);
+				GrainDelay.Config.Seed = seed;
+				str = $"{seed:0}";
 			}
 
+			GrainDelay.Config.Length = 0.2 * Samplerate;
+			GrainDelay.Config.LengthScatter = 3.0;
+			GrainDelay.Configure();
 			ParameterInfo[param].Display = str;
-			UpdateAll();
 		}
 
 		public void SetCurrentProgram(int program)
 		{
 			CurrentProgram = program;
-			UpdateAll();
 		}
 
 		public void ProcessSample(double[][] input, double[][] output, uint bufferSize)
 		{
-			var inv = 1.0 / Math.Sqrt(grainCount);
-
 			for (int i = 0; i < input[0].Length; i++)
 			{
-				InBuffer[0][InBufferIdx] = input[0][i];
-				InBuffer[1][InBufferIdx] = input[1][i];
-
-				for (int g = 0; g < grainCount; g++)
-				{
-					var grain = Grains[g];
-					grain.Mix = mix;
-					grain.Process(InBuffer, InBufferIdx, output, i);
-				}
-								
-				output[0][i] *= inv;
-				output[1][i] *= inv;
-				output[0][i] += (1 - mix) * input[0][i];
-				output[1][i] += (1 - mix) * input[1][i];
-				InBufferIdx = (InBufferIdx + 1) % InBuffer[0].Length;
+				GrainDelay.Process(input, i, output, i);
 			}
 		}
 
@@ -187,7 +198,6 @@ namespace RandomDiffuser
 			try
 			{
 				DeviceUtilities.DeserializeParameters(ParameterInfo, program.Data);
-				UpdateAll();
 			}
 			catch (Exception)
 			{
